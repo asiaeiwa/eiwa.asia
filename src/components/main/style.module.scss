@@ -1,0 +1,17 @@
+@import 'assets/styles/init.scss';
+
+.main {
+  flex: 1 0 0%;
+
+  &:not(&--no-top) {
+    margin-top: 72px;
+
+    @include pc {
+      margin-top: 108px;
+    }
+  }
+
+  &--padding-bottom {
+    padding-bottom: 80px;
+  }
+}

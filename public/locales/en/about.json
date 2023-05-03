@@ -1,0 +1,53 @@
+{
+  "title": "About",
+  "description": "Our company offers a variety of technology service options so you can find a plan that's right for your business.",
+  "keywords": "Asia Eiwa, IT Solutions, production management system, IT support, user experience, design, digital technology, outsource.",
+  "section": {
+    "01": {
+      "quote": "\"Men can do, Women also!\"",
+      "name": "NGO THI HUYNH ANH",
+      "position": "CO-FOUNDER/General and Operations Manager"
+    },
+    "02": {
+      "description": {
+        "01": "With over 10 years of consulting experience in the Asian market, we understand that starting and running operations in Asia can present serious challenges for global investors and businesses, especially the establishment procedure and the ERP implementation phase of SMEs.",
+        "02": "Hence, we aim to connect foreign managers and local employees to create an effective collaboration at work based on our top-priority criteria:",
+        "03": {
+          "01": "Advisors and consultants-  Reliable and responsible.",
+          "02": "Efficacy- Right solutions,bye problems.",
+          "03": "Client support- enthusiastic and professional."
+        }
+      }
+    },
+    "04": {
+      "title": "\"You are having difficulties with your business? Let us solve them for you\"",
+      "description": {
+        "01": "It is our strong belief that having a pioneering mindset is crucial in this modern business scenarios. Therefore, we are destined to solve SMEs issues with a challenging spirit.",
+        "02": "As a professional consultant company, we take the responsibilitiy to ensure the effectiveness of each project and become client's prestigious companion.",
+        "03": "During my career, I have had the opportunity to  take on new roles from ERP Consultant, Sales and  Marketing Executive to HR & GA Manager. In this  new journey with Asia Eiwa, I hope to bring digital  solutions and business opportunities to SMEs to  help them overcome challenges and establish a  sustainable success."
+      }
+    },
+    "05": {
+      "quote": "\"Just do it!\"",
+      "name": "PHAM VUONG UY",
+      "position": "CO-FOUNDER /Technical Consultant"
+    },
+    "06": {
+      "title": "",
+      "description": {
+        "01": "With over 10 years of experience in the technical industry, I gained solid knowledge and extensive experience of CRM, ERP, SAP systems and Structure Data System.  In this digital era, it is great to realize that the whole world is storing infomation and data in the cloud."
+      }
+    },
+    "07": {
+      "quote": "\"Try hard every day\"",
+      "name": "TRAN BAO TIN",
+      "position": "Technical Manager"
+    },
+    "08": {
+      "title": "",
+      "description": {
+        "01": "With 5 years of experience in Software development,  professional development experience in projects on  ERP, Logistic, etc. Mainly, have the opportunity to  carry out projects in the cloud environment to gain  experience and use AWS services. Currently, I am using my experience to train students in the basics of software  development at Ton Duc Thang University."
+      }
+    }
+  }
+}

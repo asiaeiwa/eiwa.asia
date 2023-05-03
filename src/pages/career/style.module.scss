@@ -1,0 +1,49 @@
+@import 'assets/styles/init.scss';
+
+.career {
+  &__title {
+    @include sp {
+      margin-top: 20px;
+    }
+  }
+
+  &__container {
+    margin-top: 40px;
+
+    @include pc {
+      margin-top: 52px;
+    }
+  }
+
+  &__item {
+    &:not(:first-child) {
+      margin-top: 20px;
+    }
+  }
+
+  &__hot-item {
+    &:not(:first-child) {
+      margin-top: 20px;
+    }
+  }
+
+  &__recent[data-col] {
+    @include tablet {
+      width: 55%;
+    }
+
+    @include sp {
+      width: 100%;
+    }
+  }
+
+  &__hot[data-col] {
+    @include tablet {
+      width: 45%;
+    }
+
+    @include sp {
+      display: none;
+    }
+  }
+}

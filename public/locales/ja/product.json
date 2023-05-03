@@ -1,0 +1,102 @@
+{
+  "pacts": {
+    "base": {
+      "long-title": "Base Service Pack",
+      "checklist": {
+        "10": "バッチ管理",
+        "11": "マスタ管理",
+        "12": "受注管理",
+        "01": "生産計画",
+        "02": "MRP",
+        "03": "製造ｵｰﾀﾞｰ",
+        "04": "外注管理",
+        "05": "払出管理",
+        "06": "ロット管理",
+        "07": "在庫管理",
+        "08": "購買管理",
+        "09": "出荷管理"
+      },
+      "paragraph01": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      "paragraph02": "Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+      "price": "50",
+      "title": "Base",
+      "desc": "For most businesses that want to otpimize web queries"
+    },
+    "enterprise": {
+      "long-title": "Enterprise Service Pack",
+      "checklist": {
+        "10": "棚卸管理",
+        "11": "工程管理",
+        "12": "購買管理",
+        "13": "出荷管理",
+        "14": "バッチ管理",
+        "15": "マスタ管理",
+        "01": "受注管理",
+        "02": "生産計画",
+        "03": "MRP",
+        "04": "製造ｵｰﾀﾞｰ",
+        "05": "在庫管理",
+        "06": "工程進捗管理",
+        "07": "外注管理",
+        "08": "払出管理",
+        "09": "ロット管理"
+      },
+      "paragraph01": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      "paragraph02": "Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+      "price": "200",
+      "title": "Enterprise",
+      "desc": "For most businesses that want to otpimize web queries"
+    },
+    "intro": {
+      "desc": "For most businesses that want to otpimize web queries",
+      "price": "20",
+      "title": "Intro",
+      "checklist": {
+        "01": "受注管理",
+        "02": "在庫管理",
+        "03": "購買管理",
+        "04": "棚卸管理",
+        "05": "出荷管理",
+        "06": "マスタ管理"
+      }
+    },
+    "pro": {
+      "desc": "For most businesses that want to otpimize web queries",
+      "price": "100",
+      "title": "Pro",
+      "checklist": {
+        "10": "出荷管理",
+        "11": "バッチ管理",
+        "12": "マスタ管理",
+        "01": "受注管理",
+        "02": "生産計画",
+        "03": "在庫管理",
+        "04": "購買管理",
+        "05": "払出管理",
+        "06": "工程管理",
+        "07": "棚卸管理",
+        "08": "ロット管理",
+        "09": "工程進捗管理"
+      },
+      "long-title": "Pro Service Pack",
+      "highlight": {
+        "01": {
+          "name": "Amet Eu Facilisi Posuere Ut At Cras Non Ipsum Proin"
+        },
+        "02": {
+          "name": "Emu Facilisi Posuere Ut At Cras Non Ipsum Proin"
+        },
+        "03": {
+          "name": "Fasacilisi Posuere Ut At Cras Non Ipsum Proin"
+        }
+      },
+      "paragraph01": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      "paragraph02": "Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint."
+    }
+  },
+  "title": "商品",
+  "description": "商品 description",
+  "keywords": "商品",
+  "heading": "シンプルで透明な価格設定",
+  "desc": "No contracts. No surprise fees."
+}

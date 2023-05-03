@@ -1,0 +1,76 @@
+@import 'assets/styles/init.scss';
+
+.service-article {
+  $root: &;
+
+  background-color: $white;
+
+  @include tablet-up {
+    padding: rem(100) 0;
+  }
+
+  @include tablet-down {
+    padding: rem(28) 0;
+  }
+
+  &__row {
+    @include tablet-up {
+      align-items: center;
+    }
+
+    > div[data-col] {
+      @include tablet-down {
+        width: 100%;
+      }
+    }
+  }
+
+  &__title {
+    white-space: nowrap;
+  }
+
+  &__description {
+    @include tablet-up {
+      max-width: rem(453);
+    }
+
+    @include tablet-down {
+      margin-bottom: rem(24);
+    }
+
+    ul,
+    ol {
+      padding-left: rem(25);
+      line-height: 1.8;
+    }
+  }
+
+  &--invert {
+    position: relative;
+    background: linear-gradient(181.35deg, rgba(239, 68, 108, 4.5%) 1.15%, rgba(0, 59, 113, 1%) 98.91%);
+    backdrop-filter: blur(70px);
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: rem(-200);
+      right: 0;
+      width: rem(416);
+      height: rem(657);
+      background: transparent url('~images/service/article-bg.svg') no-repeat right center / 100% auto;
+    }
+
+    #{$root}__row {
+      position: relative;
+
+      @include tablet-up {
+        flex-direction: row-reverse;
+      }
+    }
+    #{$root}__wrap-text {
+      @include xl {
+        padding-left: rem(119);
+      }
+    }
+  }
+}

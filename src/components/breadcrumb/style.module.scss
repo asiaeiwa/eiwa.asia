@@ -1,0 +1,32 @@
+@import 'assets/styles/init.scss';
+
+.breadcrumb {
+  display: flex;
+  margin: 0 0 1rem;
+  padding-left: 0;
+  list-style: none;
+
+  a {
+    color: $base-03;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: none;
+    transition: color 0.4s ease;
+
+    &:hover {
+      color: $base;
+    }
+  }
+
+  &__item {
+    &:after {
+      content: '/';
+      display: inline-block;
+      padding-right: 6px;
+      padding-left: 6px;
+      color: $base-03;
+      font-weight: 600;
+    }
+  }
+}

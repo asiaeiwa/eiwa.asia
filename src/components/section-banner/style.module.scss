@@ -1,0 +1,195 @@
+@import 'assets/styles/init.scss';
+
+.section-banner {
+  visibility: inherit;
+
+  &__container {
+    position: relative;
+
+    @include pc {
+      padding-top: rem(132px);
+      padding-bottom: rem(60px);
+    }
+
+    @include sp {
+      padding-top: rem(104px);
+      padding-bottom: rem(24px);
+    }
+  }
+
+  &__box {
+    position: relative;
+    z-index: 1;
+
+    @include pc {
+      padding: rem(24px) rem(50px);
+      border: rem(2px) solid $white;
+      border-radius: rem(16px);
+      background: linear-gradient(181.35deg, rgba(239, 68, 108, 4.5%) 1.15%, rgba(0, 59, 113, 1%) 98.91%);
+      backdrop-filter: blur(70px);
+    }
+
+    @include xl {
+      padding: rem(129px) rem(88px);
+    }
+
+    @media screen and (min-width: 1340px) {
+      margin-right: rem(-90px);
+      margin-left: rem(-90px);
+    }
+
+    @include tablet-up {
+      padding-top: rem(60px);
+      padding-bottom: rem(60px);
+    }
+  }
+
+  &__row {
+    align-items: center;
+
+    @include pc {
+      flex-direction: row-reverse;
+    }
+
+    > div[data-col] {
+      @include sp {
+        width: 100%;
+      }
+    }
+  }
+
+  &__title {
+    max-width: rem(390px);
+    margin-bottom: rem(23px);
+    font-size: rem(48px);
+    line-height: line-height(64, 56);
+
+    @include tablet-up {
+      font-size: rem(56px);
+    }
+
+    @include tablet {
+      font-size: rem(36px);
+    }
+  }
+
+  &__description {
+    max-width: rem(453px);
+  }
+
+  &__image {
+    @include pc {
+      border-radius: rem(16px);
+    }
+
+    @include sp {
+      border-radius: rem(8px);
+    }
+  }
+
+  &__image-wrapper {
+    position: relative;
+
+    @include sp {
+      margin-bottom: rem(16px);
+      padding: rem(24px);
+      border: rem(2px) solid $white;
+      border-radius: rem(8px);
+      background: linear-gradient(181.35deg, rgba(239, 68, 108, 4.5%) 1.15%, rgba(0, 59, 113, 1%) 98.91%);
+      backdrop-filter: blur(70px);
+    }
+
+    // div:first-child {
+    //   position: absolute;
+    //   border-radius: 50%;
+    //   background: linear-gradient(180deg, rgba(239, 68, 108, 20%) 0%, rgba(0, 59, 113, 0%) 100%);
+
+    //   @include pc {
+    //     top: rem(-10px);
+    //     left: 46%;
+    //     width: px2vw-pc(262);
+    //     height: px2vw-pc(262);
+    //   }
+
+    //   @include xl {
+    //     left: 41%;
+    //     width: rem(262px);
+    //     height: rem(262px);
+    //   }
+
+    //   @include sp {
+    //     top: px2vw-sp(20);
+    //     left: 43%;
+    //     width: px2vw-sp(141);
+    //     height: px2vw-sp(141);
+    //   }
+    // }
+  }
+
+  &__text {
+    @include in-pc {
+      padding-right: rem(20px);
+    }
+
+    @include tablet {
+      padding-right: rem(30px);
+    }
+  }
+
+  &__bg-1 {
+    position: absolute;
+    background: transparent url('~images/home/banner-bg-1.svg') no-repeat;
+
+    @include pc {
+      top: rem(-200px);
+      left: rem(-150px);
+      width: rem(541px);
+      height: rem(582px);
+    }
+
+    @include sp {
+      top: px2vw-sp(-100);
+      left: px2vw-sp(-50);
+      width: px2vw-sp(288);
+      height: px2vw-sp(310);
+    }
+  }
+
+  &__bg-2 {
+    position: absolute;
+    background: transparent url('~images/home/banner-bg-1.svg') no-repeat;
+
+    @include pc {
+      top: rem(-50px);
+      left: rem(-350px);
+      width: rem(541px);
+      height: rem(582px);
+    }
+
+    @include sp {
+      top: px2vw-sp(-50);
+      left: px2vw-sp(-100);
+      width: px2vw-sp(288);
+      height: px2vw-sp(310);
+    }
+  }
+
+  &__bg-3 {
+    position: absolute;
+    background: transparent url('~images/home/product-bg-1.svg') no-repeat;
+
+    @include pc {
+      right: rem(-300px);
+      bottom: rem(-150px);
+      width: rem(464px);
+      height: rem(464px);
+    }
+
+    @include sp {
+      right: px2vw-sp(0);
+      bottom: px2vw-sp(200);
+      width: px2vw-sp(300);
+      height: px2vw-sp(400);
+    }
+  }
+}

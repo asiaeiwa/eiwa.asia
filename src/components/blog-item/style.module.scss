@@ -1,0 +1,113 @@
+@import 'assets/styles/init.scss';
+
+.blog-item {
+  $root: &;
+
+  @include pc {
+    max-width: 364px;
+  }
+
+  &__time {
+    display: block;
+    margin-top: 12px;
+    color: rgba($black, 0.5);
+    font-weight: 600;
+    line-height: 1.8;
+
+    @include sp {
+      font-size: 12px;
+    }
+  }
+
+  &__title {
+    margin-top: 12px;
+    margin-bottom: 8px;
+  }
+
+  &__link {
+    color: $base;
+    text-decoration: none;
+    transition: color 0.4s linear;
+
+    &:hover {
+      color: $pink;
+    }
+  }
+
+  &__sub {
+    margin-top: 0;
+    color: rgba($base, 0.6);
+
+    @include line-clamp(3);
+
+    @include tablet-up {
+      line-height: 1.8;
+    }
+  }
+
+  &--big {
+    max-width: 752px;
+
+    #{$root}__sub {
+      @include sp {
+        -webkit-line-clamp: 6;
+      }
+    }
+  }
+
+  &--small {
+    max-width: 233px;
+
+    #{$root}__time {
+      margin-top: 8px;
+      font-size: 12px;
+      line-height: 16px;
+    }
+    #{$root}__title {
+      margin-top: 8px;
+      margin-bottom: 4px;
+      letter-spacing: -0.3px;
+    }
+    #{$root}__sub {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+
+  &--horizontal {
+    position: relative;
+    max-width: 100%;
+
+    @include tablet-up {
+      max-width: 316px;
+    }
+
+    #{$root}__time {
+      display: none;
+    }
+
+    #{$root}__title,
+    #{$root}__sub {
+      padding-left: 159px;
+    }
+
+    #{$root}__image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 143px;
+    }
+
+    #{$root}__title {
+      margin-top: 0;
+      margin-bottom: 5px;
+
+      @include line-clamp(2);
+    }
+
+    #{$root}__sub {
+      font-size: 12px;
+      line-height: line-height(16, 12);
+    }
+  }
+}

@@ -1,0 +1,86 @@
+@import 'assets/styles/init.scss';
+
+h3.heading {
+  font-size: 1.75rem;
+}
+
+h4.heading {
+  font-size: 1.5rem;
+}
+
+h5.heading {
+  font-size: rem(20px);
+}
+
+h6.heading {
+  font-size: 1rem;
+}
+
+.heading {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  color: currentColor;
+  font-weight: $fw-regular;
+  font-family: $ff-title;
+  line-height: line-height(56, 32);
+  letter-spacing: -0.02em;
+
+  &--page {
+    font-size: 2rem;
+    text-transform: capitalize;
+
+    @include pc {
+      font-size: 2.5rem;
+    }
+  }
+
+  &--section {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+
+    @include pc {
+      font-size: 2rem;
+    }
+  }
+
+  &--border-inline,
+  &--border-bottom {
+    &:after {
+      content: '';
+      display: inline-block;
+      width: 100%;
+      max-width: rem(224px);
+      height: 1px;
+      background: $base;
+    }
+  }
+
+  &--border-inline {
+    display: flex;
+    align-items: baseline;
+
+    &:after {
+      margin-left: rem(24px);
+    }
+  }
+
+  &--border-bottom {
+    padding-bottom: 20px;
+    text-align: center;
+
+    &:after {
+      position: absolute;
+      bottom: 0;
+      left: calc(50% - 112px);
+    }
+  }
+
+  &--gradient {
+    background: linear-gradient(90deg, $pink 0%, $blue 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+  }
+}

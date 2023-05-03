@@ -1,0 +1,31 @@
+@use 'sass:math';
+
+@function strip-unit($number) {
+  @if type-of($number) == 'number' and not unitless($number) {
+    @return $number / ($number * 0 + 1);
+  }
+
+  @return $number;
+}
+
+@function div($one, $two) {
+  @return math.div($one, $two);
+}
+
+@function line-height($height: 16, $font-size: 16) {
+  @return div($height, $font-size);
+}
+
+@function px2vw-sp($px: 1) {
+  @return div($px, 375) * 100vw;
+}
+
+@function px2vw-pc($px: 1) {
+  @return div($px, 1440) * 100vw;
+}
+
+@function rem($px: 16px) {
+  $px: strip-unit($px);
+
+  @return div($px, 16) * 1rem;
+}

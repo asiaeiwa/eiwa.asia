@@ -1,0 +1,115 @@
+@import 'assets/styles/init.scss';
+
+.section-optimise {
+  $root: &;
+
+  visibility: inherit;
+
+  &__container {
+    position: relative;
+
+    @include pc {
+      padding-top: rem(108px);
+      padding-bottom: rem(100px);
+    }
+
+    @include sp {
+      padding-top: rem(42px);
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      background-image: url('~images/home/optimise-bg-1.svg');
+      background-repeat: no-repeat;
+
+      @include pc {
+        top: rem(-60px);
+        right: rem(-110px);
+        width: rem(698px);
+        height: rem(679px);
+      }
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      background-image: url('~images/home/optimise-bg-2.svg');
+      background-repeat: no-repeat;
+
+      @include pc {
+        bottom: rem(-130px);
+        left: rem(-170px);
+        width: rem(541px);
+        height: rem(582px);
+      }
+    }
+  }
+
+  &__info {
+    @include pc {
+      max-width: rem(930px);
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+
+  &__title:not(:empty) {
+    @include sp {
+      font-size: rem(32px);
+      text-align: left;
+    }
+
+    &:after {
+      @include sp {
+        left: 0;
+        max-width: 100%;
+      }
+    }
+  }
+
+  &__desc {
+    // margin-top: 12px;
+    // margin-bottom: 40px;
+    // color: $gray;
+  }
+
+  &__wrapper {
+    @include pc {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: rem(75px);
+    }
+
+    @include sp {
+      margin-top: rem(32px);
+    }
+
+    @include tablet-down {
+      justify-content: center;
+    }
+
+    > div {
+      @include tablet-up {
+        width: calc(#{div(100%, 3)} - #{div(25 * 2px, 3)});
+        margin-bottom: rem(25px);
+      }
+
+      @include tablet {
+        width: calc(#{div(100%, 2)} - #{div(25px, 2)});
+        margin-bottom: rem(25px);
+      }
+
+      &:nth-child(even) {
+        @include tablet {
+          margin-left: rem(25px);
+        }
+      }
+
+      &:not(:last-child) {
+        margin-bottom: rem(16px);
+      }
+    }
+  }
+}

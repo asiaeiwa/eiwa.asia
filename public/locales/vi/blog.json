@@ -1,0 +1,81 @@
+{
+  "title": "Blog & Tin tức",
+  "description": "Blog & News description",
+  "keywords": "Blog & Tin tức",
+  "heading": "Blog & Tin tức",
+  "content": {
+    "01": {
+      "date": "May 23, 2021",
+      "sub": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+      "title": "How to Write A Business Plan – Starting A Business beginning"
+    },
+    "02": {
+      "date": "May 23, 2021",
+      "sub": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+      "title": "How to Write A Business Plan – Starting A Business beginning"
+    },
+    "03": {
+      "date": "2021-05-23",
+      "sub": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+      "title": "How to Write A Business Plan – Starting A Business beginning"
+    },
+    "04": {
+      "date": "2021-05-23",
+      "sub": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+      "title": "How to Write A Business Plan – Starting A Business beginning"
+    },
+    "05": {
+      "date": "2021-05-23",
+      "sub": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+      "title": "How to Write A Business Plan – Starting A Business beginning"
+    }
+  },
+  "sidebar": {
+    "subscribe": {
+      "submit": "Đăng ký",
+      "title": "Theo dõi bản tin của chúng tôi"
+    },
+    "box-news": {
+      "title": "Tin tức Hot",
+      "01": {
+        "date": "2021-05-23",
+        "sub": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+        "title": "The Study Shows Who the Leading"
+      },
+      "02": {
+        "date": "2021-05-23",
+        "sub": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+        "title": "The Study Shows Who the Leading"
+      },
+      "03": {
+        "date": "2021-05-23",
+        "sub": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+        "title": "The Study Shows Who the Leading"
+      }
+    },
+    "box-service": {
+      "titie": "Service packages",
+      "01": {
+        "desc": "For most businesses that want to optimize web queries",
+        "price": "20",
+        "title": "Intro"
+      },
+      "02": {
+        "desc": "For most businesses that want to optimize web queries",
+        "price": "100",
+        "title": "Pro",
+        "tag": "MOST POPULAR"
+      },
+      "03": {
+        "desc": "For most businesses that want to optimize web queries",
+        "price": "50",
+        "title": "Base"
+      },
+      "04": {
+        "desc": "For most businesses that want to optimize web queries",
+        "price": "200",
+        "title": "Enterprise"
+      }
+    }
+  }
+}

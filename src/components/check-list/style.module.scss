@@ -1,0 +1,36 @@
+@import 'assets/styles/init.scss';
+
+.check-list {
+  $root: &;
+
+  padding-left: 0;
+  list-style: none;
+
+  &__item {
+    position: relative;
+    margin-bottom: rem(12px);
+    padding-left: rem(26px);
+    font-size: rem(14px);
+    line-height: line-height(16, 14);
+
+    &:before {
+      content: ' ';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: rem(15px);
+      height: rem(15px);
+      background: transparent url('~images/icons/check-circle.svg') center/contain no-repeat;
+    }
+  }
+
+  &--white {
+    #{$root}__item {
+      color: $white;
+
+      &:before {
+        background-image: url('~images/icons/check-circle-white.svg');
+      }
+    }
+  }
+}

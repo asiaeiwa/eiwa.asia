@@ -1,0 +1,34 @@
+@import 'assets/styles/init.scss';
+
+.modal-choose-plan {
+  visibility: inherit;
+
+  &__heading {
+    margin-bottom: 28px;
+    font-size: 28px;
+    text-align: center;
+
+    span:first-of-type {
+      @include sp {
+        display: none;
+      }
+    }
+
+    span:last-child {
+      color: $pink;
+
+      @include sp {
+        display: block;
+      }
+    }
+  }
+
+  &__input-group {
+    margin-top: 24px;
+  }
+
+  &__button {
+    width: 100%;
+    margin-top: 32px;
+  }
+}

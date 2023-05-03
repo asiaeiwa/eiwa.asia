@@ -1,0 +1,37 @@
+@import 'assets/styles/init.scss';
+
+.optimise-item {
+  position: relative;
+  border: 1px solid $white;
+  border-radius: 8px;
+  background: linear-gradient(262.92deg, rgba(239, 68, 108, 4.5%) -0.85%, rgba(0, 59, 113, 1%) 98.12%);
+  backdrop-filter: blur(70px);
+
+  @include pc {
+    padding: rem(22px) rem(20px);
+  }
+
+  @include sp {
+    padding: rem(6px) rem(24px);
+  }
+
+  &__heading {
+    @include line-clamp(1);
+
+    margin-bottom: 0;
+    font-family: $ff-base;
+
+    @include pc {
+      text-align: center;
+    }
+
+    @include sp {
+      font-weight: $fw-regular;
+      font-size: rem(20px);
+    }
+  }
+
+  &__desc {
+    display: none;
+  }
+}

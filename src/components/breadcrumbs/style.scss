@@ -1,0 +1,35 @@
+@import 'styles/init.scss';
+
+.breadcrumbs {
+  margin-bottom: 30px;
+  color: $black-7;
+  font-weight: 600;
+
+  @include sp {
+    display: none;
+  }
+
+  a {
+    position: relative;
+    margin-right: 10px;
+    padding-right: 10px;
+    color: $black-7;
+    transition: color 0.2s;
+
+    &:hover,
+    &:focus {
+      color: $pink;
+      text-decoration: none;
+    }
+
+    &:after {
+      content: ' / ';
+      position: absolute;
+      top: 50%;
+      right: -8px;
+      width: 10px;
+      color: $black-7;
+      transform: translateY(-50%);
+    }
+  }
+}

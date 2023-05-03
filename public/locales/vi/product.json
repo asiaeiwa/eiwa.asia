@@ -1,0 +1,102 @@
+{
+  "pacts": {
+    "base": {
+      "long-title": "Base Service Pack",
+      "checklist": {
+        "10": "Quản lý tác vụ",
+        "11": "Quản lý thông tin tiêu chuẩn",
+        "12": "Quản lý đơn đặt hàng",
+        "01": "Kế hoạch sản xuất",
+        "02": "MRP",
+        "03": "Đặt hàng sản xuất",
+        "04": "Quản lý xuất hàng gia công",
+        "05": "Quản lý giao hàng",
+        "06": "Quản lý lô",
+        "07": "Quản lý kho",
+        "08": "Quản lý đặt mua",
+        "09": "Quản lý xuất hàng"
+      },
+      "paragraph01": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      "paragraph02": "Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+      "price": "50",
+      "title": "Base",
+      "desc": "For most businesses that want to otpimize web queries"
+    },
+    "enterprise": {
+      "long-title": "Enterprise Service Pack",
+      "checklist": {
+        "10": "Kiểm kê tồn kho",
+        "11": "Kiểm soát quy trình",
+        "12": "Quản lý đặt mua",
+        "13": "Quản lý xuất hàng",
+        "14": "Quản lý tác vụ",
+        "15": "Quản lý thông tin tiêu chuẩn",
+        "01": "Quản lý đơn đặt hàng",
+        "02": "Kế hoạch sản xuất",
+        "03": "MRP",
+        "04": "Đặt hàng sản xuất",
+        "05": "Quản lý kho",
+        "06": "Quản lý tiến độ",
+        "07": "Quản lý xuất hàng gia công",
+        "08": "Quản lý giao hàng",
+        "09": "Quản lý lô"
+      },
+      "paragraph01": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      "paragraph02": "Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+      "price": "200",
+      "title": "Enterprise",
+      "desc": "For most businesses that want to otpimize web queries"
+    },
+    "intro": {
+      "desc": "For most businesses that want to otpimize web queries",
+      "price": "20",
+      "title": "Intro",
+      "checklist": {
+        "01": "Quản lý đơn đặt hàng",
+        "02": "Quản lý kho",
+        "03": "Quản lý đặt mua",
+        "04": "Kiểm kê tồn kho",
+        "05": "Quản lý xuất hàng",
+        "06": "Quản lý thông tin tiêu chuẩn"
+      }
+    },
+    "pro": {
+      "desc": "For most businesses that want to otpimize web queries",
+      "price": "100",
+      "title": "Pro",
+      "checklist": {
+        "10": "Quản lý xuất hàng",
+        "11": "Quản lý tác vụ",
+        "12": "Quản lý thông tin tiêu chuẩn",
+        "01": "Quản lý đơn đặt hàng",
+        "02": "Kế hoạch sản xuất",
+        "03": "Quản lý kho",
+        "04": "Quản lý đặt mua",
+        "05": "Quản lý giao hàng",
+        "06": "Kiểm soát quy trình",
+        "07": "Kiểm kê tồn kho",
+        "08": "Quản lý lô",
+        "09": "Quản lý tiến độ"
+      },
+      "long-title": "Pro Service Pack",
+      "highlight": {
+        "01": {
+          "name": "Amet Eu Facilisi Posuere Ut At Cras Non Ipsum Proin"
+        },
+        "02": {
+          "name": "Emu Facilisi Posuere Ut At Cras Non Ipsum Proin"
+        },
+        "03": {
+          "name": "Fasacilisi Posuere Ut At Cras Non Ipsum Proin"
+        }
+      },
+      "paragraph01": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      "paragraph02": "Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint."
+    }
+  },
+  "title": "Các gói",
+  "description": "Các gói description",
+  "keywords": "Các gói",
+  "heading": "Định giá đơn giản, minh bạch",
+  "desc": "No contracts. No surprise fees."
+}

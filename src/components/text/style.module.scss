@@ -1,0 +1,66 @@
+@import 'assets/styles/init.scss';
+
+.text {
+  font-family: $ff-base;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  mark {
+    padding: 0.2em;
+  }
+
+  small {
+    font-size: 87.5%;
+  }
+
+  code {
+    font-size: 87.5%;
+    word-wrap: break-word;
+  }
+
+  p {
+    color: $base;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.375;
+  }
+
+  blockquote {
+    position: relative;
+    margin-left: 0;
+    padding-left: 1.25rem;
+    color: rgba($base, 0.5);
+
+    @include tablet-up {
+      margin-left: 1rem;
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 3px;
+      height: 100%;
+      border-radius: 1px;
+      background: $pink;
+    }
+  }
+
+  a {
+    color: $pink;
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+    &:hover {
+      text-decoration: underline;
+      opacity: 80%;
+    }
+  }
+}

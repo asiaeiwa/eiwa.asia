@@ -1,0 +1,57 @@
+@import 'assets/styles/init.scss';
+
+.accordion {
+  $root: &;
+
+  width: 100%;
+  color: $white;
+
+  &__list {
+    margin: 0;
+    padding: 20px 0 0;
+    border-top: 1px solid $accordion;
+    list-style: none;
+  }
+
+  &__item {
+    &:not(:first-child) {
+      margin-top: 16px;
+    }
+
+    &--active {
+      #{$root}__item-title {
+        &:after {
+          transform: rotate(180deg);
+        }
+      }
+      #{$root}__item-text {
+        display: block;
+      }
+    }
+  }
+
+  &__item-title {
+    position: relative;
+    display: block;
+    color: currentColor;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 9px;
+      right: 0;
+      width: 8px;
+      height: 5px;
+      background: transparent url('~images/icons/dropdown.svg') no-repeat center right / 8px auto;
+      transition: transform $ease;
+    }
+  }
+
+  &__item-text {
+    display: none;
+    padding-top: 12px;
+    color: $faq;
+  }
+}

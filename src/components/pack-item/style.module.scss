@@ -1,0 +1,136 @@
+@import 'assets/styles/init.scss';
+
+.pack-item {
+  $root: &;
+
+  position: relative;
+  padding: rem(29px) rem(40px);
+  border-radius: rem(8px);
+  background: $white;
+  box-shadow: 0 4px 37px rgba(0, 0, 0, 5%);
+  transition: background-color 0.3s linear;
+  backdrop-filter: blur(70px);
+
+  &:hover {
+    background-color: rgb(255, 224, 232);
+  }
+
+  &__title:not(:empty) {
+    margin-bottom: rem(10px);
+    font-size: rem(32px);
+    font-family: $ff-base;
+    text-align: center;
+  }
+
+  &__price {
+    text-align: center;
+  }
+
+  &__number {
+    margin-right: rem(4px);
+    color: $pink;
+    font-weight: $fw-bold;
+    font-size: rem(24px);
+    line-height: line-height(32, 24);
+  }
+
+  &__unit {
+    font-size: rem(16px);
+    line-height: line-height(28, 16);
+  }
+
+  &__desc {
+    margin: 0;
+    font-size: rem(15px);
+    line-height: line-height(20, 15);
+    text-align: center;
+  }
+
+  &__button-container {
+    margin-top: rem(40px);
+    text-align: center;
+
+    a > span {
+      min-width: rem(163px);
+      padding-right: rem(20px);
+      padding-left: rem(20px);
+    }
+  }
+
+  &__tag {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 7px 20px;
+    border-radius: 14px;
+    background: $pink;
+    font-weight: $fw-bold;
+    font-size: 10px;
+    line-height: line-height(14, 10);
+  }
+
+  &__check-list {
+    max-width: rem(220px);
+    margin: rem(24px) auto 0;
+  }
+
+  &--cate {
+    #{$root}__title {
+      margin-top: rem(16px);
+      color: $pink;
+      font-weight: $fw-semibold;
+      font-size: rem(24px);
+    }
+  }
+
+  &--highlight {
+    border-color: $blue;
+    background: $blue url('~images/product/pack-item-bg.png') right top / contain no-repeat;
+    color: $white;
+
+    #{$root}__desc {
+      font-weight: $fw-semibold;
+    }
+  }
+
+  &:not(&--small) {
+    #{$root}__button-container {
+      button {
+        width: 100%;
+      }
+    }
+
+    &:not(#{$root}--highlight) {
+      #{$root}__desc {
+        color: $pack;
+      }
+    }
+
+    &#{$root}--highlight {
+      padding-top: 50px;
+    }
+  }
+
+  &--small {
+    margin-bottom: 20px;
+    padding: 20px 20px 40px;
+    border: 1px solid $gray;
+
+    #{$root}__title {
+      margin-top: 12px;
+      margin-bottom: 8px;
+    }
+
+    #{$root}__tag {
+      top: 12px;
+      right: 12px;
+    }
+
+    #{$root}__button-container {
+      position: absolute;
+      right: 0;
+      bottom: -20px;
+      left: 0;
+    }
+  }
+}

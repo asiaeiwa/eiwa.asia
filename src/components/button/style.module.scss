@@ -1,0 +1,94 @@
+@use 'sass:color';
+@import 'assets/styles/init.scss';
+
+.button {
+  $root: &;
+
+  display: inline-block;
+  padding: rem(11px) rem(46px);
+  border: rem(1px) solid transparent;
+  border-radius: rem(4px);
+  font-weight: $fw-bold;
+  font-size: rem(14px);
+  font-family: $ff-base;
+  line-height: line-height(19, 14);
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s linear, background-color 0.3s linear, border-color 0.3s linear, opacity 0.3s linear;
+
+  &--pink {
+    border-color: $pink;
+    background-color: $pink;
+    color: $white;
+
+    &:focus,
+    &:hover {
+      background-color: color.adjust($pink, $saturation: -20%);
+    }
+  }
+
+  &--little {
+    border-color: $little;
+    background-color: $little;
+    color: $pink;
+
+    &:focus,
+    &:hover {
+      border-color: $pink;
+      background-color: $pink;
+      color: $white;
+    }
+  }
+
+  &--blue {
+    border-color: $blue;
+    background-color: $blue;
+    color: $white;
+
+    &:focus,
+    &:hover {
+      opacity: 80%;
+    }
+  }
+
+  &--outline {
+    &:not(#{$root}--pink):not(#{$root}--white) {
+      border-color: $base;
+      background-color: $white;
+      color: $base;
+
+      &:focus,
+      &:hover {
+        border-color: $base;
+        background-color: $base;
+        color: $white;
+      }
+    }
+
+    &#{$root}--pink {
+      background-color: $white;
+      color: $pink;
+
+      &:focus,
+      &:hover {
+        border-color: $pink;
+        background-color: $pink;
+        color: $white;
+        opacity: 100%;
+      }
+    }
+
+    &#{$root}--white {
+      border-color: $white;
+      background-color: $base;
+      color: $white;
+
+      &:focus,
+      &:hover {
+        background-color: $blue;
+        opacity: 80%;
+      }
+    }
+  }
+}

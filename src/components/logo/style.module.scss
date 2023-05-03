@@ -1,0 +1,17 @@
+@import 'assets/styles/init.scss';
+
+.logo {
+  display: inline-flex;
+
+  &--white {
+    background-color: $white;
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    -webkit-mask-image: url('~images/eiwa-logo.png');
+
+    img {
+      opacity: 0%;
+    }
+  }
+}

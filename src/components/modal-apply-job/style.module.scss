@@ -1,0 +1,18 @@
+@import 'assets/styles/init.scss';
+
+.modal-apply-job {
+  &__heading {
+    margin-bottom: 28px;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  &__input-group {
+    margin-top: 24px;
+  }
+
+  &__button {
+    width: 100%;
+    margin-top: 32px;
+  }
+}

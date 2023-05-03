@@ -1,0 +1,81 @@
+@import 'assets/styles/init.scss';
+
+.blog-detail {
+  &__title {
+    margin-top: 28px;
+    color: $blue;
+
+    @include tablet-down {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__container {
+    @include pc {
+      margin-top: 20px;
+    }
+  }
+
+  &__breadcrumb {
+    @include tablet-up {
+      margin-bottom: 32px;
+    }
+
+    @include tablet-down {
+      display: none;
+    }
+  }
+
+  &__column-content[data-col],
+  &__column-sidebar[data-col] {
+    @include tablet-down {
+      width: 100%;
+      max-width: 600px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+
+  &__column-sidebar[data-col] {
+    @include tablet-down {
+      margin-top: 80px;
+    }
+  }
+
+  &__time {
+    color: rgba($black, 0.5);
+    font-weight: 600;
+  }
+
+  &__heading {
+    margin-top: 12px;
+
+    @include tablet-up {
+      margin-top: 16px;
+    }
+  }
+
+  &__blog-related {
+    margin-top: 80px;
+
+    @include tablet-up {
+      margin-top: 108px;
+    }
+  }
+
+  &__box-title {
+    margin-top: 50px;
+  }
+
+  &__blog-item {
+    &:not(:first-child) {
+      margin-top: 24px;
+    }
+  }
+
+  &__pack-item {
+    &:not(:first-child) {
+      margin-top: 46px;
+    }
+  }
+}

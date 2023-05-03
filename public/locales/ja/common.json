@@ -1,0 +1,56 @@
+{
+  "menu": {
+    "home": "ホーム",
+    "about": "だいたい",
+    "product": "商品",
+    "service": "サービス",
+    "team": "Team",
+    "blog": "ブログ",
+    "career": "キャリア",
+    "contact": "連絡先",
+    "service-child": {
+      "01": "Start-up Consulting",
+      "02": "IT Solution Consulting",
+      "03": "Enterprise Sofware Development",
+      "04": "Real Estate invest consulting"
+    }
+  },
+  "subscribe-our": "ニュースレターを購読する",
+  "submit": "送信",
+  "follow-us": "フォローする：",
+  "address-company": "Asia Eiwa Co., Ltd, Ton Duc Thang Street, Ben Nghe Ward, District 1, Ho Chi Minh City",
+  "all-rights": "全著作権所有。",
+  "job-overview": {
+    "expiration-date": "有効期限",
+    "location": "場所",
+    "job-title": "役職",
+    "salary": "給与",
+    "title": "仕事の概要"
+  },
+  "can-blank": "*  入力してください",
+  "apply-job": "募集",
+  "form-job": {
+    "name": "お名前: ",
+    "name-placeholder": "お名前を入力してください",
+    "email": "メール: ",
+    "email-placeholder": "メールを入力してください",
+    "cv": "履歴書: ",
+    "cv-sub": "ファイル形式は、.doc、.docx、.pdfで、3Mb以下。",
+    "introduce": "自己紹介: ",
+    "introduce-placeholder": "自己紹介と簡単な作業履歴"
+  },
+  "choose-plan": "プランを選択",
+  "form-plan": {
+    "name": "お名前:",
+    "name-placeholder": "お名前を入力してください",
+    "email": "メール:",
+    "email-placeholder": "メールを入力してください",
+    "phone": "電話番号:",
+    "phone-placeholder": "電話番号を入力してください",
+    "submit": "注文完了"
+  },
+  "load-more": "もっと読み込む",
+  "job-description": "",
+  "view-detail": "続きを読む",
+  "read-more": "続きを読む"
+}

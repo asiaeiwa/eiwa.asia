@@ -1,0 +1,44 @@
+@import 'assets/styles/init.scss';
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+
+  &--gutter-24 {
+    margin-right: -12px;
+    margin-left: -12px;
+
+    & > div {
+      padding-right: 12px;
+      padding-left: 12px;
+    }
+  }
+
+  &--gutter-30 {
+    margin-right: -15px;
+    margin-left: -15px;
+
+    & > div {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  }
+
+  &--gutter-88 {
+    @include pc {
+      margin-right: -44px;
+      margin-left: -44px;
+    }
+
+    & > div[data-col] {
+      @include pc {
+        padding-right: 44px;
+        padding-left: 44px;
+      }
+
+      @include sp {
+        width: 100%;
+      }
+    }
+  }
+}

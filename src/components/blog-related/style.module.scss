@@ -1,0 +1,22 @@
+@import 'assets/styles/init.scss';
+
+.blog-related {
+  $root: &;
+
+  &__heading {
+    margin-bottom: 32px;
+    color: $blue;
+  }
+
+  &__slider {
+    &[class*='swiper-initialized'] {
+      @include tablet-down {
+        overflow: unset;
+      }
+    }
+  }
+
+  div#{$root}__item {
+    width: 223px;
+  }
+}

@@ -1,0 +1,135 @@
+@import 'assets/styles/init.scss';
+
+.section-vision {
+  $root: &;
+
+  @include tablet-up {
+    padding-top: rem(113px);
+    padding-bottom: rem(113px);
+  }
+
+  @include tablet {
+    padding-top: rem(60px);
+    padding-bottom: rem(60px);
+  }
+
+  @include sp {
+    padding-top: rem(42px);
+    padding-bottom: rem(42px);
+  }
+
+  &__row {
+    align-items: center;
+
+    > div[data-col] {
+      @include sp {
+        width: 100%;
+      }
+    }
+  }
+
+  &__image {
+    @include pc {
+      border-radius: rem(16px);
+    }
+
+    @include sp {
+      border-radius: rem(8px);
+    }
+  }
+
+  &__info {
+    position: relative;
+
+    @include tablet-up {
+      max-width: rem(453px);
+      padding-left: rem(93px);
+    }
+
+    p,
+    ul,
+    ol {
+      position: relative;
+      z-index: 1;
+    }
+  }
+
+  &__link {
+    position: relative;
+    z-index: 1;
+
+    @include pc {
+      margin-top: rem(56px);
+    }
+
+    @include sp {
+      margin-top: rem(24px);
+    }
+  }
+
+  &__title:not(:empty) {
+    position: relative;
+    z-index: 1;
+    white-space: nowrap;
+
+    @include sp {
+      margin-top: rem(24px);
+      font-size: rem(32px);
+    }
+  }
+
+  &__bg {
+    content: '';
+    position: absolute;
+    z-index: 0;
+    background: transparent url('~images/home/vision-bg-1.svg') no-repeat;
+
+    @include pc {
+      top: rem(-180px);
+      left: rem(-50px);
+      width: rem(461px);
+      height: rem(462px);
+    }
+
+    @include sp {
+      top: px2vw-sp(-180);
+      left: px2vw-sp(-100);
+      width: px2vw-sp(461);
+      height: px2vw-sp(462);
+    }
+  }
+
+  &--invert {
+    #{$root}__row {
+      @include pc {
+        flex-flow: row-reverse;
+      }
+    }
+
+    #{$root}__info {
+      @include tablet-up {
+        max-width: 100%;
+        padding-right: rem(93px);
+        padding-left: 0;
+      }
+    }
+
+    #{$root}__bg {
+      background: transparent url('~images/home/vision-bg-2.svg') no-repeat;
+
+      @include pc {
+        top: rem(-140px);
+        left: rem(-100px);
+        width: rem(437px);
+        height: rem(405px);
+      }
+
+      @include sp {
+        top: px2vw-sp(-100);
+        left: px2vw-sp(-150);
+        width: px2vw-sp(437);
+        height: px2vw-sp(405);
+      }
+    }
+  }
+}

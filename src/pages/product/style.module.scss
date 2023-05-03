@@ -1,0 +1,121 @@
+@import 'assets/styles/init.scss';
+
+.product {
+  $root: &;
+
+  &__title {
+    text-align: center;
+
+    @include pc {
+      margin-top: 65px;
+    }
+
+    @include sp {
+      margin-top: 20px;
+      margin-bottom: 0;
+    }
+  }
+
+  &__title-desc {
+    color: $pack;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  &__container {
+    @include pc {
+      margin-top: 65px;
+    }
+  }
+
+  &__service {
+    @include pc {
+      margin-bottom: 140px;
+      box-shadow: 0 0 20px rgba($black, 12%);
+    }
+
+    @include sp {
+      display: block;
+    }
+  }
+
+  &__highlight {
+    @include pc {
+      position: relative;
+      z-index: 1;
+      box-shadow: 0 42px 34px rgba(82, 67, 194, 29.6%);
+    }
+
+    @include tablet-up {
+      transform: translateY(-50px);
+    }
+  }
+
+  &__section-service {
+    margin-top: 50px;
+
+    @include pc {
+      margin-top: 120px;
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 125px;
+      left: 50%;
+      z-index: 0;
+      width: px2vw-sp(340);
+      height: px2vw-sp(305);
+      background: transparent url('~images/eiwa-logo-simple.png') no-repeat center top / 100% auto;
+      opacity: 5%;
+      pointer-events: none;
+      transform: translateX(-50%);
+
+      @include pc {
+        top: 108px;
+        width: px2vw-pc(744);
+        height: px2vw-pc(667);
+        background-size: 66% auto;
+      }
+    }
+
+    div[data-col] {
+      @include tablet {
+        width: 50%;
+      }
+
+      @include sp {
+        width: 100%;
+        max-width: 300px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      &:nth-child(3) {
+        margin-top: 30px;
+      }
+
+      &:not(:first-child) {
+        @include sp {
+          margin-top: 28px;
+        }
+      }
+    }
+  }
+
+  &__pack {
+    margin-top: 84px;
+
+    @include pc {
+      margin-top: 120px;
+    }
+  }
+
+  &__pro-pack {
+    margin-top: 92px;
+
+    @include pc {
+      margin-top: 110px;
+    }
+  }
+}

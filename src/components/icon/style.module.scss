@@ -1,0 +1,85 @@
+@import 'assets/styles/init.scss';
+
+.icon {
+  $root: &;
+
+  display: inline-flex;
+  transition: opacity 0.4s ease;
+
+  &:before {
+    content: '';
+    display: inline-flex;
+    width: 24px;
+    height: 24px;
+    background-color: currentColor;
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+  }
+
+  // Modifires
+
+  &--social {
+    // &:before {
+    //   -webkit-mask-size: 79% 79%;
+    // }
+  }
+
+  // Icon files
+
+  &--facebook:before {
+    -webkit-mask-image: url('~images/icons/facebook.svg');
+  }
+
+  &--instagram:before {
+    -webkit-mask-image: url('~images/icons/instagram.svg');
+  }
+
+  &--mail:before {
+    -webkit-mask-image: url('~images/icons/mail.svg');
+  }
+
+  &--linkedin:before {
+    -webkit-mask-image: url('~images/icons/linkedin.svg');
+  }
+
+  &--twitter:before {
+    -webkit-mask-image: url('~images/icons/twitter.svg');
+  }
+
+  &--calendar:before {
+    -webkit-mask-image: url('~images/icons/calendar.svg');
+  }
+
+  &--clock:before {
+    -webkit-mask-image: url('~images/icons/clock.svg');
+  }
+
+  &--location:before {
+    -webkit-mask-image: url('~images/icons/location.svg');
+  }
+
+  &--profile:before {
+    -webkit-mask-image: url('~images/icons/profile.svg');
+  }
+
+  &--salary:before {
+    -webkit-mask-image: url('~images/icons/salary.png');
+  }
+
+  &--close:before {
+    -webkit-mask-image: url('~images/icons/close.svg');
+  }
+
+  &--global:before {
+    width: 16px;
+    height: 16px;
+    -webkit-mask-image: url('~images/icons/global.svg');
+  }
+
+  &--arrow-down:before {
+    width: 10px;
+    height: 6px;
+    -webkit-mask-image: url('~images/icons/arrow-down.svg');
+  }
+}

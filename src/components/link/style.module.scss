@@ -1,0 +1,39 @@
+@import 'assets/styles/init.scss';
+
+.link {
+  visibility: inherit;
+
+  &--arrow {
+    position: relative;
+    padding-bottom: rem(10px);
+    color: $base;
+    text-decoration: none;
+    transition: 0.3s linear;
+
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      min-width: rem(46px);
+      max-width: rem(84px);
+      height: rem(8px);
+      background: transparent url('~images/icons/arrow-line.svg') no-repeat center right;
+    }
+
+    &:hover {
+      letter-spacing: 0.68em;
+    }
+  }
+
+  &--normal {
+    color: currentColor;
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: $pink;
+    }
+  }
+}

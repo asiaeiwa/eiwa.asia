@@ -1,0 +1,131 @@
+@import 'assets/styles/init.scss';
+
+.job-item {
+  $root: &;
+
+  overflow: hidden;
+  border: 1px solid $job-border;
+  border-radius: 2px;
+
+  &__wrapper-content {
+    visibility: inherit;
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+
+  &__image {
+    display: flex;
+    align-items: flex-start;
+    min-width: 112px;
+    margin-right: 16px;
+  }
+
+  &__heading {
+    margin-bottom: 8px;
+    color: $blue;
+    font-size: 18px;
+  }
+
+  &__props {
+    margin: 0;
+    padding: 0;
+    color: $base;
+    list-style: none;
+
+    li {
+      display: flex;
+
+      &:not(:first-child) {
+        margin-top: 8px;
+      }
+    }
+
+    i {
+      margin-top: 3px;
+      margin-right: 8px;
+      color: $blue;
+
+      &:before {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+
+  &__type {
+    display: inline-flex;
+    align-self: flex-start;
+    padding: 4px 18px;
+    border: 1px solid currentColor;
+    border-radius: 2px;
+    font-weight: $fw-bold;
+    font-size: 12px;
+  }
+
+  &__desc {
+    margin-top: 32px;
+    color: $base;
+  }
+
+  &__button {
+    margin-top: 36px;
+
+    button {
+      width: 100%;
+    }
+  }
+
+  &--recent {
+    display: flex;
+    padding: 24px 10px;
+    border-left: 4px solid currentColor;
+    border-radius: 4px 2px 2px 4px;
+    transition: background $ease;
+
+    &:hover {
+      background-color: $little;
+    }
+
+    #{$root}__type {
+      margin-top: 12px;
+    }
+  }
+
+  &--hot {
+    padding: 20px 20px 28px;
+    background-color: $job-bg;
+
+    #{$root}__wrapper-content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #{$root}__link {
+      order: -2;
+    }
+
+    #{$root}__type {
+      order: -1;
+      margin-bottom: 12px;
+    }
+  }
+
+  // Type color
+  &--full-time {
+    color: $purple;
+  }
+
+  &--freelancer {
+    color: $job-type-2;
+  }
+
+  &--part-time {
+    color: $job-type-3;
+  }
+
+  &--intership {
+    color: $job-type-4;
+  }
+}

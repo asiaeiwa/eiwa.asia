@@ -1,0 +1,18 @@
+@import 'assets/styles/init.scss';
+
+.image {
+  visibility: inherit;
+
+  &--rounded {
+    border-radius: rem(16px);
+  }
+
+  &--lazy {
+    opacity: 0%;
+    transition: 0.4s ease;
+  }
+
+  &--loaded {
+    opacity: 100%;
+  }
+}

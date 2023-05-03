@@ -1,0 +1,7 @@
+@import 'assets/styles/init.scss';
+
+.container {
+  max-width: $container;
+  margin: 0 auto;
+  padding: 0 $container-padding;
+}

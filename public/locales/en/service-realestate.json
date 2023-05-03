@@ -1,0 +1,28 @@
+{
+  "title": "Real Estate invest consulting",
+  "description": "Providing real estate consulting services in development and investment activities, market research and valuation",
+  "keywords": "Real Estate, invest consulting, service",
+  "section-01": {
+    "title": "Services",
+    "description": {
+      "01": "Economic consulting services to developers, owners, occupiers, institutional investors and public sector organizations around the world."
+    }
+  },
+  "section-02": {
+    "title": "Key projects",
+    "description": {
+      "01": "Government projects and private projects",
+      "02": "Full legal records"
+    }
+  },
+  "section-03": {
+    "title": "Why us",
+    "description": {
+      "01": "Member in ITPC, DPI, CRIF D&B, FTCC",
+      "02": "Experts hold positions at large and reputable real estate companies in Vietnam",
+      "03": "With our network and our community , we always update new pilicy and legal of calling foreign investment to Ho Chi Minh City.",
+      "04": "We conduct detailed market research and analysis based on trends, industry mapping, competitive-landscape, consumer surveys and government regulations.",
+      "05": "After selecting and prioritizing the best markets-to invest, applying a solution driven outcome (real estate decisions, reduce costs, create value and improve performance)"
+    }
+  }
+}

@@ -1,0 +1,118 @@
+@import 'assets/styles/init.scss';
+
+.section-service {
+  visibility: inherit;
+
+  &__container {
+    position: relative;
+    padding-top: rem(60px);
+    padding-bottom: rem(73px);
+
+    > div:first-child {
+      position: relative;
+      z-index: 1;
+    }
+  }
+
+  &__text {
+    @include pc {
+      order: 1;
+    }
+
+    @include tablet-up {
+      padding-top: rem(20px);
+      padding-left: rem(120px);
+    }
+
+    @include tablet {
+      padding-top: rem(100px);
+      padding-left: rem(60px);
+    }
+
+    @include sp {
+      margin-bottom: rem(40px);
+    }
+  }
+
+  &__title {
+    white-space: nowrap;
+  }
+
+  &__row-main {
+    > div[data-col] {
+      @include sp {
+        width: 100%;
+      }
+    }
+  }
+
+  &__row {
+    @include tablet-down {
+      justify-content: center;
+    }
+
+    @include sp {
+      margin-right: rem(-8px);
+      margin-left: rem(-8px);
+    }
+
+    > div[data-col] {
+      @include tablet-down {
+        width: 50%;
+      }
+
+      @include sp {
+        padding-right: rem(8px);
+        padding-left: rem(8px);
+      }
+
+      &:nth-child(n + 3) {
+        @include tablet-down {
+          margin-top: rem(24px);
+        }
+      }
+
+      > div {
+        height: 100%;
+      }
+    }
+  }
+
+  &__bg-1 {
+    position: absolute;
+    background: transparent url('~images/home/service-bg-1.svg') no-repeat;
+
+    @include pc {
+      top: rem(60px);
+      left: rem(-50px);
+      width: rem(464px);
+      height: rem(465px);
+    }
+
+    @include sp {
+      top: px2vw-sp(350);
+      left: px2vw-sp(-150);
+      width: px2vw-sp(464);
+      height: px2vw-sp(465);
+    }
+  }
+
+  &__bg-2 {
+    position: absolute;
+    background: transparent url('~images/home/service-bg-2.svg') no-repeat;
+
+    @include pc {
+      top: rem(-100px);
+      left: rem(180px);
+      width: rem(409px);
+      height: rem(409px);
+    }
+
+    @include sp {
+      top: px2vw-sp(0);
+      left: px2vw-sp(180);
+      width: px2vw-sp(409);
+      height: px2vw-sp(409);
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "menu": {
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "product": "Các gói",
+    "service": "Dịch vụ",
+    "team": "Team",
+    "blog": "Blog",
+    "career": "Tuyển dụng",
+    "contact": "Liên hệ",
+    "service-child": {
+      "01": "Tư vấn Khởi nghiệp",
+      "02": "Tư vấn giải pháp CNTT",
+      "03": "Phát triển phần mềm DN",
+      "04": "Tư vấn đầu tư bất động sản"
+    }
+  },
+  "subscribe-our": "Theo dõi bản tin của chúng tôi",
+  "submit": "Gửi",
+  "follow-us": "Theo dõi chúng tôi trên:",
+  "address-company": "Tầng 25, Tòa nhà Lim Tower, Số 9-11 Tôn Đức Thắng, Phường Bến Nghé, Quận 1, TP.HCM",
+  "all-rights": "Đã đăng ký bản quyền.",
+  "job-overview": {
+    "expiration-date": "Hạn chót",
+    "location": "Địa chỉ làm việc",
+    "job-title": "Chức vụ",
+    "salary": "Mức lương",
+    "title": "Tổng quan"
+  },
+  "can-blank": "*  Không thể để trống",
+  "apply-job": "Ứng tuyển",
+  "form-job": {
+    "name": "Tên của bạn:",
+    "name-placeholder": "Điền tên đầy đủ",
+    "email": "Email:",
+    "email-placeholder": "Điền email của bạn",
+    "cv": "CV: ",
+    "cv-sub": "Định dạng file là .doc, .docx, .pdf và không quá 3Mb",
+    "introduce": "Giới thiệu: ",
+    "introduce-placeholder": "Giới thiệu bản thân và quá trình làm việc tóm tắt"
+  },
+  "choose-plan": "Chọn gói",
+  "form-plan": {
+    "name": "Tên của bạn:",
+    "name-placeholder": "Điền tên đầy đủ",
+    "email": "Email:",
+    "email-placeholder": "Điền email của bạn",
+    "phone": "Số điện thoại",
+    "phone-placeholder": "Điền số điện thoại",
+    "submit": "Hoàn tất"
+  },
+  "load-more": "Xem thêm",
+  "job-description": "Chi tiết công việc",
+  "view-detail": "Xem chi tiết",
+  "read-more": "Xem chi tiết"
+}

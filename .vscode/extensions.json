@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "stylelint.vscode-stylelint",
+    "mrmlnc.vscode-scss"
+  ],
+  "unwantedRecommendations": [
+    "dbaeumer.jshint",
+    "hookyqr.beautify",
+    "ms-azuretools.vscode-docker",
+    "felixfbecker.php-intellisense"
+  ]
+}

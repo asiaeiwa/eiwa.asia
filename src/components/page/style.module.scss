@@ -1,0 +1,14 @@
+@import 'assets/styles/init.scss';
+
+.page {
+  overflow: hidden;
+  width: 100%;
+  background: $white;
+
+  &__h1 {
+    position: absolute;
+    opacity: 0%;
+    pointer-events: none;
+    user-select: none;
+  }
+}

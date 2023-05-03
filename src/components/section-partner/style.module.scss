@@ -1,0 +1,46 @@
+@import 'assets/styles/init.scss';
+
+.section-partner {
+  $root: &;
+
+  background-color: $white;
+
+  @include pc {
+    padding: rem(100px) 0;
+  }
+
+  @include tablet-down {
+    padding: 80px 0 76px;
+  }
+
+  &__wrapper {
+    @include sp {
+      margin-right: -20px;
+      margin-left: -20px;
+    }
+  }
+
+  &__slider {
+    &[class*='swiper-initialized'] {
+      overflow: unset !important;
+    }
+
+    div[class*='swiper-wrapper'] {
+      transition-timing-function: linear !important;
+    }
+  }
+
+  &__item {
+    align-self: center;
+    width: auto;
+    text-align: center;
+
+    @include pc {
+      max-width: rem(200px);
+    }
+
+    @include sp {
+      max-width: rem(150px);
+    }
+  }
+}

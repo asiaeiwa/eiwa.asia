@@ -1,0 +1,74 @@
+@import 'assets/styles/init.scss';
+
+.contact {
+  $root: &;
+
+  visibility: inherit;
+
+  &__container {
+    position: relative;
+
+    @include tablet-up {
+      margin-top: rem(58);
+    }
+
+    @include tablet-down {
+      margin-top: rem(36);
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      width: rem(393);
+      height: rem(442);
+      background: transparent url('~images/contact/bg.svg') no-repeat top right / 100% auto;
+
+      @include pc {
+        top: 0;
+        right: 0;
+      }
+
+      @include sp {
+        top: rem(-100);
+        right: rem(-50);
+      }
+    }
+  }
+
+  &__list {
+    justify-content: center;
+
+    @include tablet-up {
+      margin-top: rem(72);
+    }
+
+    @include tablet-down {
+      margin-top: rem(24);
+    }
+
+    > div {
+      @include tablet-down {
+        min-width: 100%;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: rem(24);
+      }
+    }
+  }
+
+  &__heading {
+    text-align: center;
+
+    @include tablet-down {
+      font-size: 2rem;
+    }
+  }
+
+  &__description {
+    max-width: rem(663);
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+}

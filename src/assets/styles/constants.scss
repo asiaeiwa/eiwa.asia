@@ -1,0 +1,47 @@
+/* stylelint-disable color-no-hex */
+
+$black: #000000;
+$base: #303030;
+$base-03: rgba($base, 0.1);
+$base-01: rgba($base, 0.1);
+
+$white: #ffffff;
+$blue: #0a406b;
+$pink: #ef446d;
+$little: #ffe2e9;
+$gray: #737e87;
+$faq: #9b9d9e;
+$pack: #848199;
+$purple: #5d6fcf;
+$optimise: #94a9bb;
+$optimise-bg: #fafafa;
+$optimise-item: #eceeef;
+$border: #9f9f9f;
+$job-border: #d6d6d6;
+$job-bg: #f2f5f7;
+$job-type-1: #5d6fcf;
+$job-type-2: #58b427;
+$job-type-3: #f1630d;
+$job-type-4: #e1d123;
+$accordion: #556a7a;
+
+$container: 1152px;
+$container-padding: 16px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$max: 1480px;
+$delta: 0.02;
+
+$ff-base: 'Nunito Sans', arial;
+$ff-title: 'Noto Serif Display', arial;
+
+$fw-thin: 300;
+$fw-regular: 400;
+$fw-medium: 500;
+$fw-semibold: 600;
+$fw-bold: 700;
+
+$ease: 0.3s ease;
+
+/* stylelint-enable color-no-hex */

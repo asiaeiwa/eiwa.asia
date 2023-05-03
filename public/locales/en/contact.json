@@ -1,0 +1,12 @@
+{
+  "title": "Contact",
+  "description": "Whether you'd like to know more about EIWA or if you'd like more detailed information on any of our solutions and services, don't hesitate to get in touch.",
+  "keywords": "Contact, consulting, Lim Tower building, Ton Duc Thang street, district 1.",
+  "heading": "Explore our locations",
+  "branch": {
+    "01": {
+      "title": "Ho Chi Minh City",
+      "address": "Lim Tower Building, 25th Floor, No. 9-11, Ton Duc Thang Street, Ben Nghe Ward, District 1, Ho Chi Minh City"
+    }
+  }
+}

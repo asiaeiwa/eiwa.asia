@@ -1,0 +1,100 @@
+@import 'assets/styles/init.scss';
+
+.about-image {
+  $root: &;
+
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @include pc {
+    min-height: rem(692px);
+  }
+
+  @include max {
+    min-height: px2vw-pc(692);
+  }
+
+  @include sp {
+    height: 100vh;
+    min-height: rem(667);
+    max-height: rem(700);
+  }
+
+  &__container {
+    position: relative;
+
+    @include sp {
+      height: 100vh;
+      min-height: rem(667);
+      max-height: rem(700);
+    }
+  }
+
+  &__wrapper-text {
+    position: absolute;
+    z-index: 1;
+    width: rem(540px);
+    max-width: calc(100% - rem(32px));
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px $optimise-bg solid;
+    border-radius: rem(16px);
+    background: linear-gradient(181.35deg, rgba(239, 68, 108, 4.5%) 1.15%, rgba(0, 59, 113, 1%) 98.91%);
+    background-size: cover;
+    font-size: rem(20px);
+    transition: all 0.4s 0.2s ease;
+    backdrop-filter: blur(50px);
+
+    @include pc {
+      top: rem(100);
+      right: rem(16px);
+      width: rem(540px);
+      padding: rem(24px) rem(40px);
+    }
+
+    @include max {
+      right: rem(-80px);
+    }
+
+    @include sp {
+      top: unset;
+      right: rem(16px);
+      bottom: rem(16px);
+      left: rem(16px);
+      padding: rem(16px);
+      color: $white;
+    }
+  }
+
+  &__quote {
+    margin-bottom: rem(18px);
+    font-size: rem(24px);
+    font-family: $ff-title;
+    line-height: line-height(40, 27);
+
+    @include pc {
+      font-size: rem(27px);
+    }
+  }
+
+  &__position {
+    font-size: rem(15px);
+  }
+
+  &--bottom {
+    #{$root}__wrapper-text {
+      color: $white;
+
+      @include pc {
+        top: rem(400);
+      }
+
+      @include max {
+        top: 24vw;
+        right: rem(-80px);
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Giới thiệu",
+  "description": "Công ty chúng tôi cung cấp nhiều tùy chọn dịch vụ công nghệ để bạn có thể tìm thấy một kế hoạch phù hợp với doanh nghiệp của mình.",
+  "keywords": "Asia Eiwa, giải pháp công nghệ, hệ thống quản lý sản xuất, hỗ trợ công nghệ, trải nghiệm người dùng, thiết kế, công nghệ số, nguồn lực.",
+  "section": {
+    "01": {
+      "quote": "\"Men can do, Women also!\"",
+      "name": "NGO THI HUYNH ANH",
+      "position": "CO-FOUNDER/General and Operations Manager"
+    },
+    "02": {
+      "description": {
+        "01": "Với hơn 10 năm kinh nghiệm tư vấn tại thị trường Châu Á, chúng tôi hiểu rằng việc bắt đầu thành lập doanh nghiệp và vận hành các hoạt động tại thị trường Châu Á có thể đặt ra những thách thức nghiêm trọng đối với các nhà đầu tư và doanh nghiệp toàn cầu, đặc biệt là thủ tục thành lập và giai đoạn triển khai ERP của các doanh nghiệp vừa và nhỏ.",
+        "02": "Do đó, chúng tôi mong muốn kết nối các nhà quản lý nước ngoài và nhân viên địa phương để tạo ra sự hợp tác hiệu quả trong công việc dựa trên các tiêu chí ưu tiên hàng đầu của chúng tôi:",
+        "03": {
+          "01": "Cố vấn và chuyên gia tư vấn- Đáng tin cậy và có trách nhiệm.",
+          "02": "Hiệu quả- Giải pháp đúng, tạm biệt các vấn đề.",
+          "03": "Hỗ trợ khách hàng - nhiệt tình và chuyên nghiệp."
+        }
+      }
+    },
+    "04": {
+      "title": "\"Bạn đang gặp khó khăn với công việc kinh doanh của mình? Hãy để chúng tôi giải quyết giúp bạn\"",
+      "description": {
+        "01": "Chúng tôi tin tưởng rằng với một tư duy tiên phong là rất quan trọng trong các tình huống kinh doanh hiện đại này. Do đó, chúng tôi  luôn đặt tinh thần trách nhiệm lên hàng đầu trong việc giải quyết các vấn đề của Doanh Nghiệp vừa và nhỏ gặp phải với một tinh thần thách thức.",
+        "02": "Là một công ty tư vấn chuyên nghiệp, chúng tôi lấy trách nhiệm đảm bảo hiệu quả của từng dự án và trở thành người bạn đồng hành uy tín của khách hàng.",
+        "03": "Trong suốt sự nghiệp của mình, tôi đã có cơ hội đảm nhận các vai trò mới từ Tư vấn ERP, Chuyên viên Kinh doanh và Tiếp thị đến quản lý  Hành chính & Nhân sự . Trong hành trình mới này với Asia Eiwa, tôi hy vọng sẽ mang đến các giải pháp kỹ thuật số và cơ hội kinh doanh cho các doanh nghiệp vừa và nhỏ để giúp họ vượt qua thách thức và thành công bền vững."
+      }
+    },
+    "05": {
+      "quote": "\"Just do it!\"",
+      "name": "PHAM VUONG UY",
+      "position": "CO-FOUNDER /Technical Consultant"
+    },
+    "06": {
+      "title": "",
+      "description": {
+        "01": "Với hơn 10 năm kinh nghiệm làm việc trong ngành kỹ thuật, tôi đã sở hũu được nền tảng kiến thức vững chắc và tích lũy nhiều kinh nghiệm chuyên sâu về hệ thống CRM, ERP, SAP và hệ thống Structure Data System. Trong kỷ nguyên công nghệ kỹ thuật số hiện tại, điện toán đám mây được tận dụng để lưu trữ những thông tin hữu ích của cá nhân và doanh nghiệp. Là một người hoạt động trong môi trường kỹ thuật số, tôi cũng cảm thấy vui mừng và mong muốn đóng góp nhiều hơn vào sự phát triển của ngành kỹ thuật."
+      }
+    },
+    "07": {
+      "quote": "\"Try hard every day\"",
+      "name": "TRAN BAO TIN",
+      "position": "Technical Manager"
+    },
+    "08": {
+      "title": "",
+      "description": {
+        "01": "Với hơn  5 năm kinh nghiệm phát triển phần mềm và phát triển chuyên môn trong các dự án như ERP và logistic. Chúng tôi có cơ hội tham gia các dự án trong môi trường đám mây, tích lũy kinh nghiệm và sử dụng các dịch vụ AWS. Hiện tại, tôi đang sử dụng kinh nghiệm của mình để đào tạo cho sinh viên những kiến thức cơ bản về phát triển phần mềm tại Đại học Tôn Đức Thắng."
+      }
+    }
+  }
+}

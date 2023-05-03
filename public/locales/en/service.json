@@ -1,0 +1,29 @@
+{
+  "title": "Services",
+  "description": "Our seasoned consultants stand ready to give expert advice to help your business improve operational efficiency.",
+  "keywords": "Services, Enterprise, Sofware, Development, Service, IT, Solution, Consulting, Real Estate, invest consulting, Start-up",
+  "section-01": {
+    "title": "Start-up Consulting",
+    "description": {
+      "01": "Our seasoned consultants stand ready to give expert advice to help your business improve operational efficiency."
+    }
+  },
+  "section-02": {
+    "title": "IT Solution Consulting",
+    "description": {
+      "01": "Providing managed services focused on proactive and strategic support to SMEs in Asia Market"
+    }
+  },
+  "section-03": {
+    "title": "Enterprise Sofware Development",
+    "description": {
+      "01": "We will build an ERP system, Pride of Vietnam providing reasonable prices and modules that MEET Asia and Vietnamese markets."
+    }
+  },
+  "section-04": {
+    "title": "Real Estate invest consulting",
+    "description": {
+      "01": "Providing real estate consulting services in development and investment activities, market research and valuation"
+    }
+  }
+}

@@ -1,0 +1,138 @@
+@import 'assets/styles/init.scss';
+
+.section-product {
+  @include pc {
+    padding-top: rem(73px);
+    padding-bottom: rem(108px);
+  }
+
+  @include sp {
+    padding-top: rem(11px);
+    padding-bottom: rem(66px);
+  }
+
+  &__container {
+    position: relative;
+  }
+
+  &__text {
+    @include pc {
+      text-align: center;
+    }
+
+    p {
+      @include pc {
+        max-width: rem(453px);
+        margin: 0 auto;
+      }
+    }
+  }
+
+  &__title {
+    white-space: nowrap;
+
+    @include sp {
+      display: flex;
+      align-items: baseline;
+      font-size: rem(32px);
+    }
+
+    &:after {
+      @include sp {
+        content: '';
+        display: inline-block;
+        width: 100%;
+        max-width: rem(224px);
+        height: 1px;
+        margin-left: rem(24px);
+        background: $base;
+      }
+    }
+  }
+
+  &__row {
+    position: relative;
+    z-index: 1;
+
+    @include pc {
+      margin-top: rem(77px);
+    }
+
+    @include tablet-down {
+      justify-content: center;
+      max-width: rem(664px);
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    @include sp {
+      max-width: rem(300px);
+      margin-top: rem(44px);
+    }
+
+    > div[data-col] {
+      @include tablet {
+        width: 50%;
+      }
+
+      @include sp {
+        width: 100%;
+      }
+
+      &:nth-child(n + 3) {
+        @include tablet {
+          margin-top: rem(24px);
+        }
+      }
+
+      &:not(:first-child) {
+        @include sp {
+          margin-top: rem(24px);
+        }
+      }
+
+      > div {
+        height: 100%;
+      }
+    }
+  }
+
+  &__bg-1 {
+    position: absolute;
+    background: transparent url('~images/home/product-bg-1.svg') no-repeat;
+
+    @include pc {
+      top: rem(70px);
+      left: rem(176px);
+      width: rem(464px);
+      height: rem(464px);
+    }
+
+    @include sp {
+      top: px2vw-sp(300);
+      left: px2vw-sp(50);
+      width: px2vw-sp(464);
+      height: px2vw-sp(464);
+    }
+  }
+
+  &__bg-2 {
+    position: absolute;
+    z-index: 0;
+    background: transparent url('~images/home/product-bg-2.svg') no-repeat;
+
+    @include pc {
+      top: rem(250px);
+      left: rem(542px);
+      width: rem(479px);
+      height: rem(479px);
+    }
+
+    @include sp {
+      bottom: px2vw-sp(-200);
+      left: px2vw-sp(-100);
+      width: px2vw-sp(479);
+      height: px2vw-sp(479);
+    }
+  }
+}

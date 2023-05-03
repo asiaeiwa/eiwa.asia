@@ -1,0 +1,92 @@
+@import 'assets/styles/init.scss';
+
+.product-detail {
+  width: 100%;
+
+  &__section-pack {
+    margin-top: 40px;
+
+    @include pc {
+      margin-top: 88px;
+    }
+  }
+
+  &__section-faq {
+    margin-top: 40px;
+
+    @include pc {
+      margin-top: 120px;
+    }
+  }
+
+  &__blue-bg {
+    position: relative;
+    overflow: hidden;
+    padding: 52px 0 309px;
+    border-radius: 10px;
+    background-color: $blue;
+    color: $white;
+
+    @include pc {
+      padding: 88px 0 180px;
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: -78px;
+      left: -15px;
+      width: 956px;
+      height: 855px;
+      background: transparent url('~images/eiwa-logo-simple.png') no-repeat center top / 100% auto;
+      opacity: 10%;
+      pointer-events: none;
+
+      @include sp {
+        display: none;
+      }
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      right: 0;
+      bottom: 60px;
+      width: 213px;
+      height: 190px;
+      background: transparent url('~images/eiwa-logo-simple.png') no-repeat center top / 100% auto;
+      pointer-events: none;
+
+      @include pc {
+        right: 36px;
+        bottom: 36px;
+        width: 224px;
+        height: 200px;
+      }
+    }
+  }
+
+  &__small-container {
+    max-width: 728px;
+  }
+
+  &__heading-faq {
+    margin-bottom: 0;
+
+    @include pc {
+      margin-bottom: 80px;
+    }
+  }
+
+  &__accordion {
+    @include sp {
+      margin-top: 48px;
+    }
+
+    &:not(:first-child) {
+      @include pc {
+        margin-top: 82px;
+      }
+    }
+  }
+}

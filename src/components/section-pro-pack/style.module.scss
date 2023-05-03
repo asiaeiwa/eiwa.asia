@@ -1,0 +1,120 @@
+@import 'assets/styles/init.scss';
+
+.section-pro-pack {
+  $root: &;
+
+  overflow: hidden;
+  width: 100%;
+
+  &__container {
+    position: relative;
+    padding-top: 60px;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      height: 445px;
+      border-radius: 2px;
+      background-color: $base;
+      transition: right $ease, left $ease;
+
+      @include tablet-up {
+        right: 97px;
+        left: -130px;
+      }
+    }
+  }
+
+  &__wrapper-heading {
+    position: relative;
+
+    @include tablet-up {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-right: 160px;
+    }
+
+    @include tablet-down {
+      padding-left: 50px;
+    }
+  }
+
+  &__wrapper-content {
+    margin-top: 60px;
+
+    @include tablet-up {
+      margin-top: 80px;
+    }
+  }
+
+  &__heading {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: baseline;
+    color: $white;
+
+    @include tablet-up {
+      margin-bottom: 0;
+    }
+
+    &:after {
+      margin-right: 12px;
+      margin-left: -126px;
+      background-color: $white;
+
+      @include tablet-up {
+        width: 269px;
+        margin-right: 20px;
+        margin-left: -150px;
+      }
+    }
+  }
+
+  &__item {
+    position: relative;
+    padding-bottom: 40px;
+
+    &:not(:first-child) {
+      @include sp {
+        margin-top: 40px;
+      }
+    }
+
+    &[data-col] {
+      @include sp {
+        width: 100%;
+        max-width: 400px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+    }
+  }
+
+  &__item-image {
+    border: 4px solid $blue !important;
+    border-radius: 4px;
+  }
+
+  &__item-name {
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+    left: 30px;
+    margin: 0;
+    padding: 22px 16px;
+    border-radius: 2px;
+    background-color: $blue;
+    color: $white;
+    text-align: center;
+    text-transform: capitalize;
+
+    @include tablet-up {
+      font-size: 20px;
+    }
+  }
+}

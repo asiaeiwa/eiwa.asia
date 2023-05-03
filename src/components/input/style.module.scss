@@ -1,0 +1,31 @@
+@import 'assets/styles/init.scss';
+
+.input {
+  $root: &;
+
+  input {
+    width: 100%;
+    margin: 0;
+    padding: rem(10px);
+    border-radius: 0.25rem;
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    font-size: rem(16px);
+    line-height: 1;
+  }
+
+  &--white {
+    input {
+      border: rem(1px) solid $white;
+      color: $black;
+    }
+  }
+
+  &--black {
+    input {
+      border: rem(1px) solid $gray;
+      color: $black;
+    }
+  }
+}

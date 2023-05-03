@@ -1,0 +1,15 @@
+@use 'sass:math';
+
+.column {
+  display: block;
+
+  &:not([data-col]) {
+    flex: 1 0 0%;
+  }
+
+  @for $i from 1 through 12 {
+    &[data-col='#{$i}'] {
+      width: math.div($i, 12) * 100%;
+    }
+  }
+}

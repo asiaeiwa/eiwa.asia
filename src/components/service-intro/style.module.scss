@@ -1,0 +1,92 @@
+@import 'assets/styles/init.scss';
+
+.service-intro {
+  position: relative;
+
+  &__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: rem(373px);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @include tablet-up {
+      min-height: rem(373px);
+    }
+
+    @include tablet-down {
+      min-height: rem(265px);
+    }
+  }
+
+  &__container {
+    position: relative;
+  }
+
+  ul {
+    display: flex;
+    margin-top: 0;
+    padding-left: 0;
+    list-style: none;
+
+    @include tablet-up {
+      padding-top: rem(152);
+    }
+
+    @include tablet-down {
+      padding-top: rem(90);
+    }
+
+    li {
+      &:not(:last-child):after {
+        content: '';
+        display: inline-block;
+        width: rem(10);
+        height: rem(6);
+        margin-right: rem(9);
+        margin-left: rem(5);
+        background: transparent url('~images/icons/arrow-down.svg') no-repeat top left / 100% auto;
+        transform: rotate(-90deg);
+        transform-origin: top center;
+      }
+    }
+  }
+
+  &__box-text {
+    margin-right: auto;
+    margin-left: auto;
+    border: rem(2) solid $white;
+    border-radius: 16px;
+    background: linear-gradient(181.35deg, rgb(225, 223, 232) 10%, rgb(255, 255, 255) 60%);
+    text-align: center;
+
+    @include tablet-up {
+      max-width: rem(738);
+      margin-top: rem(81);
+      padding: rem(60) rem(69);
+    }
+
+    @include tablet-down {
+      max-width: rem(575);
+      min-height: rem(180);
+      margin-top: rem(30);
+      padding: rem(20) rem(32);
+    }
+  }
+
+  &__title {
+    font-size: rem(32);
+
+    @include tablet-up {
+      margin-bottom: rem(15);
+      font-size: rem(32);
+    }
+
+    @include tablet-down {
+      margin-bottom: rem(10);
+      font-size: rem(22);
+    }
+  }
+}

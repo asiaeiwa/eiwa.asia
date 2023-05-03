@@ -1,0 +1,53 @@
+@import 'assets/styles/init.scss';
+
+.job-overview {
+  box-sizing: border-box;
+  padding: 32px 20px;
+  border: 1px solid $job-border;
+  border-radius: 2px;
+  background: $job-bg;
+
+  &__props {
+    margin: 0;
+    padding-left: 8px;
+    list-style: none;
+
+    li {
+      display: flex;
+
+      &:not(:first-child) {
+        margin-top: 15px;
+
+        @include tablet-up {
+          margin-top: 30px;
+        }
+      }
+    }
+
+    i {
+      margin-right: 16px;
+      color: $pink;
+    }
+
+    div {
+      padding-top: 2px;
+      color: $base;
+      font-weight: $fw-semibold;
+    }
+
+    span {
+      display: block;
+      margin-top: 4px;
+      color: $gray;
+      font-weight: $fw-regular;
+    }
+  }
+
+  &__button {
+    margin-top: 36px;
+
+    button {
+      width: 100%;
+    }
+  }
+}

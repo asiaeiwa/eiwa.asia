@@ -1,0 +1,106 @@
+@import 'assets/styles/init.scss';
+
+.career-detail {
+  $root: &;
+
+  &__container {
+    @include tablet-up {
+      margin-top: 40px;
+    }
+
+    @include tablet-down {
+      max-width: 800px;
+      margin-top: 20px;
+    }
+  }
+
+  &__column-overview[data-col] {
+    @include tablet-up {
+      order: 2;
+    }
+
+    @include tablet-down {
+      width: 100%;
+    }
+  }
+
+  &__column-content[data-col] {
+    @include tablet-up {
+      order: 1;
+    }
+
+    @include tablet-down {
+      width: 100%;
+    }
+  }
+
+  &__header {
+    @include tablet-up {
+      width: div(100%, 3) * 2;
+      padding-right: 6px;
+    }
+  }
+
+  &__props {
+    padding-left: 0;
+    list-style: none;
+
+    li {
+      display: flex;
+      align-items: center;
+
+      &:not(:first-child) {
+        margin-top: 12px;
+      }
+    }
+
+    i {
+      margin-right: 10px;
+
+      &:before {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+
+  &__content {
+    padding-top: 28px;
+
+    @include tablet-up {
+      padding-top: 36px;
+      border-top: 1px solid $job-border;
+    }
+  }
+
+  &__type {
+    display: inline-flex;
+    align-self: flex-start;
+    padding: 4px 18px;
+    border: 1px solid currentColor;
+    border-radius: 2px;
+    font-weight: $fw-bold;
+    font-size: 12px;
+  }
+
+  &__price {
+    color: $pink;
+    font-weight: $fw-bold;
+    font-size: 28px;
+  }
+
+  &__heading {
+    margin-bottom: 16px;
+    color: $blue;
+  }
+
+  &__header-overview {
+    @include tablet-up {
+      margin-top: -94px;
+    }
+
+    @include tablet-down {
+      display: none;
+    }
+  }
+}

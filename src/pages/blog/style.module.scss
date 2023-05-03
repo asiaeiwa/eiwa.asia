@@ -1,0 +1,89 @@
+@import 'assets/styles/init.scss';
+
+.blog {
+  &__title {
+    margin-top: 28px;
+    color: $blue;
+  }
+
+  &__container {
+    margin-top: 44px;
+
+    @include tablet-up {
+      margin-top: 62px;
+    }
+  }
+
+  &__column-content[data-col],
+  &__column-sidebar[data-col] {
+    @include tablet-down {
+      width: 100%;
+      max-width: 600px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+
+  &__column-sidebar[data-col] {
+    @include tablet-down {
+      margin-top: 80px;
+    }
+  }
+
+  &__box-title {
+    margin-top: 50px;
+  }
+
+  &__list {
+    margin-top: 32px;
+
+    @include tablet-up {
+      margin-top: 52px;
+    }
+  }
+
+  &__column {
+    &:not(:first-child) {
+      @include sp {
+        margin-top: 32px;
+      }
+    }
+
+    &[data-col] {
+      @include sp {
+        width: 100%;
+      }
+    }
+
+    &:nth-child(n + 3) {
+      @include tablet-up {
+        margin-top: 40px;
+      }
+
+      @include tablet {
+        margin-top: 32px;
+      }
+    }
+  }
+
+  &__load-more {
+    margin-top: 44px;
+    text-align: center;
+
+    @include pc {
+      margin-top: 36px;
+    }
+  }
+
+  &__blog-item {
+    &:not(:first-child) {
+      margin-top: 24px;
+    }
+  }
+
+  &__pack-item {
+    &:not(:first-child) {
+      margin-top: 46px;
+    }
+  }
+}

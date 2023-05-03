@@ -1,0 +1,62 @@
+{
+  "root": true,
+  "extends": [
+    "eslint:recommended",
+    "plugin:@next/next/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "plugin:react/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint",
+    "react-hooks"
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "consistent-return": 2,
+    "default-case": 2,
+    "eol-last": 2,
+    "new-parens": 2,
+    "no-alert": 2,
+    "no-array-constructor": 2,
+    "no-caller": 2,
+    "no-console": 2,
+    "no-debugger": 0,
+    "no-dupe-class-members": 2,
+    "no-eq-null": 2,
+    "no-eval": 2,
+    "no-unneeded-ternary": 2,
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "react/prop-types": 0,
+    "react/react-in-jsx-scope": 0,
+    "react/self-closing-comp": "error",
+    "sort-imports": [
+      "error",
+      {
+        "ignoreCase": false,
+        "ignoreDeclarationSort": true,
+        "ignoreMemberSort": false,
+        "memberSyntaxSortOrder": [
+          "none",
+          "all",
+          "multiple",
+          "single"
+        ],
+        "allowSeparatedGroups": false
+      }
+    ]
+  }
+}
