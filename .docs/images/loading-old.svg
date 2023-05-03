@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:auto;background:#fff;display:block;" width="200px" height="50px" viewBox="0 0 100 20" preserveAspectRatio="xMidYMid">
+<g transform="translate(20 10)">
+<circle cx="0" cy="0" r="6" fill="#ef446d">
+  <animateTransform attributeName="transform" type="scale" begin="-0.5597014925373134s" calcMode="spline" keySplines="0.3 0 0.7 1;0.3 0 0.7 1" values="0;1;0" keyTimes="0;0.5;1" dur="1.4925373134328357s" repeatCount="indefinite"></animateTransform>
+</circle>
+</g><g transform="translate(40 10)">
+<circle cx="0" cy="0" r="6" fill="#0a406b">
+  <animateTransform attributeName="transform" type="scale" begin="-0.3731343283582089s" calcMode="spline" keySplines="0.3 0 0.7 1;0.3 0 0.7 1" values="0;1;0" keyTimes="0;0.5;1" dur="1.4925373134328357s" repeatCount="indefinite"></animateTransform>
+</circle>
+</g><g transform="translate(60 10)">
+<circle cx="0" cy="0" r="6" fill="#ffe2e9">
+  <animateTransform attributeName="transform" type="scale" begin="-0.18656716417910446s" calcMode="spline" keySplines="0.3 0 0.7 1;0.3 0 0.7 1" values="0;1;0" keyTimes="0;0.5;1" dur="1.4925373134328357s" repeatCount="indefinite"></animateTransform>
+</circle>
+</g><g transform="translate(80 10)">
+<circle cx="0" cy="0" r="6" fill="#81a3bd">
+  <animateTransform attributeName="transform" type="scale" begin="0s" calcMode="spline" keySplines="0.3 0 0.7 1;0.3 0 0.7 1" values="0;1;0" keyTimes="0;0.5;1" dur="1.4925373134328357s" repeatCount="indefinite"></animateTransform>
+</circle>
+</g>
+</svg>
