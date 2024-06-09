@@ -25,7 +25,7 @@ export const Home: FC = () => {
   return (
     <Page id="home" title="" description={t('description')} keywords={t('keywords')}>
       <GeneralTemplate modifiers="no-top">
-        <SectionBanner imgSrc="/images/home/intro.jpeg">
+        <SectionBanner imgSrc="/images/home/intro.jpg">
           <Text>{templateLocale(t('description'))}</Text>
         </SectionBanner>
         <SectionService title={t('section-service.title')} desc={templateLocale(t('section-service.desc'))}>
@@ -77,7 +77,7 @@ export const Home: FC = () => {
         </SectionVision>
         <SectionVision
           title={t('section-mission.title')}
-          imgSrc="/images/home/mission.jpeg"
+          imgSrc="/images/home/mission.jpg"
           modifiers="invert"
           link={<Link modifiers="arrow">{t('read-more', { ns: 'common' })}</Link>}
         >

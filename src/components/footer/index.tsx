@@ -105,7 +105,7 @@ export const Footer: FC<Props> = ({ className: additionalClassName = '', menuLis
           </Column>
           <Column className={styles['footer__column-copyright']}>
             <Text>
-              <span className="copyright">&copy; 2021-{new Date().getFullYear()} by ASIA EIWA.</span>
+              <span className={styles['footer__copyright']}>&copy; 2021-{new Date().getFullYear()} by ASIA EIWA.</span>
               <br /> {t('all-rights')}
             </Text>
           </Column>
