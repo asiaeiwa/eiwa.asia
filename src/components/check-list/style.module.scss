@@ -11,12 +11,12 @@
     margin-bottom: rem(12px);
     padding-left: rem(26px);
     font-size: rem(14px);
-    line-height: line-height(16, 14);
+    line-height: line-height(18, 14);
 
     &:before {
       content: ' ';
       position: absolute;
-      top: 0;
+      top: rem(2px);
       left: 0;
       width: rem(15px);
       height: rem(15px);

@@ -83,7 +83,7 @@ export const Home: FC = () => {
         >
           <Text>{templateLocale(t('section-mission.desc'))}</Text>
         </SectionVision>
-        <SectionOptimise title={t('section-optimise.title')} desc={t('section-optimise.desc')}>
+        <SectionOptimise title={t('section-optimise.title')} desc={templateLocale(t('section-optimise.desc'))}>
           <OptimiseItem heading={t('section-optimization.01.bold')} desc={t('section-optimization.01.paragraph')} />
           <OptimiseItem heading={t('section-optimization.02.bold')} desc={t('section-optimization.02.paragraph')} />
           <OptimiseItem heading={t('section-optimization.03.bold')} desc={t('section-optimization.03.paragraph')} />
