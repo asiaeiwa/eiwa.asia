@@ -5,7 +5,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 const isFullClass = (!isProduction && process.env.ASBUILD !== 'true') || process.env.FULLCLASS === 'true';
 const isAnalyze = process.env.ANALYZE === 'true';
 const isTSCheck = process.env.TSCHECK || process.env.TSCHECK === 'true';
-const hashLength = process.env.HASHLENGTH || 4;
+const hashLength = process.env.HASHLENGTH || 5;
 
 const mapHash = { fisrt: '' };
 
