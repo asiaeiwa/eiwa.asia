@@ -1,18 +1,18 @@
 {
-  "description": "Let EIWA make technology easy for you. By providing software solutions and meeting the technology needs of businesses, EIWA promises to fully meet the needs of businesses, and at the same time bring valuable digital values.",
-  "keywords": "EIWA, techology, digital technology, solution, system.",
+  "description": "EIWA: Cultivating Lasting Prosperity Through Innovation.\nAt EIWA, we believe in the transformative power of technology. We are driven by a core principle: to empower businesses to achieve lasting prosperity through innovative IT solutions. We are a team of passionate and dedicated professionals who combine cutting-edge expertise with a deep understanding of your unique business needs.",
+  "keywords": "EIWA, techology, digital technology, solution, system, trainning",
   "section-service": {
     "title": "Services",
-    "desc": "We offer a full spectrum of services from IT consultant, offshoring to investment consultant and digital conversion to cover all your technology needs.",
+    "desc": "We provide a comprehensive range of services, from IT consulting and cybersecurity training to investment consulting and digital transformation support, to optimize the application of technology in corporate management.",
     "list": {
       "01": "Investment Consultant",
       "02": "IT Consultant",
-      "03": "Offshore"
+      "03": "Training"
     }
   },
   "section-product": {
-    "title": "Product",
-    "desc": "We understand that many of you want to explore about what is in our IT products. This website allows you to see  our product attributes such as features, cost and functions of each package, which supports you in selecting the optimum solution for your business.",
+    "title": "Solution",
+    "desc": "EIWA, a leading IT solutions provider, understands these challenges. We offer a comprehensive suite of enterprise solutions designed to empower businesses to meet the ever-evolving demands of the market. Our solutions are built on a foundation of deep industry expertise, a commitment to cost-effectiveness, and a dedication to delivering results within your timeframe.",
     "list": {
       "01": {
         "title": "EMES(Manufacturing execution System)",

@@ -11,7 +11,7 @@ interface Props {
   children?: ReactNode;
   className?: string;
   title: string;
-  desc: string;
+  desc: ReactNode;
 }
 
 export const SectionService: FC<Props> = ({ children, className: additionalClassName = '', title, desc }) => {
