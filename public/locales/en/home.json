@@ -36,7 +36,12 @@
       },
       "03": {
         "title": "Digital transformation",
-        "features": ["IT Consulting", "Offshoring", "Investment Advisory", "Digital Transformation Support"]
+        "features": [
+          "IT Consulting",
+          "Offshoring",
+          "Investment Advisory",
+          "Digital Transformation Support"
+        ]
       }
     }
   },

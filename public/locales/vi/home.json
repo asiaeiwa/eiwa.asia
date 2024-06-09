@@ -36,7 +36,12 @@
       },
       "03": {
         "title": "Chuyển đổi số",
-        "features": ["Tư vấn CNTT", "Dịch vụ Offshore", "Tư vấn đầu tư", "Hỗ trợ chuyển đổi số"]
+        "features": [
+          "Tư vấn CNTT",
+          "Dịch vụ Offshore",
+          "Tư vấn đầu tư",
+          "Hỗ trợ chuyển đổi số"
+        ]
       }
     }
   },

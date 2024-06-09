@@ -31,25 +31,25 @@ const About: FC = () => {
         <AboutText title={'"Make Believe, Make Business"'}>
           <Text>{t('section.02.description.01')}</Text>
           <Text>{t('section.02.description.02')}</Text>
+          <Text>{t('section.02.description.03')}</Text>
           <ol>
-            <li>{t('section.02.description.03.01')}</li>
-            <li>{t('section.02.description.03.02')}</li>
-            <li>{t('section.02.description.03.03')}</li>
+            <li>{t('section.02.description.04.01')}</li>
+            <li>{t('section.02.description.04.02')}</li>
+            <li>{t('section.02.description.04.03')}</li>
           </ol>
         </AboutText>
-        <AboutImage imgSrc="/images/about/anh-2.jpg" />
-        <AboutText title={t('section.04.title')}>
-          <Text>{t('section.04.description.01')}</Text>
-          <Text>{t('section.04.description.02')}</Text>
-          <Text>{t('section.04.description.03')}</Text>
-        </AboutText>
+        <AboutImage imgSrc="/images/about/ms-anh-2.jpg" />
+        <AboutText title={t('section.04.title')} sub={t('section.04.description.01')} />
         <AboutImage
           imgSrc="/images/about/uy.jpg"
           quote={t('section.05.quote')}
           name={t('section.05.name')}
           position={t('section.05.position')}
         />
-        <AboutText title={t('section.06.title')} sub={t('section.06.description.01')} />
+        <AboutText title={t('section.06.title')}>
+          <Text>{t('section.06.description.01')}</Text>
+          <Text>{t('section.06.description.02')}</Text>
+        </AboutText>
         <AboutImage
           imgSrc="/images/about/tin.jpg"
           quote={t('section.07.quote')}
@@ -57,7 +57,10 @@ const About: FC = () => {
           position={t('section.07.position')}
           modifiers="bottom"
         />
-        <AboutText title={t('section.08.title')} sub={t('section.08.description.01')} />
+        <AboutText title={t('section.08.title')}>
+          <Text>{t('section.08.description.01')}</Text>
+          <Text>{t('section.08.description.02')}</Text>
+        </AboutText>
       </GeneralTemplate>
     </Page>
   );
