@@ -38,7 +38,7 @@ export const Home: FC = () => {
             title={t('section-product.list.01.title')}
             modifiers="cate"
             button={
-              <Button modifiers="outline" tag="a" href="#">
+              <Button modifiers="outline" tag="a" href="/contact">
                 {t('view-detail', { ns: 'common' })}
               </Button>
             }
@@ -49,7 +49,7 @@ export const Home: FC = () => {
             title={t('section-product.list.02.title')}
             modifiers="cate"
             button={
-              <Button modifiers="outline" tag="a" href="#">
+              <Button modifiers="outline" tag="a" href="/contact">
                 {t('view-detail', { ns: 'common' })}
               </Button>
             }
@@ -60,7 +60,7 @@ export const Home: FC = () => {
             title={t('section-product.list.03.title')}
             modifiers="cate"
             button={
-              <Button modifiers="outline" tag="a" href="#">
+              <Button modifiers="outline" tag="a" href="/contact">
                 {t('view-detail', { ns: 'common' })}
               </Button>
             }
