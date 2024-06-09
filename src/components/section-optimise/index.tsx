@@ -8,7 +8,7 @@ import styles from './style.module.scss';
 interface ServiceProps {
   className?: string;
   title: string;
-  desc: string;
+  desc: ReactNode;
   children: ReactNode;
 }
 

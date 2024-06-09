@@ -8,7 +8,6 @@
     padding-bottom: rem(10px);
     color: $base;
     text-decoration: none;
-    transition: 0.3s linear;
 
     &:before {
       content: '';
@@ -20,10 +19,11 @@
       max-width: rem(84px);
       height: rem(8px);
       background: transparent url('~images/icons/arrow-line.svg') no-repeat center right;
+      transition: 0.3s linear;
     }
 
-    &:hover {
-      letter-spacing: 0.68em;
+    &:hover:before {
+      transform: translateX(10px);
     }
   }
 

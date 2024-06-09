@@ -1,94 +1,85 @@
 {
-  "description": "Hãy để EIWA làm cho công nghệ trở nên dễ dàng đối với bạn. Bằng việc cung cấp giải pháp phần mềm và đáp ứng nhu cầu về công nghệ của các doanh nghiệp, EIWA hứa hẹn đáp ứng đầy đủ nhu cầu của các doanh nghiệp, đồng thời mang lại những giá trị đáng giá về công nghệ số",
-  "keywords": "EIWA, công nghệ, công nghệ số, giải pháp, phần mềm.",
+  "description": "EIWA: Nuôi Dưỡng Phát Triển Bền Vững Thông Qua Đổi Mới.\n\nEIWA tin vào sức mạnh biến đổi của công nghệ, và sứ mệnh của chúng tôi là trao quyền cho doanh nghiệp đạt được sự thịnh vượng lâu dài thông qua các giải pháp CNTT sáng tạo. Đội ngũ chuyên gia EIWA nhiệt huyết và tận tâm, luôn sát cánh cùng bạn, kết hợp chuyên môn hàng đầu và thấu hiểu sâu sắc nhu cầu kinh doanh độc đáo của bạn.",
+  "keywords": "EIWA, công nghệ, công nghệ số, giải pháp, phần mềm, đào tạo",
   "section-service": {
     "title": "Dịch vụ",
-    "desc": "Chúng tôi cung cấp đầy đủ các dịch vụ từ tư vấn IT, offshoring cho đến tư vấn đầu tư và hỗ trợ chuyển đổi số nhằm tối ưu ứng dụng công nghệ trong việc quản lý doanh nghiệp.",
+    "desc": "Chúng tôi cung cấp đầy đủ các dịch vụ từ tư vấn IT, các khoá đào tạo về CNTN  cho đến tư vấn đầu tư và hỗ trợ chuyển đổi số nhằm tối ưu ứng dụng công nghệ trong việc quản lý doanh nghiệp.",
     "list": {
       "01": "Tư vấn đầu tư",
       "02": "Tư vấn IT",
-      "03": "Offshore"
+      "03": "Đào tạo"
     }
   },
   "section-product": {
-    "title": "Sản phẩm",
-    "desc": "Nắm bắt được nhu cầu tìm hiểu về các gói sản phẩm IT, chúng tôi hi vọng trang web này cung cấp đầy đủ thông tin về đặc điểm, tính năng và giá cả của từng gói để bạn có thể dễ dàng lựa chọn giải pháp tối ưu nhất cho doanh nghiệp của mình.",
+    "title": "Giải pháp của chúng tôi",
+    "desc": "EIWA, một nhà cung cấp giải pháp CNTT hàng đầu, hiểu những thách thức này. Chúng tôi cung cấp một bộ giải pháp doanh nghiệp toàn diện được thiết kế để trao quyền cho các doanh nghiệp đáp ứng các nhu cầu không ngừng thay đổi của thị trường.\nCác giải pháp của chúng tôi được xây dựng dựa trên nền tảng chuyên môn sâu sắc trong ngành, cam kết tiết kiệm chi phí và tận tâm mang lại kết quả trong khung thời gian của bạn.",
     "list": {
       "01": {
-        "title": "Quản lý sản xuất",
+        "title": "Giải pháp cho doanh nghiệp",
         "features": [
-          "Quản lý chất lượng",
-          "Vá lỗ hổng hệ thống",
-          "Phân tích hiệu suất",
-          "Nâng cao trải nghiệm khách hàng",
-          "Báo cáo bán hàng tự động",
-          "Hỗ trợ tác vụ quản trị "
+          "Khai thác dữ liệu IoT để phát triển sản phẩm và dịch vụ sáng tạo đáp ứng nhu cầu khách hàng.",
+          "Tư vấn và triển khai phầm mềm Odoo",
+          "Thực hiện các dự án tùy chỉnh theo đặc thù kinh doanh của từng doanh nghiệp",
+          "Tư vấn triển khai phần mềm SAP "
         ]
       },
       "02": {
-        "title": "Quản lý khách hàng",
+        "title": "Quản lý CNTT trong doanh nghiệp",
         "features": [
-          "Quản lý chất lượng",
-          "Vá lỗ hổng hệ thống",
-          "Phân tích hiệu suất",
-          "Nâng cao trải nghiệm khách hàng",
-          "Báo cáo bán hàng tự động",
-          "Hỗ trợ tác vụ quản trị"
+          "Chiến lược & Quản trị CNTT",
+          "Thúc đẩy Đổi mới Tổ chức & Cải cách Phong cách Làm việc",
+          "Lập kế hoạch & Triển khai CNTT",
+          "Dịch vụ Hỗ trợ Cho các Công ty Tách ra và M&A",
+          "Dịch vụ Số hóa & PMO",
+          "Dịch vụ Nghiên cứu CNTT"
         ]
       },
       "03": {
-        "title": "Quản lý doanh nghiệp",
-        "features": [
-          "Theo dõi lịch chấm công của nhân viên",
-          "Hỗ trợ manager theo dõi lịch làm việc của nhân viên",
-          "Tính lương nhân viên",
-          "Quản lý và duyệt đơn nghỉ phép",
-          "Hỗ trợ quản lý hợp đồng và quản lý tài chính",
-          "Hỗ trợ chữ ký điện tử"
-        ]
+        "title": "Chuyển đổi số",
+        "features": ["Tư vấn CNTT", "Dịch vụ Offshore", "Tư vấn đầu tư", "Hỗ trợ chuyển đổi số"]
       }
     }
   },
   "section-vision": {
     "title": "Tầm nhìn",
-    "desc": "Chúng tôi kết nối những cơ hội kinh doanh và mang những giải pháp IT của doanh nghiệp địa phương đến với các doanh nghiệp vừa và nhỏ tại thị trường Châu Á."
+    "desc": "ASIA EIWA mong muốn trở thành đối tác tin cậy, đồng hành cùng doanh nghiệp Châu Á trên hành trình chuyển đổi số và hội nhập quốc tế"
   },
   "section-mission": {
     "title": "Sứ mệnh",
-    "desc": "Mang đến cơ hội kinh doanh cho các doanh nghiệp địa phương, đồng thời phổ biến rộng rãi  giải pháp và dịch vụ IT của các doanh nghiệp này trên thị trường Châu Á."
+    "desc": "Kết nối công nghệ: Thể hiện vai trò cầu nối, mang đến giải pháp công nghệ phù hợp cho doanh nghiệp.\n\nKiến tạo thành công: Nhấn mạnh mục tiêu đồng hành cùng doanh nghiệp phát triển bền vững.\n\nCho doanh nghiệp Châu Á: Khẳng định tập trung vào thị trường Châu Á"
   },
   "section-optimise": {
-    "title": "Optimization Of Business Features",
+    "title": "Tối ưu hóa tính năng doanh nghiệp",
     "desc": "Với tiêu chí đề cao lợi ích của khách hàng, chúng tôi cung cấp những phần mềm và dịch vụ cho phép khách hàng tối ưu hoá mô hình kinh doanh của mình. Đồng thời, ASIA EIWA cũng cung cấp những gói dịch vụ tuỳ chỉnh theo nhu cầu của doanh nghiệp với mức ngân sách hợp lý, giúp khách hàng có thể bổ sung tính năng, cải thiện các chương trình để đáp ứng nhu cầu thay đổi linh hoạt."
   },
   "section-optimization": {
     "01": {
-      "bold": "Giải pháp công nghệ",
-      "paragraph": "sứ mệnh của chúng tôi là làm cho công nghệ trở nên dễ dàng cho bạn. Bằng những kiến thức chuyên môn trong lĩnh vực IT, chúng tôi mong muốn mang lại cho bạn những kết quả nhất quán về hệ thống, tư duy thiết kế, trải nghiệm người dùng cùng với quy trình kỹ thuật tiêu chuẩn."
+      "bold": "Internet vạn vật (IoT)",
+      "paragraph": "Giải pháp công nghệ: sứ mệnh của chúng tôi là làm cho công nghệ trở nên dễ dàng cho bạn. Bằng những kiến thức chuyên môn trong lĩnh vực IT, chúng tôi mong muốn mang lại cho bạn những kết quả nhất quán về hệ thống, tư duy thiết kế, trải nghiệm người dùng cùng với quy trình kỹ thuật tiêu chuẩn."
     },
     "02": {
-      "bold": "Hệ thống",
-      "paragraph": "cung cấp hệ thống quản lý sản xuất hiện đại, cùng các tính năng vượt trội, giúp bạn quản lý doanh nghiệp một cách triệt để, nhất quán."
+      "bold": "Phân tích dữ liệu (Data Analytics)",
+      "paragraph": "Thu thập, phân tích dữ liệu kinh doanh để đưa ra quyết định dựa trên dữ liệu, xác định xu hướng thị trường và tối ưu hóa hiệu suất hoạt động"
     },
     "03": {
-      "bold": "Hỗ trợ công nghệ",
-      "paragraph": "nếu bạn là một doanh nghiệp vừa và nhỏ muốn cải thiện trải nghiệm CNTT và đạt được kết quả đặc biệt với khoản đầu tư CNTT, EIWA hứa hẹn sẽ là đối tác giải pháp công nghệ cho bạn"
+      "bold": "Trí tuệ nhân tạo (Artificial Intelligence)",
+      "paragraph": "Ứng dụng AI vào các quy trình kinh doanh như chatbot, phân tích dự đoán và tự động hóa quy trình để nâng cao hiệu quả và năng suất."
     },
     "04": {
-      "bold": "Hỗ trợ nguồn nhân lực",
-      "paragraph": "hiểu được các doanh  nghiệp đang khó khăn trong việc tìm kiếm nguồn nhân lực đắt giá, chúng tôi hỗ trợ quý doanh nghiệp nguồn nhân lực đa dạng trên nhiều mảng trong lĩnh vực Công nghệ, giúp quý doanh nghiệp vượt qua rào cản về con người và công nghệ."
+      "bold": "Machine Learning",
+      "paragraph": "Cho phép hệ thống tự động học hỏi từ dữ liệu và cải thiện hiệu suất theo thời gian, ứng dụng trong phân tích dự đoán, cá  nhân hóa trải nghiệm khách hàng và nhiều lĩnh vực khác."
     },
     "05": {
-      "bold": "Hỗ trợ chuyển đổi số",
-      "paragraph": "công ty chúng tôi hổ trợ số hóa dữ liệu quản lý, kinh doanh của doanh nghiệp, áp dụng công nghệ số để tự động hóa, tối ưu hóa các quy trình nghiệp vụ, quy trình quản lý, sản xuất kinh doanh, quy trình báo cáo,phối hợp công việc trong doanh nghiệp cho đến việc chuyển đổi toàn bộ mô hình kinh doanh, tạo thêm giá trị mới cho doanh nghiệp"
+      "bold": "Phân tích mạng xã hội (Social Media Analytics)",
+      "paragraph": "Theo dõi, phân tích dữ liệu từ các nền tảng mạng xã hội để hiểu rõ hơn về khách hàng, thị trường và nâng cao hiệu quả chiến dịch marketing."
     },
     "06": {
-      "bold": "Digital Marketing",
-      "paragraph": "hiểu được tầm quang trọng của công nghệ số trong thời đại 4.0, chúng tôi mong muốn đưa doanh nghiệp của bạn phát triển dựa trên kiến thức về digital marketing của mình."
+      "bold": "Quản lý tri thức (Knowledge Management)",
+      "paragraph": "Xây dựng hệ thống lưu trữ, chia sẻ và quản lý tri thức của doanh nghiệp, giúp tối ưu hóa quy trình làm việc và nâng cao năng lực cạnh tranh."
     },
     "07": {
-      "bold": "Training",
-      "paragraph": "dựa trên kiến thức và những trải nghiệp của các chuyên gia của chúng tôi về công nghệ, chúng tôi mong muốn chia sẽ rộng rải, hổ trợ kiến thức về IT đến những ai có hứng thú về công nghệ số."
+      "bold": "Đào tạo",
+      "paragraph": "Training: dựa trên kiến thức và những trải nghiệp của các chuyên gia của chúng tôi về công nghệ, chúng tôi mong muốn chia sẽ rộng rải, hổ trợ kiến thức về IT đến những ai có hứng thú về công nghệ số."
     }
   }
 }
