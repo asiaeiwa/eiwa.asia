@@ -22,7 +22,7 @@ Normal.args = {
 
 export const Invert = Template.bind({});
 Invert.args = {
-  imgSrc: '/images/home/vision-2.jpg',
+  imgSrc: '/images/home/mission.jpg',
   title: 'Mission',
   children: [
     <Text key={1}>It is a long established fact that a reader will be distracted by</Text>,

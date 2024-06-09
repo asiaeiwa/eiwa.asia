@@ -1,3 +1,5 @@
+import { Fragment } from 'react';
+
 type MapModifiersModifier = string | false | null | undefined | MapModifiersModifier[];
 
 function generateModifierClassNameArray(
@@ -43,4 +45,16 @@ export const mapClassnames = (...arraysString: Array<string | boolean | undefine
     .join(' ')
     .trim();
   return c || undefined;
+};
+
+export const templateLocale = (value?: string) => {
+  if (!value) return null;
+
+  const splitArray = value.split('\n');
+  return splitArray.map((item, index) => (
+    <Fragment key={index}>
+      {index > 0 && <br />}
+      {item}
+    </Fragment>
+  ));
 };

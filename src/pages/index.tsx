@@ -17,6 +17,7 @@ import { SectionVision } from 'components/section-vision';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { FC } from 'react';
+import { templateLocale } from 'libs/component';
 
 export const Home: FC = () => {
   const { t } = useTranslation('home');
@@ -24,20 +25,20 @@ export const Home: FC = () => {
   return (
     <Page id="home" title="" description={t('description')} keywords={t('keywords')}>
       <GeneralTemplate modifiers="no-top">
-        <SectionBanner imgSrc="/images/home/team.jpg">
-          <Text>{t('description')}</Text>
+        <SectionBanner imgSrc="/images/home/intro.jpg">
+          <Text>{templateLocale(t('description'))}</Text>
         </SectionBanner>
-        <SectionService title={t('section-service.title')} desc={t('section-service.desc')}>
+        <SectionService title={t('section-service.title')} desc={templateLocale(t('section-service.desc'))}>
           <ServiceItem imgSrc="/images/home/service-investment.svg" title={t('section-service.list.01')} />
           <ServiceItem imgSrc="/images/home/service-it.svg" title={t('section-service.list.02')} />
           <ServiceItem imgSrc="/images/home/service-offshore.svg" title={t('section-service.list.03')} />
         </SectionService>
-        <SectionProduct title={t('section-product.title')} desc={t('section-product.desc')}>
+        <SectionProduct title={t('section-product.title')} desc={templateLocale(t('section-product.desc'))}>
           <PackItem
             title={t('section-product.list.01.title')}
             modifiers="cate"
             button={
-              <Button modifiers="outline" tag="a" href="#">
+              <Button modifiers="outline" tag="a" href="/contact">
                 {t('view-detail', { ns: 'common' })}
               </Button>
             }
@@ -48,7 +49,7 @@ export const Home: FC = () => {
             title={t('section-product.list.02.title')}
             modifiers="cate"
             button={
-              <Button modifiers="outline" tag="a" href="#">
+              <Button modifiers="outline" tag="a" href="/contact">
                 {t('view-detail', { ns: 'common' })}
               </Button>
             }
@@ -59,7 +60,7 @@ export const Home: FC = () => {
             title={t('section-product.list.03.title')}
             modifiers="cate"
             button={
-              <Button modifiers="outline" tag="a" href="#">
+              <Button modifiers="outline" tag="a" href="/contact">
                 {t('view-detail', { ns: 'common' })}
               </Button>
             }
@@ -76,13 +77,13 @@ export const Home: FC = () => {
         </SectionVision>
         <SectionVision
           title={t('section-mission.title')}
-          imgSrc="/images/home/vision-2.jpg"
+          imgSrc="/images/home/mission.jpg"
           modifiers="invert"
           link={<Link modifiers="arrow">{t('read-more', { ns: 'common' })}</Link>}
         >
-          <Text>{t('section-mission.desc')}</Text>
+          <Text>{templateLocale(t('section-mission.desc'))}</Text>
         </SectionVision>
-        <SectionOptimise title={t('section-optimise.title')} desc={t('section-optimise.desc')}>
+        <SectionOptimise title={t('section-optimise.title')} desc={templateLocale(t('section-optimise.desc'))}>
           <OptimiseItem heading={t('section-optimization.01.bold')} desc={t('section-optimization.01.paragraph')} />
           <OptimiseItem heading={t('section-optimization.02.bold')} desc={t('section-optimization.02.paragraph')} />
           <OptimiseItem heading={t('section-optimization.03.bold')} desc={t('section-optimization.03.paragraph')} />
