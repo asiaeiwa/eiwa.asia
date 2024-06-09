@@ -11,7 +11,7 @@ const Template: ComponentStory<typeof SectionBanner> = args => <SectionBanner {.
 
 export const Normal = Template.bind({});
 Normal.args = {
-  imgSrc: '/images/home/team.jpg',
+  imgSrc: '/images/home/intro.jpeg',
   children: (
     <Text>
       Let EIWA make technology easy for you. By providing software solutions and meeting the technology needs of
