@@ -30,6 +30,7 @@ export interface MenuItem {
   key: string;
   href: string;
   title: string;
+  target?: string;
 }
 
 export const MenuList = [
@@ -38,7 +39,7 @@ export const MenuList = [
   // { key: 'product', title: 'Product', href: '/product' },
   { key: 'service', title: 'Services', href: '/service' },
   // { key: 'team', title: 'Team', href: '/team' },
-  // { key: 'blog', title: 'Blog', href: '/blog' },
+  { key: 'blog', title: 'Blog', href: 'https://elearning.eiwa.asia/blog/', target: '_blank' },
   { key: 'career', title: 'Career', href: '/career' },
   { key: 'contact', title: 'Contact', href: '/contact' },
 ];

@@ -5,14 +5,15 @@
     "product": "商品",
     "service": "サービス",
     "team": "Team",
-    "blog": "ブログ",
+    "blog": "Blog",
     "career": "採用情報",
     "contact": "お問い合わせ",
     "service-child": {
-      "01": "Start-up Consulting",
-      "02": "IT Solution Consulting",
-      "03": "Enterprise Sofware Development",
-      "04": "Real Estate invest consulting"
+      "01": "Enterprise solutions",
+      "02": "IT Management",
+      "03": "Digital transformation",
+      "04": "M&A",
+      "05": "IT COURSE TRANINING"
     }
   },
   "subscribe-our": "ニュースレターを購読する",

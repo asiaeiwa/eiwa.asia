@@ -78,11 +78,20 @@ export const Header: FC<Props> = ({ className: additionalClassName = '', menuLis
                         <li>
                           <Link href="/service/real-estate-invest-consulting">{t('menu.service-child.04')}</Link>
                         </li>
+                        <li>
+                          <Link href="https://elearning.eiwa.asia/" target="_blank">
+                            {t('menu.service-child.05')}
+                          </Link>
+                        </li>
                       </ul>
                     </>
                   )}
                   {menu.key === 'team' && <Link href={menu.href}>{t('menu.team')}</Link>}
-                  {menu.key === 'blog' && <Link href={menu.href}>{t('menu.blog')}</Link>}
+                  {menu.key === 'blog' && (
+                    <Link href={menu.href} target={menu.target}>
+                      {t('menu.blog')}
+                    </Link>
+                  )}
                   {menu.key === 'career' && <Link href={menu.href}>{t('menu.career')}</Link>}
                   {menu.key === 'contact' && <Link href={menu.href}>{t('menu.contact')}</Link>}
                 </li>
