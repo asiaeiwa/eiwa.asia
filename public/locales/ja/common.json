@@ -1,13 +1,13 @@
 {
   "menu": {
     "home": "ホーム",
-    "about": "だいたい",
+    "about": "会社概要",
     "product": "商品",
     "service": "サービス",
     "team": "Team",
     "blog": "ブログ",
-    "career": "キャリア",
-    "contact": "連絡先",
+    "career": "採用情報",
+    "contact": "お問い合わせ",
     "service-child": {
       "01": "Start-up Consulting",
       "02": "IT Solution Consulting",

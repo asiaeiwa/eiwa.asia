@@ -1,13 +1,13 @@
 {
   "menu": {
-    "home": "Trang chủ",
-    "about": "Giới thiệu",
+    "home": "Trang Chủ",
+    "about": "Về Chúng Tôi",
     "product": "Các gói",
     "service": "Dịch vụ",
     "team": "Team",
     "blog": "Blog",
-    "career": "Tuyển dụng",
-    "contact": "Liên hệ",
+    "career": "Tuyển Dụng",
+    "contact": "Liên Hệ",
     "service-child": {
       "01": "Tư vấn Khởi nghiệp",
       "02": "Tư vấn giải pháp CNTT",
