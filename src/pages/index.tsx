@@ -94,11 +94,33 @@ export const Home: FC = () => {
         </SectionOptimise>
         <SectionPartner>
           <Partner
+            srcImg="/images/partner/ant-tech.jpg"
+            width={300}
+            height={141}
+            href="https://anttech.com.vn/"
+            alt="Ant Tech"
+          />
+          <Partner
+            srcImg="/images/partner/Becamex-Tokyu.png"
+            width={100}
+            height={100}
+            href="https://www.becamex-tokyu.com/"
+            alt="Becamex Tokyu"
+          />
+          <Partner
             srcImg="/images/partner/Ccft_logo.png"
             width={300}
             height={124}
             href="https://www.francothaicc.com/en.html"
             alt="Chambre de Commerce Franco-Thaïe"
+          />
+          <Partner srcImg="/images/partner/city-group.jpg" width={300} height={94} alt="CityGroup" />
+          <Partner
+            srcImg="/images/partner/ben.jpg"
+            width={225}
+            height={225}
+            href="https://executives.asia/"
+            alt="Business Executive Network"
           />
           <Partner
             srcImg="/images/partner/itpc_logo.png"
@@ -107,33 +129,27 @@ export const Home: FC = () => {
             href="http://itpc.hochiminhcity.gov.vn/home"
             alt="ITPC Ho Chi Minh City"
           />
-          <Partner srcImg="/images/partner/city-group.jpg" width={300} height={94} alt="CityGroup" />
-          <Partner srcImg="/images/partner/city-event.jpg" width={300} height={98} alt="CityEvent" />
-          <Partner srcImg="/images/partner/city-floral.jpg" width={300} height={107} alt="CityFloral" />
-          <Partner srcImg="/images/partner/city-travel.jpg" width={300} height={101} alt="CityTravel" />
-
+          <Partner
+            srcImg="/images/partner/doclink.jpg"
+            width={300}
+            height={169}
+            href="https://doclink.beyond.ai/products/doclink/"
+            alt="DocLink"
+          />
+          <Partner
+            srcImg="/images/partner/odoo_logo.png"
+            width={300}
+            height={225}
+            href="https://www.odoo.com/"
+            alt="Odoo"
+          />
+          <Partner srcImg="/images/partner/Okuro.png" width={100} height={100} href="https://okuro.vn/" alt="Okuro" />
           <Partner
             srcImg="/images/partner/vjp.png"
             width={306}
             height={75}
             href="https://vj-partner.com/"
             alt="Viet Japan"
-          />
-          <Partner srcImg="/images/partner/Okuro.png" width={100} height={100} href="https://okuro.vn/" alt="Okuro" />
-          <Partner srcImg="/images/partner/Minh-Long.png" width={100} height={100} alt="Minh Long" />
-          <Partner
-            srcImg="/images/partner/DolphinSolutions1.png"
-            width={200}
-            height={108}
-            href="https://dolphinsolutions.vn/"
-            alt="Dolphin Solutions"
-          />
-          <Partner
-            srcImg="/images/partner/Becamex-Tokyu.png"
-            width={100}
-            height={100}
-            href="https://www.becamex-tokyu.com/"
-            alt="Becamex Tokyu"
           />
         </SectionPartner>
       </GeneralTemplate>
