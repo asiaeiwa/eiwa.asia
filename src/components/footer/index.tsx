@@ -1,8 +1,6 @@
-import { Button } from 'components/button';
 import { Column } from 'components/column';
 import { Container } from 'components/container';
 import { Icon } from 'components/icon';
-import { Input } from 'components/input';
 import { Link } from 'components/link';
 import { Logo } from 'components/logo';
 import { Row } from 'components/row';
@@ -59,7 +57,7 @@ export const Footer: FC<Props> = ({ className: additionalClassName = '', menuLis
             )}
           </Column>
           <Column className={styles['footer__column-subscribe']}>
-            <Text>{t('subscribe-our')}</Text>
+            {/* <Text>{t('subscribe-our')}</Text>
             <form className={styles['footer__form']}>
               <div className={styles['footer__input-group']}>
                 <Input
@@ -74,7 +72,7 @@ export const Footer: FC<Props> = ({ className: additionalClassName = '', menuLis
                   {t('submit')}
                 </Button>
               </div>
-            </form>
+            </form> */}
           </Column>
           <Column className={styles['footer__column-logo']}>
             <Logo className={styles['footer__logo']} width={149} height={52} />
