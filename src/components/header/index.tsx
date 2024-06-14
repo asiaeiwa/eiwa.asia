@@ -73,7 +73,7 @@ export const Header: FC<Props> = ({ className: additionalClassName = '', menuLis
                           <Link href="/services/it-management">{t('menu.service-child.02')}</Link>
                         </li>
                         <li>
-                          <Link href="/services/enterprise-sofware-development">{t('menu.service-child.03')}</Link>
+                          <Link href="/services/digital-transformation">{t('menu.service-child.03')}</Link>
                         </li>
                         <li>
                           <Link href="/services/real-estate-invest-consulting">{t('menu.service-child.04')}</Link>
