@@ -1,29 +1,35 @@
 {
-  "title": "Services",
-  "description": "Our seasoned consultants stand ready to give expert advice to help your business improve operational efficiency.",
+  "title": "Dịch Vụ",
+  "description": "Giải phóng tiềm năng kỹ thuật số, hiện thực hóa mục tiêu kinh doanh cùng EIWA",
   "keywords": "Services, Enterprise, Sofware, Development, Service, IT, Solution, Consulting, Real Estate, invest consulting, Start-up",
   "section-01": {
-    "title": "Start-up Consulting",
+    "title": "Giải pháp doanh nghiệp",
     "description": {
-      "01": "Our seasoned consultants stand ready to give expert advice to help your business improve operational efficiency."
+      "01": "Giải phóng tiềm năng kỹ thuật số, hiện thực hóa mục tiêu kinh doanh cùng EIWA"
     }
   },
   "section-02": {
-    "title": "IT Solution Consulting",
+    "title": "Quản lý CNTT",
     "description": {
-      "01": "Providing managed services focused on proactive and strategic support to SMEs in Asia Market"
+      "01": "Đối tác quản trị CNTT toàn diện của bạn"
     }
   },
   "section-03": {
-    "title": "Enterprise Sofware Development",
+    "title": "Chuyển đổi số",
     "description": {
-      "01": "We will build an ERP system, Pride of Vietnam providing reasonable prices and modules that MEET Asia and Vietnamese markets."
+      "01": "Đối tác tin cậy cho chuyển đổi số"
     }
   },
   "section-04": {
-    "title": "Real Estate invest consulting",
+    "title": "M&A (Mua bán và sáp nhập)",
     "description": {
-      "01": "Providing real estate consulting services in development and investment activities, market research and valuation"
+      "01": "Cung cấp dịch vụ tư vấn bất động sản trong hoạt động phát triển và đầu tư, nghiên cứu thị trường và định giá. Hợp tác với EIWA và giải phóng sức mạnh chuyển đổi của M&A để đưa doanh nghiệp của bạn lên tầm cao mới."
+    }
+  },
+  "section-05": {
+    "title": "Đào tạo khóa học CNTT",
+    "description": {
+      "01": "Đào tạo khóa học CNTT"
     }
   }
 }

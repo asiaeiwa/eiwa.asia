@@ -12,6 +12,7 @@ interface Props {
   className?: string;
   title: string;
   bigTitle?: string;
+  parentTitle: string;
   imgSrc: string;
   isHiddenBreadcrumb?: boolean;
 }
@@ -21,6 +22,7 @@ export const ServiceIntro: FC<Props> = ({
   className: additionalClassName = '',
   title,
   bigTitle,
+  parentTitle,
   imgSrc,
   isHiddenBreadcrumb,
 }) => {
@@ -36,8 +38,8 @@ export const ServiceIntro: FC<Props> = ({
           {!isHiddenBreadcrumb && (
             <>
               <li>
-                <Link href="/service" modifiers="normal">
-                  Service
+                <Link href="/services" modifiers="normal">
+                  {parentTitle}
                 </Link>
               </li>
               <li>{title}</li>

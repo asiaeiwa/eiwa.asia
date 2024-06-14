@@ -24,7 +24,7 @@ const CareerDetail: FC = () => {
   const onModalClose = useCallback(() => setIsModalActive(false), []);
 
   return (
-    <Page id="career-detail" className={styles['career-detail']} title={t('recent.01.title')}>
+    <Page id="career-detail" className={styles['career-detail']} title={t('recent.02.title')}>
       <GeneralTemplate modifiers={'padding-bottom'}>
         <Container className={styles['career-detail__container']}>
           <Breadcrumb>
@@ -33,17 +33,17 @@ const CareerDetail: FC = () => {
           </Breadcrumb>
           <div className={styles['career-detail__header']}>
             <Heading tag="h1" modifiers="section" className={styles['career-detail__heading']}>
-              {t('recent.01.title')}
+              {t('recent.02.title')}
             </Heading>
-            <div className={styles['career-detail__type']}>{t('recent.01.type')}</div>
+            <div className={styles['career-detail__type']}>{t('recent.02.type')}</div>
             <ul className={styles['career-detail__props']}>
               <li>
                 <Icon modifiers="location" />
-                <span>{t('recent.01.location')}</span>
+                <span>{t('recent.02.location')}</span>
               </li>
               <li>
                 <Icon modifiers="salary" />
-                <span className={styles['career-detail__price']}>{t('recent.01.salary')}</span>
+                <span className={styles['career-detail__price']}>{t('recent.02.salary')}</span>
               </li>
             </ul>
           </div>
@@ -54,13 +54,10 @@ const CareerDetail: FC = () => {
               </Heading>
               <JobOverview
                 button={<Button onClick={onModalOpen}>{t('apply-job', { ns: 'common' })}</Button>}
-                dateExp={t('recent.01.dateExp')}
-                location={t('recent.01.location')}
-                salary={{
-                  from: 2000,
-                  to: 3000,
-                }}
-                title={t('recent.01.title')}
+                dateExp={t('recent.02.dateExp')}
+                location={t('recent.02.location')}
+                salary={{ from: 2500 }}
+                title={t('recent.02.title')}
               />
             </Column>
             <Column col={8} className={styles['career-detail__column-content']}>

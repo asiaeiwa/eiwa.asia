@@ -3,27 +3,33 @@
   "description": "Our seasoned consultants stand ready to give expert advice to help your business improve operational efficiency.",
   "keywords": "Services, Enterprise, Sofware, Development, Service, IT, Solution, Consulting, Real Estate, invest consulting, Start-up",
   "section-01": {
-    "title": "Start-up Consulting",
+    "title": "Enterprise solutions",
     "description": {
-      "01": "Our seasoned consultants stand ready to give expert advice to help your business improve operational efficiency."
+      "01": "Let us help you unlock your full digital potential and achieve your business goals."
     }
   },
   "section-02": {
-    "title": "IT Solution Consulting",
+    "title": "IT Management",
     "description": {
-      "01": "Providing managed services focused on proactive and strategic support to SMEs in Asia Market"
+      "01": "Your Comprehensive IT Management Partner"
     }
   },
   "section-03": {
-    "title": "Enterprise Sofware Development",
+    "title": "Digital transformation",
     "description": {
-      "01": "We will build an ERP system, Pride of Vietnam providing reasonable prices and modules that MEET Asia and Vietnamese markets."
+      "01": "We believe that a successful digital transformation strategy should be tailored to each organization's specific goals and objectives."
     }
   },
   "section-04": {
-    "title": "Real Estate invest consulting",
+    "title": "M&A (Mergers and Acquisitions)",
     "description": {
-      "01": "Providing real estate consulting services in development and investment activities, market research and valuation"
+      "01": "Providing real estate consulting services in development and investment activities, market research and valuation.Partner with EIWA and unlock the transformative power of M&A to elevate your business to new heights."
+    }
+  },
+  "section-05": {
+    "title": "IT COURSE TRANINING",
+    "description": {
+      "01": "IT COURSE TRANINING"
     }
   }
 }

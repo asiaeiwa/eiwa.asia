@@ -22,7 +22,7 @@ const About: FC = () => {
     >
       <GeneralTemplate modifiers="no-top">
         <AboutImage
-          imgSrc="/images/about/anh-1.jpg"
+          imgSrc="/images/about/ms-anh-01.jpg"
           quote={t('section.01.quote')}
           name={t('section.01.name')}
           position={t('section.01.position')}
@@ -38,7 +38,7 @@ const About: FC = () => {
             <li>{t('section.02.description.04.03')}</li>
           </ol>
         </AboutText>
-        <AboutImage imgSrc="/images/about/ms-anh-2.jpg" />
+        <AboutImage imgSrc="/images/about/ms-anh-02.jpg" />
         <AboutText title={t('section.04.title')} sub={t('section.04.description.01')} />
         <AboutImage
           imgSrc="/images/about/uy.jpg"

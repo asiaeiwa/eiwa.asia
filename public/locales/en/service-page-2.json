@@ -1,0 +1,39 @@
+{
+  "title": "IT Management",
+  "description": "Your Comprehensive IT Management Partner",
+  "keywords": "Your Comprehensive, IT, Management, Partner",
+  "section-01": {
+    "title": "The Challenge of the Chief \nInformation Officer (CIO)",
+    "description": {
+      "01": "Today's Chief Information Officer (CIO) plays a vital role with the potential to make significant contributions to corporate strategy and management. However, in reality, CIOs often find themselves focused primarily on IT system optimization and consolidation, limiting their ability to fully support broader business goals.",
+      "02": ""
+    }
+  },
+  "section-02": {
+    "title": "IT Strategy & Governance",
+    "ul": {
+      "01": "Develop mid-term IT plans and roadmaps that contribute to management strategy.",
+      "02": "Establish large-scale designs for IT integration and standardization (enterprise architecture).",
+      "03": "Develop frameworks to evaluate the priorities of IT investment projects.",
+      "04": "Organize, integrate, and update scattered IT regulations across group companies.",
+      "05": "Implement a CIO cockpit that supports data-driven decision making.",
+      "06": "Improve and transform IT service management (system operation/development)."
+    }
+  },
+  "section-03": {
+    "title": "Promoting Organizational \nInnovation & Workstyle Reform",
+    "ul": {
+      "01": "Establish reform plans for IT organizations (including restructuring companies with IT functions and developing joint ventures).",
+      "02": "Train future executives responsible for leading autonomous innovative changes in IT divisions.",
+      "03": "Review IT utilization and internal rules to enable workstyle reform.",
+      "04": "Visualize the business performance of IT divisions to support workstyle reform"
+    }
+  },
+  "section-04": {
+    "title": "IT Planning & Implementation",
+    "ul": {
+      "01": "Support business divisions in developing IT budgets, IT planning, and IT implementation.",
+      "02": "Assist IT divisions in planning for new business models."
+    }
+  }
+}
