@@ -67,9 +67,9 @@ const Service: FC = () => {
         <SectionVision
           modifiers="invert"
           title={t('section-04.title')}
-          imgSrc="/images/services/real-estate-invest-consulting/image-1.jpg"
+          imgSrc="/images/services/mergers-and-acquisitions/image-1.jpg"
           link={
-            <Link modifiers="arrow" href="/services/real-estate-invest-consulting">
+            <Link modifiers="arrow" href="/services/mergers-and-acquisitions">
               {t('read-more', { ns: 'common' })}
             </Link>
           }
