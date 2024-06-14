@@ -19,7 +19,11 @@ const ServiceRealEstate: FC = () => {
       imgFeatureSrc="/images/services/real-estate-invest-consulting/image-2.jpg"
     >
       <GeneralTemplate modifiers="no-top">
-        <ServiceIntro title={t('title')} imgSrc="/images/services/real-estate-invest-consulting/intro-bg.jpeg">
+        <ServiceIntro
+          parentTitle={t('menu.service', { ns: 'common' })}
+          title={t('title')}
+          imgSrc="/images/services/real-estate-invest-consulting/intro-bg.jpeg"
+        >
           <Text>{t('description')}</Text>
         </ServiceIntro>
         <ServiceArticle

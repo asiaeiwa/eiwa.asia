@@ -17,15 +17,19 @@ const ServiceEnterpriseSolutions: FC = () => {
       title={`${t('title')} | ${t('menu.service', { ns: 'common' })}`}
       description={t('description')}
       keywords={t('keywords')}
-      imgFeatureSrc="/images/services/enterprise-solutions/image-1.jpg"
+      imgFeatureSrc="/images/services/enterprise-solutions/image-1.png"
     >
       <GeneralTemplate modifiers="no-top">
-        <ServiceIntro title={t('title')} imgSrc="/images/services/enterprise-solutions/intro-bg.jpeg">
+        <ServiceIntro
+          parentTitle={t('menu.service', { ns: 'common' })}
+          title={t('title')}
+          imgSrc="/images/services/enterprise-solutions/intro-bg.jpeg"
+        >
           <Text>{t('description')}</Text>
         </ServiceIntro>
         <ServiceArticle
           title={templateLocale(t('section-01.title'))}
-          imgSrc="/images/services/enterprise-solutions/image-1.jpg"
+          imgSrc="/images/services/enterprise-solutions/image-1.png"
         >
           <Text>{t('section-01.description.01')}</Text>
           <Text>{t('section-01.description.02')}</Text>

@@ -24,6 +24,7 @@ const Service: FC = () => {
       <GeneralTemplate modifiers="no-top">
         <ServiceIntro
           isHiddenBreadcrumb
+          parentTitle={t('menu.service', { ns: 'common' })}
           title={t('title')}
           imgSrc="/images/services/enterprise-solutions/intro-bg.jpeg"
         >

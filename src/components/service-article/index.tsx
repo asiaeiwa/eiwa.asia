@@ -38,8 +38,8 @@ export const ServiceArticle: FC<Props> = ({
           <Column col={6}>
             <Image
               src={imgSrc}
-              width={548}
-              height={282}
+              width={600}
+              height={400}
               modifiers="rounded"
               isLazy
               alt={typeof title === 'string' ? String(title) : 'Service Image'}

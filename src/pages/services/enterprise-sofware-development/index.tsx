@@ -19,7 +19,11 @@ const ServiceEnterprise: FC = () => {
       imgFeatureSrc="/images/services/enterprise-sofware-development/image-3.jpg"
     >
       <GeneralTemplate modifiers="no-top">
-        <ServiceIntro title={t('title')} imgSrc="/images/services/enterprise-sofware-development/intro-bg.jpeg">
+        <ServiceIntro
+          parentTitle={t('menu.service', { ns: 'common' })}
+          title={t('title')}
+          imgSrc="/images/services/enterprise-sofware-development/intro-bg.jpeg"
+        >
           <Text>{t('description')}</Text>
         </ServiceIntro>
         <ServiceArticle

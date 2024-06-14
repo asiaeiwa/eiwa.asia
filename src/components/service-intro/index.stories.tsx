@@ -12,6 +12,7 @@ const Template: ComponentStory<typeof ServiceIntro> = args => <ServiceIntro {...
 
 export const Normal = Template.bind({});
 Normal.args = {
+  parentTitle: 'Services',
   title: 'Operational management in SMES',
   imgSrc: '/images/services/enterprise-solutions/intro-bg.jpeg',
   children: (
