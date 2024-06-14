@@ -3,6 +3,7 @@ import { Page } from 'components/page';
 import { ServiceArticle } from 'components/service-article';
 import { ServiceIntro } from 'components/service-intro';
 import { Text } from 'components/text';
+import { templateLocale } from 'libs/component';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { FC } from 'react';
@@ -22,13 +23,16 @@ const ServiceEnterpriseSolutions: FC = () => {
         <ServiceIntro title={t('title')} imgSrc="/images/services/enterprise-solutions/intro-bg.jpeg">
           <Text>{t('description')}</Text>
         </ServiceIntro>
-        <ServiceArticle title={t('section-01.title')} imgSrc="/images/services/enterprise-solutions/image-1.jpg">
+        <ServiceArticle
+          title={templateLocale(t('section-01.title'))}
+          imgSrc="/images/services/enterprise-solutions/image-1.jpg"
+        >
           <Text>{t('section-01.description.01')}</Text>
           <Text>{t('section-01.description.02')}</Text>
         </ServiceArticle>
         <ServiceArticle
           modifiers="invert"
-          title={t('section-02.title')}
+          title={templateLocale(t('section-02.title'))}
           imgSrc="/images/services/enterprise-solutions/image-2.jpg"
         >
           <Text>{t('section-02.description.01')}</Text>

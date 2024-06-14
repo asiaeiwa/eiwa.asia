@@ -11,7 +11,7 @@ import styles from './style.module.scss';
 interface Props {
   className?: string;
   modifiers?: ModifierProp<'invert'>;
-  title: string;
+  title: ReactNode;
   children?: ReactNode;
   imgSrc: string;
 }
@@ -36,7 +36,14 @@ export const ServiceArticle: FC<Props> = ({
             <div className={styles['service-article__description']}>{children}</div>
           </Column>
           <Column col={6}>
-            <Image src={imgSrc} width={548} height={282} modifiers="rounded" isLazy alt={title} />
+            <Image
+              src={imgSrc}
+              width={548}
+              height={282}
+              modifiers="rounded"
+              isLazy
+              alt={typeof title === 'string' ? String(title) : 'Service Image'}
+            />
           </Column>
         </Row>
       </Container>
