@@ -71,7 +71,11 @@ export const Home: FC = () => {
         <SectionVision
           title={t('section-vision.title')}
           imgSrc="/images/home/vision-1.jpg"
-          link={<Link modifiers="arrow">{t('read-more', { ns: 'common' })}</Link>}
+          link={
+            <Link modifiers="arrow" href="/about">
+              {t('read-more', { ns: 'common' })}
+            </Link>
+          }
         >
           <Text>{t('section-vision.desc')}</Text>
         </SectionVision>
@@ -79,7 +83,11 @@ export const Home: FC = () => {
           title={t('section-mission.title')}
           imgSrc="/images/home/mission.jpg"
           modifiers="invert"
-          link={<Link modifiers="arrow">{t('read-more', { ns: 'common' })}</Link>}
+          link={
+            <Link modifiers="arrow" href="/about">
+              {t('read-more', { ns: 'common' })}
+            </Link>
+          }
         >
           <Text>{templateLocale(t('section-mission.desc'))}</Text>
         </SectionVision>
