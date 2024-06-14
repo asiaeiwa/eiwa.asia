@@ -44,9 +44,9 @@ const Service: FC = () => {
         <SectionVision
           modifiers="invert"
           title={t('section-02.title')}
-          imgSrc="/images/services/it-solution-consulting/image-2.jpg"
+          imgSrc="/images/services/it-management/image-2.jpg"
           link={
-            <Link modifiers="arrow" href="/services/it-solution-consulting">
+            <Link modifiers="arrow" href="/services/it-management">
               {t('read-more', { ns: 'common' })}
             </Link>
           }

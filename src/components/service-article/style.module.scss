@@ -41,7 +41,10 @@
     ul,
     ol {
       padding-left: rem(25);
-      line-height: 1.8;
+
+      li:not(:first-child) {
+        margin-top: rem(10);
+      }
     }
   }
 
