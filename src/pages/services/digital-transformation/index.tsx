@@ -3,6 +3,7 @@ import { Page } from 'components/page';
 import { ServiceArticle } from 'components/service-article';
 import { ServiceIntro } from 'components/service-intro';
 import { Text } from 'components/text';
+import { templateLocale } from 'libs/component';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { FC } from 'react';
@@ -26,9 +27,11 @@ const ServiceDigitalTransformation: FC = () => {
         >
           <Text>{t('description')}</Text>
         </ServiceIntro>
-        <ServiceArticle title={t('section-01.title')} imgSrc="/images/services/digital-transformation/image-1.jpg">
+        <ServiceArticle
+          title={templateLocale(t('section-01.title'))}
+          imgSrc="/images/services/digital-transformation/image-1.jpg"
+        >
           <Text>{t('section-01.description.01')}</Text>
-          <Text>{t('section-01.description.02')}</Text>
         </ServiceArticle>
         <ServiceArticle
           modifiers="invert"
@@ -36,19 +39,19 @@ const ServiceDigitalTransformation: FC = () => {
           imgSrc="/images/services/digital-transformation/image-2.jpg"
         >
           <Text>{t('section-02.description.01')}</Text>
-          <Text>{t('section-02.description.02')}</Text>
+          <ul>
+            <li>{t('section-02.ul.01')}</li>
+            <li>{t('section-02.ul.02')}</li>
+            <li>{t('section-02.ul.03')}</li>
+            <li>{t('section-02.ul.04')}</li>
+          </ul>
         </ServiceArticle>
-        <ServiceArticle title={t('section-03.title')} imgSrc="/images/services/digital-transformation/image-3.jpg">
+        <ServiceArticle
+          title={templateLocale(t('section-03.title'))}
+          imgSrc="/images/services/digital-transformation/image-3.jpg"
+        >
           <Text>{t('section-03.description.01')}</Text>
           <Text>{t('section-03.description.02')}</Text>
-          <ol>
-            <li>{t('section-03.ul.01')}</li>
-            <li>{t('section-03.ul.02')}</li>
-            <li>{t('section-03.ul.03')}</li>
-            <li>{t('section-03.ul.04')}</li>
-            <li>{t('section-03.ul.05')}</li>
-            <li>{t('section-03.ul.06')}</li>
-          </ol>
         </ServiceArticle>
       </GeneralTemplate>
     </Page>
