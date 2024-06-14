@@ -24,7 +24,7 @@ const CareerDetail: FC = () => {
   const onModalClose = useCallback(() => setIsModalActive(false), []);
 
   return (
-    <Page id="career-detail" className={styles['career-detail']} title={t('recent.02.title')}>
+    <Page id="career-detail" className={styles['career-detail']} title={t('recent.01.title')}>
       <GeneralTemplate modifiers={'padding-bottom'}>
         <Container className={styles['career-detail__container']}>
           <Breadcrumb>
@@ -33,17 +33,17 @@ const CareerDetail: FC = () => {
           </Breadcrumb>
           <div className={styles['career-detail__header']}>
             <Heading tag="h1" modifiers="section" className={styles['career-detail__heading']}>
-              {t('recent.02.title')}
+              {t('recent.01.title')}
             </Heading>
-            <div className={styles['career-detail__type']}>{t('recent.02.type')}</div>
+            <div className={styles['career-detail__type']}>{t('recent.01.type')}</div>
             <ul className={styles['career-detail__props']}>
               <li>
                 <Icon modifiers="location" />
-                <span>{t('recent.02.location')}</span>
+                <span>{t('recent.01.location')}</span>
               </li>
               <li>
                 <Icon modifiers="salary" />
-                <span className={styles['career-detail__price']}>{t('recent.02.salary')}</span>
+                <span className={styles['career-detail__price']}>{t('recent.01.salary')}</span>
               </li>
             </ul>
           </div>
@@ -54,10 +54,10 @@ const CareerDetail: FC = () => {
               </Heading>
               <JobOverview
                 button={<Button onClick={onModalOpen}>{t('apply-job', { ns: 'common' })}</Button>}
-                dateExp={t('recent.02.dateExp')}
-                location={t('recent.02.location')}
-                salary={{ from: 2500 }}
-                title={t('recent.02.title')}
+                dateExp={t('recent.01.dateExp')}
+                location={t('recent.01.location')}
+                salary={{ from: 4500 }}
+                title={t('recent.01.title')}
               />
             </Column>
             <Column col={8} className={styles['career-detail__column-content']}>
@@ -65,12 +65,20 @@ const CareerDetail: FC = () => {
                 <Heading tag="h2" className={styles['career-detail__header-desc']}>
                   {t('job-description', { ns: 'common' })}
                 </Heading>
-                <Text>University degree in Computer Sciences, or equivalent.</Text>
-                <Text>Having +1 year of experience in Front-End development.</Text>
-                <Text>Good experience in modern JS frameworks/libraries such as React, Angular, Vue,…</Text>
                 <Text>
-                  Experienced in HTML/CSS, JavaScript/TypeScript and pre-processing languages such as LESS/SASS/SCSS
+                  Great educational background, preferably in the fields of computer science or engineering for
+                  technical project managers
                 </Text>
+                <Text>Proven working experience as a project administrator in the information technology sector</Text>
+                <Text>
+                  Solid technical background, with understanding or hands-on experience in software development and web
+                  technologies
+                </Text>
+                <Text>Excellent client-facing and internal communication skills</Text>
+                <Text>Excellent written and verbal communication skills</Text>
+                <Text>Solid organizational skills including attention to detail and multi-tasking skills</Text>
+                <Text>Strong working knowledge of Microsoft Office</Text>
+                <Text>PMP / PRINCE II certification is a plus </Text>
               </div>
             </Column>
           </Row>

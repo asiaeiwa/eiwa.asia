@@ -11,7 +11,7 @@ const Template: ComponentStory<typeof JobItem> = args => <JobItem {...args} />;
 
 export const Recent = Template.bind({});
 Recent.args = {
-  imgSrc: '/images/career/image-1.jpeg',
+  imgSrc: '/images/career/fe.jpg',
   title: 'Software Development Project Manager',
   salary: { from: 2000, to: 3000 },
   type: 'Full time',
@@ -21,7 +21,7 @@ Recent.args = {
 export const Hot = Template.bind({});
 Hot.args = {
   modifiers: 'hot',
-  imgSrc: '/images/career/image-1.jpeg',
+  imgSrc: '/images/career/pm.jpg',
   title: 'Software Development Project Manager',
   location: '4517 Washington Ave. Manchester, Kentucky 39495',
   salary: { from: 2000, to: 3000 },
