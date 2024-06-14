@@ -19,17 +19,21 @@ const Service: FC = () => {
       title={t('title')}
       description={t('description')}
       keywords={t('keywords')}
-      imgFeatureSrc="/images/service/start-up-consulting/image-3.jpg"
+      imgFeatureSrc="/images/services/enterprise-solutions/image-3.jpg"
     >
       <GeneralTemplate modifiers="no-top">
-        <ServiceIntro isHiddenBreadcrumb title={t('title')} imgSrc="/images/service/start-up-consulting/intro-bg.jpeg">
+        <ServiceIntro
+          isHiddenBreadcrumb
+          title={t('title')}
+          imgSrc="/images/services/enterprise-solutions/intro-bg.jpeg"
+        >
           <Text>{t('description')}</Text>
         </ServiceIntro>
         <SectionVision
           title={t('section-01.title')}
-          imgSrc="/images/service/start-up-consulting/image-2.jpg"
+          imgSrc="/images/services/enterprise-solutions/image-2.jpg"
           link={
-            <Link modifiers="arrow" href="/service/start-up-consulting">
+            <Link modifiers="arrow" href="/services/enterprise-solutions">
               {t('read-more', { ns: 'common' })}
             </Link>
           }
@@ -39,9 +43,9 @@ const Service: FC = () => {
         <SectionVision
           modifiers="invert"
           title={t('section-02.title')}
-          imgSrc="/images/service/it-solution-consulting/image-2.jpg"
+          imgSrc="/images/services/it-solution-consulting/image-2.jpg"
           link={
-            <Link modifiers="arrow" href="/service/it-solution-consulting">
+            <Link modifiers="arrow" href="/services/it-solution-consulting">
               {t('read-more', { ns: 'common' })}
             </Link>
           }
@@ -50,9 +54,9 @@ const Service: FC = () => {
         </SectionVision>
         <SectionVision
           title={t('section-03.title')}
-          imgSrc="/images/service/enterprise-sofware-development/image-3.jpg"
+          imgSrc="/images/services/enterprise-sofware-development/image-3.jpg"
           link={
-            <Link modifiers="arrow" href="/service/enterprise-sofware-development">
+            <Link modifiers="arrow" href="/services/enterprise-sofware-development">
               {t('read-more', { ns: 'common' })}
             </Link>
           }
@@ -62,9 +66,9 @@ const Service: FC = () => {
         <SectionVision
           modifiers="invert"
           title={t('section-04.title')}
-          imgSrc="/images/service/real-estate-invest-consulting/image-1.jpg"
+          imgSrc="/images/services/real-estate-invest-consulting/image-1.jpg"
           link={
-            <Link modifiers="arrow" href="/service/real-estate-invest-consulting">
+            <Link modifiers="arrow" href="/services/real-estate-invest-consulting">
               {t('read-more', { ns: 'common' })}
             </Link>
           }
@@ -73,7 +77,7 @@ const Service: FC = () => {
         </SectionVision>
         <SectionVision
           title={t('section-05.title')}
-          imgSrc="/images/service/elearning/image-1.jpg"
+          imgSrc="/images/services/elearning/image-1.jpg"
           link={
             <Link modifiers="arrow" href="https://elearning.eiwa.asia/" target="_blank">
               {t('read-more', { ns: 'common' })}

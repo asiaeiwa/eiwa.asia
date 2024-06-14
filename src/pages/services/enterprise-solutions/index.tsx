@@ -7,36 +7,37 @@ import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { FC } from 'react';
 
-const ServiceStartup: FC = () => {
-  const { t } = useTranslation('service-startup');
+const ServiceEnterpriseSolutions: FC = () => {
+  const { t } = useTranslation('service-page-1');
 
   return (
     <Page
-      id="service-startup"
+      id="service-enterprise-solutions"
       title={`${t('title')} | ${t('menu.service', { ns: 'common' })}`}
       description={t('description')}
       keywords={t('keywords')}
-      imgFeatureSrc="/images/service/start-up-consulting/image-1.jpg"
+      imgFeatureSrc="/images/services/enterprise-solutions/image-1.jpg"
     >
       <GeneralTemplate modifiers="no-top">
-        <ServiceIntro title={t('title')} imgSrc="/images/service/start-up-consulting/intro-bg.jpeg">
+        <ServiceIntro title={t('title')} imgSrc="/images/services/enterprise-solutions/intro-bg.jpeg">
           <Text>{t('description')}</Text>
         </ServiceIntro>
-        <ServiceArticle title={t('section-01.title')} imgSrc="/images/service/start-up-consulting/image-1.jpg">
+        <ServiceArticle title={t('section-01.title')} imgSrc="/images/services/enterprise-solutions/image-1.jpg">
           <Text>{t('section-01.description.01')}</Text>
           <Text>{t('section-01.description.02')}</Text>
         </ServiceArticle>
         <ServiceArticle
           modifiers="invert"
           title={t('section-02.title')}
-          imgSrc="/images/service/start-up-consulting/image-2.jpg"
+          imgSrc="/images/services/enterprise-solutions/image-2.jpg"
         >
           <Text>{t('section-02.description.01')}</Text>
           <Text>{t('section-02.description.02')}</Text>
+          <Text>{t('section-02.description.03')}</Text>
+          <Text>{t('section-02.description.04')}</Text>
         </ServiceArticle>
-        <ServiceArticle title={t('section-03.title')} imgSrc="/images/service/start-up-consulting/image-3.jpg">
+        <ServiceArticle title={t('section-03.title')} imgSrc="/images/services/enterprise-solutions/image-3.jpg">
           <Text>{t('section-03.description.01')}</Text>
-          <Text>{t('section-03.description.02')}</Text>
         </ServiceArticle>
       </GeneralTemplate>
     </Page>
@@ -45,8 +46,8 @@ const ServiceStartup: FC = () => {
 
 export const getStaticProps = async ({ locale }: { locale: string }) => ({
   props: {
-    ...(await serverSideTranslations(locale, ['common', 'service-startup'])),
+    ...(await serverSideTranslations(locale, ['common', 'service-page-1'])),
   },
 });
 
-export default ServiceStartup;
+export default ServiceEnterpriseSolutions;

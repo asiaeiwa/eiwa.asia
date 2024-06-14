@@ -1,0 +1,27 @@
+{
+  "title": "Enterprise solutions ",
+  "description": "Let us help you unlock your full digital potential and achieve your business goals.",
+  "keywords": "Let us, help you, unlock, your, full digital potential, and, achieve, your business goals",
+  "section-01": {
+    "title": "EIWA's Core Enterprise Solutions",
+    "description": {
+      "01": "Strategic IT Consulting: Our team of seasoned consultants will work closely with you to assess your unique business requirements and develop a customized IT roadmap that aligns with your overall corporate strategy",
+      "02": "Next-Generation Applications: EIWA stays at the forefront of technological advancements, providing expertise in areas like Big Data, Artificial Intelligence, and Machine Learning to create customized applications that unlock new possibilities for your business."
+    }
+  },
+  "section-02": {
+    "title": "Benefits of Partnering with EIWA",
+    "description": {
+      "01": "Proven Expertise: Our team boasts a wealth of experience across a variety of industries, ensuring we provide solutions tailored to your specific needs.",
+      "02": "Cost-Effectiveness: We offer flexible engagement models and a focus on efficient implementation to deliver maximum value for your investment.",
+      "03": "Scalability and Adaptability: Our solutions are designed to grow with your business, allowing you to adapt to changing market conditions and seamlessly integrate new technologies.",
+      "04": "Unparalleled Support: EIWA is committed to providing exceptional customer service, with dedicated support teams available to assist you every step of the way."
+    }
+  },
+  "section-03": {
+    "title": "ASIA EIWA",
+    "description": {
+      "01": "By partnering with EIWA, you gain a trusted advisor and a strategic partner in navigating the ever-changing IT landscape."
+    }
+  }
+}

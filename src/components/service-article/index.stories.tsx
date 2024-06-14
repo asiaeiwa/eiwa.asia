@@ -22,7 +22,7 @@ Normal.args = {
       </ul>
     </>
   ),
-  imgSrc: '/images/service/start-up-consulting/image-1.jpg',
+  imgSrc: '/images/services/enterprise-solutions/image-1.jpg',
 };
 
 export const Invert = Template.bind({});
@@ -36,5 +36,5 @@ Invert.args = {
       <li>Review and develop a detailed improvement plan.</li>
     </ul>
   ),
-  imgSrc: '/images/service/start-up-consulting/image-2.jpg',
+  imgSrc: '/images/services/enterprise-solutions/image-2.jpg',
 };

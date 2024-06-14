@@ -67,16 +67,16 @@ export const Header: FC<Props> = ({ className: additionalClassName = '', menuLis
                       </Link>
                       <ul className={styles['header__sub-menu']}>
                         <li>
-                          <Link href="/service/start-up-consulting">{t('menu.service-child.01')}</Link>
+                          <Link href="/services/enterprise-solutions">{t('menu.service-child.01')}</Link>
                         </li>
                         <li>
-                          <Link href="/service/it-solution-consulting">{t('menu.service-child.02')}</Link>
+                          <Link href="/services/it-solution-consulting">{t('menu.service-child.02')}</Link>
                         </li>
                         <li>
-                          <Link href="/service/enterprise-sofware-development">{t('menu.service-child.03')}</Link>
+                          <Link href="/services/enterprise-sofware-development">{t('menu.service-child.03')}</Link>
                         </li>
                         <li>
-                          <Link href="/service/real-estate-invest-consulting">{t('menu.service-child.04')}</Link>
+                          <Link href="/services/real-estate-invest-consulting">{t('menu.service-child.04')}</Link>
                         </li>
                         <li>
                           <Link href="https://elearning.eiwa.asia/" target="_blank">

@@ -13,7 +13,7 @@ const Template: ComponentStory<typeof ServiceIntro> = args => <ServiceIntro {...
 export const Normal = Template.bind({});
 Normal.args = {
   title: 'Operational management in SMES',
-  imgSrc: '/images/service/start-up-consulting/intro-bg.jpeg',
+  imgSrc: '/images/services/enterprise-solutions/intro-bg.jpeg',
   children: (
     <Text>
       Our seasoned consultants stand ready to give expert advice to help your business improve operational efficiency on

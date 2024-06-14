@@ -37,7 +37,7 @@ export const MenuList = [
   { key: 'home', title: 'Home', href: '/' },
   { key: 'about', title: 'About', href: '/about' },
   // { key: 'product', title: 'Product', href: '/product' },
-  { key: 'service', title: 'Services', href: '/service' },
+  { key: 'service', title: 'Services', href: '/services' },
   // { key: 'team', title: 'Team', href: '/team' },
   { key: 'blog', title: 'Blog', href: 'https://elearning.eiwa.asia/blog/', target: '_blank' },
   { key: 'career', title: 'Career', href: '/career' },
