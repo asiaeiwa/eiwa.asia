@@ -71,6 +71,17 @@ const Service: FC = () => {
         >
           <Text>{t('section-04.description.01')}</Text>
         </SectionVision>
+        <SectionVision
+          title={t('section-05.title')}
+          imgSrc="/images/service/elearning/image-1.jpg"
+          link={
+            <Link modifiers="arrow" href="https://elearning.eiwa.asia/" target="_blank">
+              {t('read-more', { ns: 'common' })}
+            </Link>
+          }
+        >
+          <Text>{t('section-05.description.01')}</Text>
+        </SectionVision>
       </GeneralTemplate>
     </Page>
   );
