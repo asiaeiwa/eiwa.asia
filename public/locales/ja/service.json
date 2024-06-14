@@ -1,29 +1,35 @@
 {
-  "title": "Services",
-  "description": "Our seasoned consultants stand ready to give expert advice to help your business improve operational efficiency.",
+  "title": "サービス",
+  "description": "弊社の経験豊富なコンサルタントが、お客様のビジネスの業務効率向上に役立つ専門的なアドバイスを提供いたします。",
   "keywords": "Services, Enterprise, Sofware, Development, Service, IT, Solution, Consulting, Real Estate, invest consulting, Start-up",
   "section-01": {
-    "title": "Start-up Consulting",
+    "title": "エンタープライズソリューション",
     "description": {
-      "01": "Our seasoned consultants stand ready to give expert advice to help your business improve operational efficiency."
+      "01": "企業のデジタル潜在能力を引き出し、ビジネス目標達成を支援いたします"
     }
   },
   "section-02": {
-    "title": "IT Solution Consulting",
+    "title": "IT管理",
     "description": {
-      "01": "Providing managed services focused on proactive and strategic support to SMEs in Asia Market"
+      "01": "包括的なITマネジメントパートナー"
     }
   },
   "section-03": {
-    "title": "Enterprise Sofware Development",
+    "title": "DX（デジタルトランスフォーメーション)",
     "description": {
-      "01": "We will build an ERP system, Pride of Vietnam providing reasonable prices and modules that MEET Asia and Vietnamese markets."
+      "01": "デジタル変革を成功に導く信頼できるパートナー"
     }
   },
   "section-04": {
-    "title": "Real Estate invest consulting",
+    "title": "M&A（合併と買収)",
     "description": {
-      "01": "Providing real estate consulting services in development and investment activities, market research and valuation"
+      "01": "不動産開発・投資、市場調査、評価に関する不動産コンサルティングサービスを提供。EIWAと提携し、M&Aの変革力を活用して、ビジネスを新たな高みへと導きましょう。"
+    }
+  },
+  "section-05": {
+    "title": "ITコーストレーニング",
+    "description": {
+      "01": "ITコーストレーニング"
     }
   }
 }

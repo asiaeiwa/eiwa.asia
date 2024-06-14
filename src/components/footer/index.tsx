@@ -1,8 +1,6 @@
-import { Button } from 'components/button';
 import { Column } from 'components/column';
 import { Container } from 'components/container';
 import { Icon } from 'components/icon';
-import { Input } from 'components/input';
 import { Link } from 'components/link';
 import { Logo } from 'components/logo';
 import { Row } from 'components/row';
@@ -46,7 +44,11 @@ export const Footer: FC<Props> = ({ className: additionalClassName = '', menuLis
                     {menu.key === 'product' && <Link href={menu.href}>{t('menu.product')}</Link>}
                     {menu.key === 'service' && <Link href={menu.href}>{t('menu.service')}</Link>}
                     {menu.key === 'team' && <Link href={menu.href}>{t('menu.team')}</Link>}
-                    {menu.key === 'blog' && <Link href={menu.href}>{t('menu.blog')}</Link>}
+                    {menu.key === 'blog' && (
+                      <Link href={menu.href} target={menu?.target}>
+                        {t('menu.blog')}
+                      </Link>
+                    )}
                     {menu.key === 'career' && <Link href={menu.href}>{t('menu.career')}</Link>}
                     {menu.key === 'contact' && <Link href={menu.href}>{t('menu.contact')}</Link>}
                   </li>
@@ -55,7 +57,7 @@ export const Footer: FC<Props> = ({ className: additionalClassName = '', menuLis
             )}
           </Column>
           <Column className={styles['footer__column-subscribe']}>
-            <Text>{t('subscribe-our')}</Text>
+            {/* <Text>{t('subscribe-our')}</Text>
             <form className={styles['footer__form']}>
               <div className={styles['footer__input-group']}>
                 <Input
@@ -70,7 +72,7 @@ export const Footer: FC<Props> = ({ className: additionalClassName = '', menuLis
                   {t('submit')}
                 </Button>
               </div>
-            </form>
+            </form> */}
           </Column>
           <Column className={styles['footer__column-logo']}>
             <Logo className={styles['footer__logo']} width={149} height={52} />

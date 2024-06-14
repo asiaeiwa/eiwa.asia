@@ -37,7 +37,7 @@ const Contact: FC = () => {
                   imgSrc="/images/contact/hcm.jpeg"
                   title={t('branch.01.title')}
                   address={t('branch.01.address')}
-                  tel="+8428 22 44 66 39"
+                  tel="+84908 748 289"
                   email={ASIAEIWA_EMAIL}
                 >
                   <Map height={400} src={ASIAEIWA_GEO} />

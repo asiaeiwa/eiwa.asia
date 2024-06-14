@@ -1,22 +1,21 @@
 {
   "menu": {
-    "home": "Trang chủ",
-    "about": "Giới thiệu",
+    "home": "Trang Chủ",
+    "about": "Về Chúng Tôi",
     "product": "Các gói",
     "service": "Dịch vụ",
     "team": "Team",
     "blog": "Blog",
-    "career": "Tuyển dụng",
-    "contact": "Liên hệ",
+    "career": "Tuyển Dụng",
+    "contact": "Liên Hệ",
     "service-child": {
-      "01": "Tư vấn Khởi nghiệp",
-      "02": "Tư vấn giải pháp CNTT",
-      "03": "Phát triển phần mềm DN",
-      "04": "Tư vấn đầu tư bất động sản"
+      "01": "Giải pháp doanh nghiệp",
+      "02": "Quản lý CNTT",
+      "03": "Chuyển đổi số",
+      "04": "M&A (Mua bán và sáp nhập)",
+      "05": "Đào tạo khóa học CNTT"
     }
   },
-  "subscribe-our": "Theo dõi bản tin của chúng tôi",
-  "submit": "Gửi",
   "follow-us": "Theo dõi chúng tôi trên:",
   "address-company": "Tầng 25, Tòa nhà Lim Tower, Số 9-11 Tôn Đức Thắng, Phường Bến Nghé, Quận 1, TP.HCM",
   "all-rights": "Đã đăng ký bản quyền.",

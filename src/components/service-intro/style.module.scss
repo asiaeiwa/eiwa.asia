@@ -42,12 +42,15 @@
     li {
       &:not(:last-child):after {
         content: '';
+        position: relative;
+        top: rem(2);
         display: inline-block;
         width: rem(10);
-        height: rem(6);
+        height: rem(8);
         margin-right: rem(9);
         margin-left: rem(5);
         background: transparent url('~images/icons/arrow-down.svg') no-repeat top left / 100% auto;
+        opacity: 40%;
         transform: rotate(-90deg);
         transform-origin: top center;
       }

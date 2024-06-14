@@ -1,0 +1,39 @@
+{
+  "title": "Quản lý CNTT",
+  "description": "Đối tác quản trị CNTT toàn diện của bạn",
+  "keywords": "Đối tác, quản trị, CNTT, toàn diện, của bạn",
+  "section-01": {
+    "title": "Thách thức của \nGiám đốc Thông tin (CIO)",
+    "description": {
+      "01": "Ngày nay, Giám đốc Thông tin (CIO) đóng vai trò quan trọng, có tiềm năng đóng góp đáng kể vào chiến lược và quản lý doanh nghiệp. Tuy nhiên, trên thực tế, CIO thường tập trung chủ yếu vào việc tối ưu hóa và hợp nhất hệ thống CNTT, hạn chế khả năng hỗ trợ toàn diện cho các mục tiêu kinh doanh rộng lớn hơn.",
+      "02": "EIWA cung cấp giải pháp toàn diện, hỗ trợ CIO giải quyết các thách thức và nâng cao vai trò chiến lược trong doanh nghiệp."
+    }
+  },
+  "section-02": {
+    "title": "Chiến lược & Quản trị CNTT",
+    "ul": {
+      "01": "Xây dựng kế hoạch và lộ trình CNTT trung hạn đóng góp vào chiến lược quản trị.",
+      "02": "Thiết lập thiết kế quy mô lớn cho tích hợp và tiêu chuẩn hóa CNTT (kiến trúc doanh nghiệp).",
+      "03": "Phát triển khung đánh giá mức độ ưu tiên của các dự án đầu tư CNTT.",
+      "04": "Tổ chức, tích hợp và cập nhật các quy định về CNTT nằm rải rác trong các công ty thành viên.",
+      "05": "Triển khai hệ thống thông tin quản lý (CIO cockpit) hỗ trợ ra quyết định dựa trên dữ liệu.",
+      "06": "Cải thiện và chuyển đổi quản lý dịch vụ CNTT (vận hành/phát triển hệ thống)."
+    }
+  },
+  "section-03": {
+    "title": "Thúc đẩy đổi mới tổ chức & \nCải cách phong cách làm việc:",
+    "ul": {
+      "01": "Xây dựng kế hoạch cải cách cho các tổ chức CNTT (bao gồm tái cấu trúc công ty với các chức năng CNTT và phát triển liên doanh).",
+      "02": "Đào tạo đội ngũ kế cận, dẫn dắt đổi mới tự chủ trong các bộ phận CNTT.",
+      "03": "Rà soát việc sử dụng CNTT và các quy định nội bộ để hỗ trợ cải cách phong cách làm việc.",
+      "04": "Hình ảnh hóa hiệu suất kinh doanh của các bộ phận CNTT để hỗ trợ cải cách phong cách làm việc."
+    }
+  },
+  "section-04": {
+    "title": "Lập kế hoạch & Triển khai CNTT",
+    "ul": {
+      "01": "Hỗ trợ các bộ phận kinh doanh trong việc xây dựng ngân sách, kế hoạch và triển khai CNTT.",
+      "02": "Hỗ trợ các bộ phận CNTT trong việc lập kế hoạch cho các mô hình kinh doanh mới."
+    }
+  }
+}

@@ -41,7 +41,10 @@
     ul,
     ol {
       padding-left: rem(25);
-      line-height: 1.8;
+
+      li:not(:first-child) {
+        margin-top: rem(10);
+      }
     }
   }
 
@@ -57,7 +60,7 @@
       right: 0;
       width: rem(416);
       height: rem(657);
-      background: transparent url('~images/service/article-bg.svg') no-repeat right center / 100% auto;
+      background: transparent url('~images/services/article-bg.svg') no-repeat right center / 100% auto;
     }
 
     #{$root}__row {
