@@ -23,43 +23,57 @@ const About: FC = () => {
       <GeneralTemplate modifiers="no-top">
         <AboutImage
           imgSrc="/images/about/ms-anh-01.jpg"
-          quote={t('section.01.quote')}
-          name={t('section.01.name')}
-          position={t('section.01.position')}
+          quote={t('section.anh-01.quote')}
+          name={t('section.anh-01.name')}
+          position={t('section.anh-01.position')}
           modifiers="bottom"
         />
         <AboutText title={'"Make Believe, Make Business"'}>
-          <Text>{t('section.02.description.01')}</Text>
-          <Text>{t('section.02.description.02')}</Text>
-          <Text>{t('section.02.description.03')}</Text>
+          <Text>{t('section.anh-02.description.01')}</Text>
+          <Text>{t('section.anh-02.description.02')}</Text>
+          <Text>{t('section.anh-02.description.03')}</Text>
           <ol>
-            <li>{t('section.02.description.04.01')}</li>
-            <li>{t('section.02.description.04.02')}</li>
-            <li>{t('section.02.description.04.03')}</li>
+            <li>{t('section.anh-02.description.04.01')}</li>
+            <li>{t('section.anh-02.description.04.02')}</li>
+            <li>{t('section.anh-02.description.04.03')}</li>
           </ol>
         </AboutText>
-        <AboutImage imgSrc="/images/about/ms-anh-02.jpg" />
-        <AboutText title={t('section.04.title')} sub={t('section.04.description.01')} />
+        <AboutImage
+          imgSrc="/images/about/ms-hien-01.jpg"
+          name={t('section.hien-01.name')}
+          position={t('section.hien-01.position')}
+          modifiers="bottom"
+        />
+        <AboutText title={t('section.hien-02.title')}>
+          <Text>{t('section.hien-02.description.01')}</Text>
+          <ul>
+            <li>{t('section.hien-02.description.02.01')}</li>
+            <li>{t('section.hien-02.description.02.02')}</li>
+            <li>{t('section.hien-02.description.02.03')}</li>
+            <li>{t('section.hien-02.description.02.04')}</li>
+          </ul>
+          <Text>{t('section.hien-02.description.03')}</Text>
+        </AboutText>
         <AboutImage
           imgSrc="/images/about/uy.jpg"
-          quote={t('section.05.quote')}
-          name={t('section.05.name')}
-          position={t('section.05.position')}
+          quote={t('section.uy-01.quote')}
+          name={t('section.uy-01.name')}
+          position={t('section.uy-01.position')}
         />
-        <AboutText title={t('section.06.title')}>
-          <Text>{t('section.06.description.01')}</Text>
-          <Text>{t('section.06.description.02')}</Text>
+        <AboutText title={t('section.uy-02.title')}>
+          <Text>{t('section.uy-02.description.01')}</Text>
+          <Text>{t('section.uy-02.description.02')}</Text>
         </AboutText>
         <AboutImage
           imgSrc="/images/about/tin.jpg"
-          quote={t('section.07.quote')}
-          name={t('section.07.name')}
-          position={t('section.07.position')}
+          quote={t('section.tin-01.quote')}
+          name={t('section.tin-01.name')}
+          position={t('section.tin-01.position')}
           modifiers="bottom"
         />
-        <AboutText title={t('section.08.title')}>
-          <Text>{t('section.08.description.01')}</Text>
-          <Text>{t('section.08.description.02')}</Text>
+        <AboutText title={t('section.tin-02.title')}>
+          <Text>{t('section.tin-02.description.01')}</Text>
+          <Text>{t('section.tin-02.description.02')}</Text>
         </AboutText>
       </GeneralTemplate>
     </Page>

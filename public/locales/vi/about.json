@@ -3,12 +3,12 @@
   "description": "Công ty chúng tôi cung cấp nhiều tùy chọn dịch vụ công nghệ để bạn có thể tìm thấy một kế hoạch phù hợp với doanh nghiệp của mình.",
   "keywords": "Asia Eiwa, giải pháp công nghệ, hệ thống quản lý sản xuất, hỗ trợ công nghệ, trải nghiệm người dùng, thiết kế, công nghệ số, nguồn lực.",
   "section": {
-    "01": {
+    "anh-01": {
       "quote": "\"Men can do, Women also!\"",
       "name": "NGO THI HUYNH ANH",
       "position": "CO-FOUNDER/General and Operations Manager"
     },
-    "02": {
+    "anh-02": {
       "description": {
         "01": "Toàn cầu hóa diễn ra nhanh chóng đòi hỏi các chiến lược xuyên biên giới linh hoạt, bền vững và mang lại giá trị gia tăng đáng kể. EIWA, nhà cung cấp giải pháp CNTT hàng đầu, nhận thức rõ nhu cầu quan trọng này. Chúng tôi tận dụng sự kết hợp độc đáo giữa chuyên môn Nhật Bản và tầm nhìn toàn cầu để xây dựng mối quan hệ đối tác lâu dài, đáng tin cậy với khách hàng.",
         "02": "Với kinh nghiệm đa dạng từ Tư vấn ERP, Quản lý Kinh doanh & Nhân sự đến Giám đốc Quốc gia tại Singapore, cùng 7 năm lãnh đạo trong ngành CNTT tại Nhật Bản, tôi có hiểu biết sâu sắc về thị trường châu Á, đặc biệt là Việt Nam, Nhật Bản và Singapore.",
@@ -20,30 +20,41 @@
         }
       }
     },
-    "04": {
-      "title": "\"Bạn đang gặp khó khăn với công việc kinh doanh của mình? Hãy để chúng tôi giải quyết giúp bạn\"",
+    "hien-01": {
+      "name": "NGUYEN AI HIEN",
+      "position": "Investment Consultant"
+    },
+    "hien-02": {
+      "title": "",
       "description": {
-        "01": "Với phương châm “Make Believe – Make Business”, chúng tôi cam kết hoạt động chuyên nghiệp, hợp tác cùng phát triển, xây dựng niềm tin và tạo điều kiện giao tiếp hiệu quả để mang lại thành công cho ASIA EIWA và khách hàng trong khu vực."
+        "01": "Chúng tôi tự hào giới thiệu chị Hiền, một chuyên gia với hơn 20 năm kinh nghiệm trong cả lĩnh vực doanh nghiệp và khởi nghiệp, hiện đang gia nhập đội ngũ của chúng tôi với vai trò Tư vấn Đầu tư.",
+        "02": {
+          "01": "Kinh Nghiệm Phong Phú: Chị Hiền đã đảm nhiệm nhiều vị trí cấp cao và điều hành, chuyên về quản lý vận hành, marketing, phát triển thương hiệu, chiến lược và bán hàng.",
+          "02": "Thành Công Đã Được Chứng Minh:Chị đã dẫn dắt thành công ba thương vụ M&A lớn với tổng giá trị 90 tỷ VND.",
+          "03": "Hướng Đến Khách Hàng: Chị Hiền có niềm đam mê trong việc hiểu và giải quyết các vấn đề của khách hàng, mang lại những giải pháp thực tế và hiệu quả.",
+          "04": "Chuyên Gia Phân Tích:Trong 15 năm qua, chị Hiền đã áp dụng các nguyên tắc của Six Sigma để vượt qua các thách thức với cách tiếp cận phân tích và hợp lý."
+        },
+        "03": "Kinh nghiệm phong phú và thành tích M&A xuất sắc của chị Hiền làm cho chị trở thành một tài sản vô giá đối với đội ngũ của chúng tôi. \nNếu bạn đang tìm kiếm dịch vụ tư vấn đầu tư hàng đầu, hãy liên hệ với chúng tôi ngay hôm nay."
       }
     },
-    "05": {
+    "uy-01": {
       "quote": "\"Just do it!\"",
       "name": "PHAM VUONG UY",
       "position": "CO-FOUNDER /Technical Consultant"
     },
-    "06": {
+    "uy-02": {
       "title": "",
       "description": {
         "01": "Với hơn 10 năm kinh nghiệm trong lĩnh vực công nghệ, tôi tích lũy kiến thức và kinh nghiệm sâu rộng về CRM, ERP, SAP và hệ thống dữ liệu có cấu trúc. Trong kỷ nguyên số, việc lưu trữ thông tin và dữ liệu trên đám mây đang trở nên phổ biến toàn cầu.",
         "02": "Là Đối tác Đổi mới của bạn, EIWA cung cấp dịch vụ tư vấn toàn diện, đáp ứng các thách thức kinh doanh cụ thể của bạn. Chúng tôi hoạt động với tính chính trực cao nhất, hợp tác chặt chẽ để cùng bạn đạt được chuyển đổi doanh nghiệp thành công."
       }
     },
-    "07": {
+    "tin-01": {
       "quote": "\"Try hard every day\"",
       "name": "TRAN BAO TIN",
       "position": "Technical Manager"
     },
-    "08": {
+    "tin-02": {
       "title": "",
       "description": {
         "01": "Với hơn 7 năm kinh nghiệm trong lĩnh vực phát triển phần mềm, tôi đã tích lũy được kinh nghiệm chuyên môn sâu rộng qua các dự án về ERP, Logistics,... Đặc biệt, tôi có cơ hội tham gia thực hiện các dự án trong môi trường đám mây, từ đó tích lũy kinh nghiệm và sử dụng các dịch vụ AWS. Hiện tại, tôi đang vận dụng kinh nghiệm của mình để đào tạo cho sinh viên những kiến thức cơ bản về phát triển phần mềm tại trường Đại học Tôn Đức Thắng.",
