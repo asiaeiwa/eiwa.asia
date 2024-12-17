@@ -55,6 +55,22 @@ const About: FC = () => {
           <Text>{t('section.hien-02.description.03')}</Text>
         </AboutText>
         <AboutImage
+          imgSrc="/images/about/ms-nga-01.jpg"
+          quote={t('section.nga-01.quote')}
+          name={t('section.nga-01.name')}
+          position={t('section.nga-01.position')}
+          modifiers="bottom"
+        />
+        <AboutText title={t('section.nga-02.title')}>
+          <Text>{t('section.nga-02.description.01')}</Text>
+          <Text>{t('section.nga-02.description.02')}</Text>
+          <ul>
+            <li>{t('section.nga-02.description.03.01')}</li>
+            <li>{t('section.nga-02.description.03.02')}</li>
+            <li>{t('section.nga-02.description.03.03')}</li>
+          </ul>
+        </AboutText>
+        <AboutImage
           imgSrc="/images/about/uy.jpg"
           quote={t('section.uy-01.quote')}
           name={t('section.uy-01.name')}
