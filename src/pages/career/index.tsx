@@ -40,18 +40,26 @@ const Career: FC = () => {
               </Heading>
               <JobItem
                 className={styles['career__item']}
-                imgSrc="/images/career/image-1.jpeg"
+                imgSrc="/images/career/pm.jpg"
                 title={t('recent.01.title')}
-                salary={{ from: 1000, to: 2500 }}
+                salary={{ from: 4500 }}
                 type={t('recent.01.type')}
+                href="/career/project-manager"
+              />
+              <JobItem
+                className={styles['career__item']}
+                imgSrc="/images/career/fe.jpg"
+                title={t('recent.02.title')}
+                salary={{ from: 2500 }}
+                type={t('recent.02.type')}
                 href="/career/frontend-developer"
               />
               <JobItem
                 className={styles['career__item']}
-                imgSrc="/images/career/image-1.jpeg"
-                title={t('recent.02.title')}
-                salary={{ from: 1000, to: 3000 }}
-                type={t('recent.02.type')}
+                imgSrc="/images/career/be.jpg"
+                title={t('recent.03.title')}
+                salary={{ from: 2500 }}
+                type={t('recent.03.type')}
                 href="/career/backend-developer"
               />
             </Column>
@@ -64,7 +72,7 @@ const Career: FC = () => {
                 className={styles['career__hot-item']}
                 title={t('hot.title')}
                 location={t('hot.location')}
-                salary={{ from: 1000, to: 3000 }}
+                salary={{ from: 2500 }}
                 type={t('hot.type')}
                 href="/career/backend-developer"
                 button={<Button onClick={onModalOpen}>{t('apply-job', { ns: 'common' })}</Button>}

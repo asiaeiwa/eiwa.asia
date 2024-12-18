@@ -25,9 +25,9 @@ export const AboutImage: FC<Props> = ({
   return (
     <section className={className} style={{ backgroundImage: `url('${imgSrc}')` }}>
       <Container className={styles['about-image__container']}>
-        {quote && position && name && (
+        {position && name && (
           <div className={styles['about-image__wrapper-text']}>
-            <div className={styles['about-image__quote']}>{quote}</div>
+            {quote && <div className={styles['about-image__quote']}>{quote}</div>}
             <div className={styles['about-image__name']}>{name}</div>
             <div className={styles['about-image__position']}>{position}</div>
           </div>

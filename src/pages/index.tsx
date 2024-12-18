@@ -17,6 +17,7 @@ import { SectionVision } from 'components/section-vision';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { FC } from 'react';
+import { templateLocale } from 'libs/component';
 
 export const Home: FC = () => {
   const { t } = useTranslation('home');
@@ -24,20 +25,20 @@ export const Home: FC = () => {
   return (
     <Page id="home" title="" description={t('description')} keywords={t('keywords')}>
       <GeneralTemplate modifiers="no-top">
-        <SectionBanner imgSrc="/images/home/team.jpg">
-          <Text>{t('description')}</Text>
+        <SectionBanner imgSrc="/images/home/intro.jpg">
+          <Text>{templateLocale(t('description'))}</Text>
         </SectionBanner>
-        <SectionService title={t('section-service.title')} desc={t('section-service.desc')}>
+        <SectionService title={t('section-service.title')} desc={templateLocale(t('section-service.desc'))}>
           <ServiceItem imgSrc="/images/home/service-investment.svg" title={t('section-service.list.01')} />
           <ServiceItem imgSrc="/images/home/service-it.svg" title={t('section-service.list.02')} />
           <ServiceItem imgSrc="/images/home/service-offshore.svg" title={t('section-service.list.03')} />
         </SectionService>
-        <SectionProduct title={t('section-product.title')} desc={t('section-product.desc')}>
+        <SectionProduct title={t('section-product.title')} desc={templateLocale(t('section-product.desc'))}>
           <PackItem
             title={t('section-product.list.01.title')}
             modifiers="cate"
             button={
-              <Button modifiers="outline" tag="a" href="#">
+              <Button modifiers="outline" tag="a" href="/contact">
                 {t('view-detail', { ns: 'common' })}
               </Button>
             }
@@ -48,7 +49,7 @@ export const Home: FC = () => {
             title={t('section-product.list.02.title')}
             modifiers="cate"
             button={
-              <Button modifiers="outline" tag="a" href="#">
+              <Button modifiers="outline" tag="a" href="/contact">
                 {t('view-detail', { ns: 'common' })}
               </Button>
             }
@@ -59,7 +60,7 @@ export const Home: FC = () => {
             title={t('section-product.list.03.title')}
             modifiers="cate"
             button={
-              <Button modifiers="outline" tag="a" href="#">
+              <Button modifiers="outline" tag="a" href="/contact">
                 {t('view-detail', { ns: 'common' })}
               </Button>
             }
@@ -70,19 +71,27 @@ export const Home: FC = () => {
         <SectionVision
           title={t('section-vision.title')}
           imgSrc="/images/home/vision-1.jpg"
-          link={<Link modifiers="arrow">{t('read-more', { ns: 'common' })}</Link>}
+          link={
+            <Link modifiers="arrow" href="/about">
+              {t('read-more', { ns: 'common' })}
+            </Link>
+          }
         >
           <Text>{t('section-vision.desc')}</Text>
         </SectionVision>
         <SectionVision
           title={t('section-mission.title')}
-          imgSrc="/images/home/vision-2.jpg"
+          imgSrc="/images/home/mission.jpg"
           modifiers="invert"
-          link={<Link modifiers="arrow">{t('read-more', { ns: 'common' })}</Link>}
+          link={
+            <Link modifiers="arrow" href="/about">
+              {t('read-more', { ns: 'common' })}
+            </Link>
+          }
         >
-          <Text>{t('section-mission.desc')}</Text>
+          <Text>{templateLocale(t('section-mission.desc'))}</Text>
         </SectionVision>
-        <SectionOptimise title={t('section-optimise.title')} desc={t('section-optimise.desc')}>
+        <SectionOptimise title={t('section-optimise.title')} desc={templateLocale(t('section-optimise.desc'))}>
           <OptimiseItem heading={t('section-optimization.01.bold')} desc={t('section-optimization.01.paragraph')} />
           <OptimiseItem heading={t('section-optimization.02.bold')} desc={t('section-optimization.02.paragraph')} />
           <OptimiseItem heading={t('section-optimization.03.bold')} desc={t('section-optimization.03.paragraph')} />
@@ -93,11 +102,33 @@ export const Home: FC = () => {
         </SectionOptimise>
         <SectionPartner>
           <Partner
+            srcImg="/images/partner/ant-tech.jpg"
+            width={300}
+            height={141}
+            href="https://anttech.com.vn/"
+            alt="Ant Tech"
+          />
+          <Partner
+            srcImg="/images/partner/Becamex-Tokyu.png"
+            width={100}
+            height={100}
+            href="https://www.becamex-tokyu.com/"
+            alt="Becamex Tokyu"
+          />
+          <Partner
             srcImg="/images/partner/Ccft_logo.png"
             width={300}
             height={124}
             href="https://www.francothaicc.com/en.html"
             alt="Chambre de Commerce Franco-Thaïe"
+          />
+          <Partner srcImg="/images/partner/city-group.jpg" width={300} height={94} alt="CityGroup" />
+          <Partner
+            srcImg="/images/partner/ben.jpg"
+            width={225}
+            height={225}
+            href="https://executives.asia/"
+            alt="Business Executive Network"
           />
           <Partner
             srcImg="/images/partner/itpc_logo.png"
@@ -106,33 +137,27 @@ export const Home: FC = () => {
             href="http://itpc.hochiminhcity.gov.vn/home"
             alt="ITPC Ho Chi Minh City"
           />
-          <Partner srcImg="/images/partner/city-group.jpg" width={300} height={94} alt="CityGroup" />
-          <Partner srcImg="/images/partner/city-event.jpg" width={300} height={98} alt="CityEvent" />
-          <Partner srcImg="/images/partner/city-floral.jpg" width={300} height={107} alt="CityFloral" />
-          <Partner srcImg="/images/partner/city-travel.jpg" width={300} height={101} alt="CityTravel" />
-
+          <Partner
+            srcImg="/images/partner/doclink.jpg"
+            width={300}
+            height={169}
+            href="https://doclink.beyond.ai/products/doclink/"
+            alt="DocLink"
+          />
+          <Partner
+            srcImg="/images/partner/odoo_logo.png"
+            width={300}
+            height={225}
+            href="https://www.odoo.com/"
+            alt="Odoo"
+          />
+          <Partner srcImg="/images/partner/Okuro.png" width={100} height={100} href="https://okuro.vn/" alt="Okuro" />
           <Partner
             srcImg="/images/partner/vjp.png"
             width={306}
             height={75}
             href="https://vj-partner.com/"
             alt="Viet Japan"
-          />
-          <Partner srcImg="/images/partner/Okuro.png" width={100} height={100} href="https://okuro.vn/" alt="Okuro" />
-          <Partner srcImg="/images/partner/Minh-Long.png" width={100} height={100} alt="Minh Long" />
-          <Partner
-            srcImg="/images/partner/DolphinSolutions1.png"
-            width={200}
-            height={108}
-            href="https://dolphinsolutions.vn/"
-            alt="Dolphin Solutions"
-          />
-          <Partner
-            srcImg="/images/partner/Becamex-Tokyu.png"
-            width={100}
-            height={100}
-            href="https://www.becamex-tokyu.com/"
-            alt="Becamex Tokyu"
           />
         </SectionPartner>
       </GeneralTemplate>

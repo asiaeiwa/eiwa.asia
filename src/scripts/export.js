@@ -7,6 +7,7 @@ const fs = require('fs-extra');
 const globby = require('globby');
 const prettier = require('prettier');
 const path = require('path');
+const BUILD_ID = fs.readFileSync('.next/BUILD_ID', 'utf8');
 
 const {
   i18n: { locales, defaultLocale },
@@ -99,6 +100,48 @@ async function replaceFile() {
   });
 }
 
+async function detectGithubBuilder() {
+  const NEW_BUILD_ID = `manifest-${new Date().getTime()}`;
+  replace({
+    regex: 'chunks/pages/_',
+    replacement: 'chunks/pages/',
+    paths: [pathBuild],
+    recursive: true,
+    silent: true,
+    include: '*.html,*.js',
+  });
+
+  replace({
+    regex: `${BUILD_ID}/_`,
+    replacement: `${NEW_BUILD_ID}/`,
+    paths: [pathBuild],
+    recursive: true,
+    silent: true,
+    include: '*.html',
+  });
+
+  replace({
+    regex: BUILD_ID,
+    replacement: NEW_BUILD_ID,
+    paths: [pathBuild],
+    recursive: true,
+    silent: true,
+    include: '*.html,*js,*.css',
+  });
+
+  await fs.rename(`./build/assets/${BUILD_ID}`, `./build/assets/${NEW_BUILD_ID}`);
+  const htmlFind = await fs.readFile('build/404.html', 'utf8');
+  const appID = /pages\/app-([_a-zA-Z0-9]+)\.js/.exec(htmlFind)[1];
+  const errorID = /pages\/error-([_a-zA-Z0-9]+)\.js/.exec(htmlFind)[1];
+  const folder = './build/assets';
+  await fs.rename(`${folder}/chunks/pages/_app-${appID}.js`, `${folder}/chunks/pages/app-${appID}.js`);
+  await fs.rename(`${folder}/chunks/pages/_error-${errorID}.js`, `${folder}/chunks/pages/error-${errorID}.js`);
+  await fs.rename(`${folder}/${NEW_BUILD_ID}/_buildManifest.js`, `${folder}/${NEW_BUILD_ID}/buildManifest.js`);
+  await fs.rename(`${folder}/${NEW_BUILD_ID}/_ssgManifest.js`, `${folder}/${NEW_BUILD_ID}/ssgManifest.js`);
+  await fs.remove(`./docs`);
+  await fs.rename(`./build`, `./docs`);
+}
+
 function addPage(page) {
   const host = DOMAIN;
   const changefreq = 'monthly';
@@ -134,6 +177,7 @@ ${pages.map(addPage).join('\n')}
 
 async function exportFiles() {
   console.log('\x1b[36mCustom Export: \033[32mStarting...\033[0m');
+  console.log('\033[34minfo\033[0m  - BUILD ID: \033[33m' + BUILD_ID + '\033[0m');
   console.log(
     '\033[34minfo\033[0m  - Copying file from \033[33m./.next/\033[0m to \033[33m' + pathBuild + '\033[0m folder'
   );
@@ -141,6 +185,7 @@ async function exportFiles() {
   console.log('\033[34minfo\033[0m  - Updating paths of assets');
   await replaceFile();
   await generateSitemap();
+  await detectGithubBuilder();
 }
 
 exportFiles();

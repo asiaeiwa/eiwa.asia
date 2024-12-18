@@ -3,50 +3,79 @@
   "description": "Công ty chúng tôi cung cấp nhiều tùy chọn dịch vụ công nghệ để bạn có thể tìm thấy một kế hoạch phù hợp với doanh nghiệp của mình.",
   "keywords": "Asia Eiwa, giải pháp công nghệ, hệ thống quản lý sản xuất, hỗ trợ công nghệ, trải nghiệm người dùng, thiết kế, công nghệ số, nguồn lực.",
   "section": {
-    "01": {
+    "anh-01": {
       "quote": "\"Men can do, Women also!\"",
       "name": "NGO THI HUYNH ANH",
       "position": "CO-FOUNDER/General and Operations Manager"
     },
-    "02": {
+    "anh-02": {
       "description": {
-        "01": "Với hơn 10 năm kinh nghiệm tư vấn tại thị trường Châu Á, chúng tôi hiểu rằng việc bắt đầu thành lập doanh nghiệp và vận hành các hoạt động tại thị trường Châu Á có thể đặt ra những thách thức nghiêm trọng đối với các nhà đầu tư và doanh nghiệp toàn cầu, đặc biệt là thủ tục thành lập và giai đoạn triển khai ERP của các doanh nghiệp vừa và nhỏ.",
-        "02": "Do đó, chúng tôi mong muốn kết nối các nhà quản lý nước ngoài và nhân viên địa phương để tạo ra sự hợp tác hiệu quả trong công việc dựa trên các tiêu chí ưu tiên hàng đầu của chúng tôi:",
-        "03": {
-          "01": "Cố vấn và chuyên gia tư vấn- Đáng tin cậy và có trách nhiệm.",
-          "02": "Hiệu quả- Giải pháp đúng, tạm biệt các vấn đề.",
-          "03": "Hỗ trợ khách hàng - nhiệt tình và chuyên nghiệp."
+        "01": "Toàn cầu hóa diễn ra nhanh chóng đòi hỏi các chiến lược xuyên biên giới linh hoạt, bền vững và mang lại giá trị gia tăng đáng kể. EIWA, nhà cung cấp giải pháp CNTT hàng đầu, nhận thức rõ nhu cầu quan trọng này. Chúng tôi tận dụng sự kết hợp độc đáo giữa chuyên môn Nhật Bản và tầm nhìn toàn cầu để xây dựng mối quan hệ đối tác lâu dài, đáng tin cậy với khách hàng.",
+        "02": "Với kinh nghiệm đa dạng từ Tư vấn ERP, Quản lý Kinh doanh & Nhân sự đến Giám đốc Quốc gia tại Singapore, cùng 7 năm lãnh đạo trong ngành CNTT tại Nhật Bản, tôi có hiểu biết sâu sắc về thị trường châu Á, đặc biệt là Việt Nam, Nhật Bản và Singapore.",
+        "03": "Là Tổng Giám đốc và Đồng sáng lập ASIA EIWA, tôi dẫn dắt công ty tập trung vào ba lĩnh vực cốt lõi:",
+        "04": {
+          "01": "Tư vấn khởi nghiệp: Đồng hành cùng doanh nghiệp CNTT nước ngoài từ khi thành lập đến khi hoạt động ổn định, bao gồm phân tích thị trường, thành lập văn phòng, tuyển dụng, xây dựng quy trình và quản lý vận hành. Khách hàng mục tiêu là các công ty CNTT đến từ Nhật Bản và Singapore.",
+          "02": "Tư vấn doanh nghiệp: Nâng cao hiệu quả kinh doanh và thúc đẩy tăng trưởng thông qua tinh chỉnh quy trình SOP, lập kế hoạch chiến lược, quản lý tài chính, tiếp thị, vận hành và hỗ trợ M&A tại Việt Nam.",
+          "03": "Tư vấn giải pháp CNTT: Cung cấp giải pháp phần mềm tùy chỉnh, giải quyết khó khăn trong kinh doanh, hợp lý hóa quy trình quản lý và tăng cường năng lực sản xuất thông qua ERP (Odoo, SAP) và IoT."
         }
       }
     },
-    "04": {
-      "title": "\"Bạn đang gặp khó khăn với công việc kinh doanh của mình? Hãy để chúng tôi giải quyết giúp bạn\"",
+    "hien-01": {
+      "name": "NGUYEN AI HIEN",
+      "position": "Investment Consultant"
+    },
+    "hien-02": {
+      "title": "",
       "description": {
-        "01": "Chúng tôi tin tưởng rằng với một tư duy tiên phong là rất quan trọng trong các tình huống kinh doanh hiện đại này. Do đó, chúng tôi  luôn đặt tinh thần trách nhiệm lên hàng đầu trong việc giải quyết các vấn đề của Doanh Nghiệp vừa và nhỏ gặp phải với một tinh thần thách thức.",
-        "02": "Là một công ty tư vấn chuyên nghiệp, chúng tôi lấy trách nhiệm đảm bảo hiệu quả của từng dự án và trở thành người bạn đồng hành uy tín của khách hàng.",
-        "03": "Trong suốt sự nghiệp của mình, tôi đã có cơ hội đảm nhận các vai trò mới từ Tư vấn ERP, Chuyên viên Kinh doanh và Tiếp thị đến quản lý  Hành chính & Nhân sự . Trong hành trình mới này với Asia Eiwa, tôi hy vọng sẽ mang đến các giải pháp kỹ thuật số và cơ hội kinh doanh cho các doanh nghiệp vừa và nhỏ để giúp họ vượt qua thách thức và thành công bền vững."
+        "01": "Chúng tôi tự hào giới thiệu chị Hiền, một chuyên gia với hơn 20 năm kinh nghiệm trong cả lĩnh vực doanh nghiệp và khởi nghiệp, hiện đang gia nhập đội ngũ của chúng tôi với vai trò Tư vấn Đầu tư.",
+        "02": {
+          "01": "Kinh Nghiệm Phong Phú: Chị Hiền đã đảm nhiệm nhiều vị trí cấp cao và điều hành, chuyên về quản lý vận hành, marketing, phát triển thương hiệu, chiến lược và bán hàng.",
+          "02": "Thành Công Đã Được Chứng Minh:Chị đã dẫn dắt thành công ba thương vụ M&A lớn với tổng giá trị 90 tỷ VND.",
+          "03": "Hướng Đến Khách Hàng: Chị Hiền có niềm đam mê trong việc hiểu và giải quyết các vấn đề của khách hàng, mang lại những giải pháp thực tế và hiệu quả.",
+          "04": "Chuyên Gia Phân Tích:Trong 15 năm qua, chị Hiền đã áp dụng các nguyên tắc của Six Sigma để vượt qua các thách thức với cách tiếp cận phân tích và hợp lý."
+        },
+        "03": "Kinh nghiệm phong phú và thành tích M&A xuất sắc của chị Hiền làm cho chị trở thành một tài sản vô giá đối với đội ngũ của chúng tôi. \nNếu bạn đang tìm kiếm dịch vụ tư vấn đầu tư hàng đầu, hãy liên hệ với chúng tôi ngay hôm nay."
       }
     },
-    "05": {
+    "nga-01": {
+      "quote": "\"What the mind of man can conceive and believe, the mind of man can achieve\"\n- Napoleon Hill",
+      "name": "NAOMI NGA DOAN",
+      "position": "Business Development Consultant"
+    },
+    "nga-02": {
+      "title": "",
+      "description": {
+        "01": "Lãnh đạo năng động, hướng đến giải pháp trong lĩnh vực vận hành, bán hàng & tiếp thị và chuyên gia truyền thông với hơn 15 năm kinh nghiệm trong ngành khách sạn, giáo dục, dịch vụ và tư vấn. Bà Naomi có thành tích nổi bật trong việc phát triển các chiến dịch bán hàng và tiếp thị thuyết phục cũng như tổ chức các sự kiện doanh nghiệp thành công trong nhiều lĩnh vực khác nhau. Bà xuất sắc trong lãnh đạo, tổ chức và phán đoán kinh doanh.",
+        "02": "Những thành tựu nổi bật:",
+        "03": {
+          "01": "Thành lập công ty cung cấp dịch vụ tiếp thị, tổ chức sự kiện, phát triển kinh doanh và huấn luyện lãnh đạo.",
+          "02": "Tạo ra và quản lý các mạng lưới kinh doanh như Mạng lưới Lãnh đạo Phụ nữ Quốc tế (WLIN), Sức sống mới - Mạng lưới Lifestyles Nữ hoàng, Câu lạc bộ Văn hóa Đối thoại của WLIN, Mạng lưới Đàn ông & Cuộc sống, và Mạng lưới Quốc tế Xanh.",
+          "03": "Các dự án: Chương trình Chăm sóc Sang trọng Samsung, \"Beyond Home\", khái niệm mới cho các dự án của CapitaLand, Khách sạn & Tháp Sheraton Sài Gòn, Tập đoàn Windor Việt Nam, Quản lý Khách sạn & Khu nghỉ dưỡng Intermind, Top 50 Lãnh đạo Phụ nữ 2017, 2018, 2019 của WLIN, Tổ chức lễ ra mắt căn hộ cao cấp Mulberry Lane (Hà Nội) & Lễ Topping Up The Vista."
+        }
+      }
+    },
+    "uy-01": {
       "quote": "\"Just do it!\"",
       "name": "PHAM VUONG UY",
       "position": "CO-FOUNDER /Technical Consultant"
     },
-    "06": {
+    "uy-02": {
       "title": "",
       "description": {
-        "01": "Với hơn 10 năm kinh nghiệm làm việc trong ngành kỹ thuật, tôi đã sở hũu được nền tảng kiến thức vững chắc và tích lũy nhiều kinh nghiệm chuyên sâu về hệ thống CRM, ERP, SAP và hệ thống Structure Data System. Trong kỷ nguyên công nghệ kỹ thuật số hiện tại, điện toán đám mây được tận dụng để lưu trữ những thông tin hữu ích của cá nhân và doanh nghiệp. Là một người hoạt động trong môi trường kỹ thuật số, tôi cũng cảm thấy vui mừng và mong muốn đóng góp nhiều hơn vào sự phát triển của ngành kỹ thuật."
+        "01": "Với hơn 10 năm kinh nghiệm trong lĩnh vực công nghệ, tôi tích lũy kiến thức và kinh nghiệm sâu rộng về CRM, ERP, SAP và hệ thống dữ liệu có cấu trúc. Trong kỷ nguyên số, việc lưu trữ thông tin và dữ liệu trên đám mây đang trở nên phổ biến toàn cầu.",
+        "02": "Là Đối tác Đổi mới của bạn, EIWA cung cấp dịch vụ tư vấn toàn diện, đáp ứng các thách thức kinh doanh cụ thể của bạn. Chúng tôi hoạt động với tính chính trực cao nhất, hợp tác chặt chẽ để cùng bạn đạt được chuyển đổi doanh nghiệp thành công."
       }
     },
-    "07": {
+    "tin-01": {
       "quote": "\"Try hard every day\"",
       "name": "TRAN BAO TIN",
       "position": "Technical Manager"
     },
-    "08": {
+    "tin-02": {
       "title": "",
       "description": {
-        "01": "Với hơn  5 năm kinh nghiệm phát triển phần mềm và phát triển chuyên môn trong các dự án như ERP và logistic. Chúng tôi có cơ hội tham gia các dự án trong môi trường đám mây, tích lũy kinh nghiệm và sử dụng các dịch vụ AWS. Hiện tại, tôi đang sử dụng kinh nghiệm của mình để đào tạo cho sinh viên những kiến thức cơ bản về phát triển phần mềm tại Đại học Tôn Đức Thắng."
+        "01": "Với hơn 7 năm kinh nghiệm trong lĩnh vực phát triển phần mềm, tôi đã tích lũy được kinh nghiệm chuyên môn sâu rộng qua các dự án về ERP, Logistics,... Đặc biệt, tôi có cơ hội tham gia thực hiện các dự án trong môi trường đám mây, từ đó tích lũy kinh nghiệm và sử dụng các dịch vụ AWS. Hiện tại, tôi đang vận dụng kinh nghiệm của mình để đào tạo cho sinh viên những kiến thức cơ bản về phát triển phần mềm tại trường Đại học Tôn Đức Thắng.",
+        "02": "EIWA cam kết vượt trên sự mong đợi của khách hàng, không ngừng nỗ lực mang đến những giải pháp đột phá, hỗ trợ doanh nghiệp phát triển thịnh vượng trong thị trường toàn cầu đầy biến động"
       }
     }
   }

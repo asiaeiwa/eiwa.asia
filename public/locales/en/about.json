@@ -3,50 +3,79 @@
   "description": "Our company offers a variety of technology service options so you can find a plan that's right for your business.",
   "keywords": "Asia Eiwa, IT Solutions, production management system, IT support, user experience, design, digital technology, outsource.",
   "section": {
-    "01": {
+    "anh-01": {
       "quote": "\"Men can do, Women also!\"",
       "name": "NGO THI HUYNH ANH",
       "position": "CO-FOUNDER/General and Operations Manager"
     },
-    "02": {
+    "anh-02": {
       "description": {
-        "01": "With over 10 years of consulting experience in the Asian market, we understand that starting and running operations in Asia can present serious challenges for global investors and businesses, especially the establishment procedure and the ERP implementation phase of SMEs.",
-        "02": "Hence, we aim to connect foreign managers and local employees to create an effective collaboration at work based on our top-priority criteria:",
-        "03": {
-          "01": "Advisors and consultants-  Reliable and responsible.",
-          "02": "Efficacy- Right solutions,bye problems.",
-          "03": "Client support- enthusiastic and professional."
+        "01": "The rapid pace of globalization necessitates adaptable and sustainable cross-border strategies that deliver significant value addition. EIWA, a leading IT solutions provider, recognizes this critical need. We leverage our unique blend of Japanese expertise and global perspective to foster long-term, trusted partnerships with our clients.",
+        "02": "My diverse background includes roles as an ERP Consultant, Sales and Marketing Executive, and HR & GA Manager. With seven years of leadership experience in IT firms in Japan and a further two years serving as Country Manager in Singapore, I possesses a deep understanding of the intricacies of the Asian market, with a particular focus on Vietnam, Japan, and Singapore.",
+        "03": "As General Manager and Co-Founder of ASIA EIWA, I guides the company across three core areas: ",
+        "04": {
+          "01": "Start-up Consulting: Guiding foreign IT enterprises through every stage from inception to full operation. This includes comprehensive services such as market analysis, office establishment, recruitment, SOP development, and operational management. The firm primarily caters to IT companies originating from Japan and Singapore.",
+          "02": "Business Consulting: Centered on refining SOP processes, strategic planning, financial management, marketing, and operational management to enhance business efficiency and foster growth, M&A Projects at Viet nam.",
+          "03": "IT Solutions Consulting: Delivering customized software solutions consultancy to address business hurdles, streamline management processes, and bolster manufacturing capabilities through ERP (Odoo, SAP), and IoT solutions."
         }
       }
     },
-    "04": {
-      "title": "\"You are having difficulties with your business? Let us solve them for you\"",
+    "hien-01": {
+      "name": "NGUYEN AI HIEN",
+      "position": "Investment Consultant"
+    },
+    "hien-02": {
+      "title": "",
       "description": {
-        "01": "It is our strong belief that having a pioneering mindset is crucial in this modern business scenarios. Therefore, we are destined to solve SMEs issues with a challenging spirit.",
-        "02": "As a professional consultant company, we take the responsibilitiy to ensure the effectiveness of each project and become client's prestigious companion.",
-        "03": "During my career, I have had the opportunity to  take on new roles from ERP Consultant, Sales and  Marketing Executive to HR & GA Manager. In this  new journey with Asia Eiwa, I hope to bring digital  solutions and business opportunities to SMEs to  help them overcome challenges and establish a  sustainable success."
+        "01": "We are proud to introduce Ms. Hien, a seasoned professional with over 20 years of experience in both corporate and entrepreneurial sectors, now joining us as an Investment Consultant.",
+        "02": {
+          "01": "Extensive Experience: Hien has held numerous senior and executive roles, specializing in operations management, marketing, brand development, strategy, and sales.",
+          "02": "Proven Success:She has successfully led three major M&A deals with a combined value of 90 billion VND.",
+          "03": "Customer-Centric Approach: Hien is passionate about understanding and solving customer issues, providing practical and effective solutions.",
+          "04": "Analytical Expertise:** For the past 15 years, Hien has applied Six Sigma principles to overcome challenges with an analytical and rational approach."
+        },
+        "03": "Ms. Hien's extensive experience and proven track record in M&A make her an invaluable asset to our team. \nIf you are looking for top-notch investment consulting services, look no further."
       }
     },
-    "05": {
+    "nga-01": {
+      "quote": "\"What the mind of man can conceive and believe, the mind of man can achieve\"\n- Napoleon Hill",
+      "name": "NAOMI NGA DOAN",
+      "position": "Business Development Consultant"
+    },
+    "nga-02": {
+      "title": "",
+      "description": {
+        "01": "High-energy, solutions-oriented leader of operations, sales & marketing and communications specialist with more than 15 years’ experience in hospitality, education, services and consultancy. Ms. Naomi has a proven track record in developing persuasive sales and marketing campaigns and organizing successful corporate events across various sectors. She excels in leadership, organization, and business judgment.",
+        "02": "Key accomplishments include:",
+        "03": {
+          "01": "Establishing a company for marketing services, event organization, business development, and leadership coaching.",
+          "02": "Creating and managing business networks like Women Leaders International Networks (WLIN), Suc Song moi - Queen Lifestyles Network, Cross Culture Club by WLIN, Men & Life Network, and Blue International Network.",
+          "03": "Projects: Luxury Samsung Care Program, \"Beyond Home\", new concept for CapitaLand's projects, Sheraton Saigon Hotel & Towers, Windsor Vietnam Group, Intermind Hotels & Resorts Management, Top 50 Women Leaders 2017, 2018, 2019 by WLIN, Organized Mulberry Lane high-end condominium (Hanoi) launches & The Vista - topping up Ceremony."
+        }
+      }
+    },
+    "uy-01": {
       "quote": "\"Just do it!\"",
       "name": "PHAM VUONG UY",
       "position": "CO-FOUNDER /Technical Consultant"
     },
-    "06": {
+    "uy-02": {
       "title": "",
       "description": {
-        "01": "With over 10 years of experience in the technical industry, I gained solid knowledge and extensive experience of CRM, ERP, SAP systems and Structure Data System.  In this digital era, it is great to realize that the whole world is storing infomation and data in the cloud."
+        "01": "With over 10 years of experience in the technical industry, I gained solid knowledge and extensive experience of CRM, ERP, SAP systems and Structure Data System.  In this digital era, it is great to realize that the whole world is storing infomation and data in the cloud.",
+        "02": "As your Innovation Partner, EIWA offers comprehensive consulting services tailored to address your specific business challenges. We operate with the highest integrity, collaborating with you to achieve successful corporate transformation."
       }
     },
-    "07": {
+    "tin-01": {
       "quote": "\"Try hard every day\"",
       "name": "TRAN BAO TIN",
       "position": "Technical Manager"
     },
-    "08": {
+    "tin-02": {
       "title": "",
       "description": {
-        "01": "With 5 years of experience in Software development,  professional development experience in projects on  ERP, Logistic, etc. Mainly, have the opportunity to  carry out projects in the cloud environment to gain  experience and use AWS services. Currently, I am using my experience to train students in the basics of software  development at Ton Duc Thang University."
+        "01": "With Over 7 years of experience in Software development,  professional development experience in projects on  ERP, Logistic, etc. Mainly, have the opportunity to  carry out projects in the cloud environment to gain  experience and use AWS services. Currently, I am using my experience to train students in the basics of software  development at Ton Duc Thang University.",
+        "02": "EIWA is committed to exceeding client expectations, continuously striving to deliver innovative solutions that empower your business to thrive in the dynamic global marketplace."
       }
     }
   }
