@@ -55,7 +55,7 @@ const About: FC = () => {
           <Text>{t('section.hien-02.description.03')}</Text>
         </AboutText>
         <AboutImage
-          imgSrc="/images/about/ms-nga-01.jpg"
+          imgSrc="/images/about/ms-nga-01.jpeg"
           quote={t('section.nga-01.quote')}
           name={t('section.nga-01.name')}
           position={t('section.nga-01.position')}
