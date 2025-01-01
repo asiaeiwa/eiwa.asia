@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:HIEN AI NGUYEN
+N;CHARSET=UTF-8:NGUYEN;HIEN;AI;;
+GENDER:F
+EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:hien.nguyen@eiwa.asia
+TEL;TYPE=WORK,VOICE:+84903739774
+URL;type=WORK;CHARSET=UTF-8:https://www.facebook.com/asiaeiwa
+X-SOCIALPROFILE;TYPE=facebook:https://www.facebook.com/asiaeiwa
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/hien-nguyen-98987919b/
+REV:2025-01-01T11:06:13.664Z
+END:VCARD
