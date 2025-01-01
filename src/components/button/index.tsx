@@ -12,6 +12,7 @@ interface ButtonProps {
   target?: AnchorHTMLAttributes<HTMLAnchorElement>['target'];
   type?: ButtonHTMLAttributes<HTMLButtonElement>['type'];
   onClick?: ButtonHTMLAttributes<HTMLButtonElement>['onClick'];
+  download?: boolean;
 }
 
 export const Button: FC<ButtonProps> = ({
@@ -22,13 +23,14 @@ export const Button: FC<ButtonProps> = ({
   tag = 'button',
   target,
   type,
+  download,
   ...rest
 }) => {
   const componentClassName = mapModifiers('button', styles, modifiers);
   const className = `${componentClassName} ${additionalClassName}`.trim();
   if (tag === 'a') {
     return (
-      <Link href={href} target={target}>
+      <Link href={href} target={target} {...{ download }}>
         <span className={className} {...rest}>
           {children}
         </span>

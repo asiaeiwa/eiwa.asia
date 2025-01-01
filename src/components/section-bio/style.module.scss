@@ -1,0 +1,181 @@
+@import 'assets/styles/init.scss';
+
+.section-bio {
+  $root: &;
+
+  &__main-box {
+    position: relative;
+    z-index: 1;
+    margin-top: rem(100);
+    border-radius: rem(8px);
+    background: $white;
+    box-shadow: 0 4px 37px rgba(0, 0, 0, 5%);
+    text-align: center;
+    transition: background-color 0.3s linear;
+    backdrop-filter: blur(70px);
+
+    @include pc {
+      padding: rem(60) rem(40px) rem(20);
+    }
+
+    @include sp {
+      padding: rem(60) rem(16) rem(16);
+    }
+
+    h2 {
+      margin-top: rem(24);
+      margin-bottom: 0;
+    }
+
+    h5 {
+      margin-top: rem(2);
+      margin-bottom: 0;
+      color: $gray;
+      font-weight: $fw-regular;
+      font-size: rem(16);
+    }
+  }
+
+  &__info-box {
+    position: relative;
+    z-index: 1;
+    margin-top: rem(16);
+    padding: rem(16) rem(20);
+    border-radius: rem(8px);
+    background: $white;
+    box-shadow: 0 4px 37px rgba(0, 0, 0, 5%);
+    text-align: center;
+    transition: background-color 0.3s linear;
+    backdrop-filter: blur(70px);
+
+    dl {
+      margin: 0;
+      padding: 0;
+    }
+
+    dt {
+      color: $gray;
+      text-align: left;
+    }
+
+    dd {
+      display: block;
+      margin-left: 0;
+      padding-left: 0;
+      text-align: left;
+
+      &:not(:last-child) {
+        margin-bottom: rem(16);
+        padding-bottom: rem(16);
+        border-bottom: 1px solid $job-border;
+      }
+    }
+
+    a {
+      color: $base;
+      text-decoration: none;
+      transition: 0.3s ease;
+
+      &:hover {
+        color: $pink;
+      }
+    }
+  }
+
+  &__social-box {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    row-gap: rem(16);
+    justify-content: center;
+    margin-top: rem(16);
+    padding: rem(16) rem(20);
+    border-radius: rem(8px);
+    background: $white;
+    box-shadow: 0 4px 37px rgba(0, 0, 0, 5%);
+    text-align: center;
+    column-gap: rem(16);
+    transition: background-color 0.3s linear;
+    backdrop-filter: blur(70px);
+
+    @include pc {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    @include sp {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  &__social-item {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: rem(16);
+    border-radius: rem(8);
+    background-color: $optimise-item;
+    color: $base;
+    text-decoration: none;
+    transition: 0.3s ease;
+
+    &:hover {
+      background-color: $job-border;
+    }
+
+    i {
+      margin-bottom: rem(8);
+      color: $pink;
+      font-size: rem(32);
+
+      &:before {
+        width: 1em;
+        height: 1em;
+      }
+    }
+  }
+
+  &__avatar {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: rem(120);
+    height: rem(120);
+    padding: rem(5);
+    border-radius: 50%;
+    background: linear-gradient(45deg, $pink 0%, $little 40%, $little 60%, $blue 100%);
+    transform: translate(-50%, -50%);
+
+    i {
+      position: absolute;
+      right: rem(-10);
+      bottom: rem(5);
+      color: $job-type-2;
+      font-size: rem(40);
+    }
+  }
+
+  &__connect {
+    margin-top: rem(16);
+
+    button,
+    a {
+      display: inline-flex;
+      gap: rem(4);
+      align-items: center;
+      text-decoration: none;
+
+      @include sp {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+    }
+
+    a > span {
+      @include sp {
+        width: 100%;
+      }
+    }
+  }
+}

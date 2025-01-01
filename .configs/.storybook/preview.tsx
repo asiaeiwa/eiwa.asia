@@ -1,6 +1,7 @@
 import { I18nextProvider } from 'react-i18next';
 import 'styles/index.scss';
 import i18n from './i18n';
+import React from 'react';
 const { eiwaThemeDark: dark, eiwaThemeLight: light } = require('./eiwa-theme');
 
 export const parameters = {
@@ -64,7 +65,7 @@ export const parameters = {
   },
   paddings: {
     values: [
-      { name: 'None', value: '0' },
+      { name: 'None', value: '0px' },
       { name: 'Small', value: '16px' },
       { name: 'Medium', value: '32px' },
       { name: 'Large', value: '64px' },

@@ -7,6 +7,10 @@
     border-radius: rem(16px);
   }
 
+  &--circle {
+    border-radius: 50%;
+  }
+
   &--lazy {
     opacity: 0%;
     transition: 0.4s ease;

@@ -6,7 +6,7 @@ import styles from './style.module.scss';
 type ImageProps = NextImageProps & {
   children?: ReactNode;
   className?: string;
-  modifiers?: ModifierProp<'rounded'>;
+  modifiers?: ModifierProp<'rounded' | 'circle'>;
   isLazy?: boolean;
   objectFit?: NextImageProps['objectFit'];
   alt: string;
