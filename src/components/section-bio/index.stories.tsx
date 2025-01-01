@@ -25,4 +25,5 @@ Normal.args = {
     twitter: 'https://twitter.com/dummy',
     tiktok: 'https://tiktok.com/dummy',
   },
+  vcardSrc: 'https://dummy.com',
 };

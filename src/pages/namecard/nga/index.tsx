@@ -25,6 +25,7 @@ const NameCardDetail: FC = () => {
           }}
           addContactText={t('add-contact-text')}
           phoneText={t('phone-text')}
+          vcardSrc="/vcards/ms-nga.vcf"
         />
       </NameCardTemplate>
     </Page>

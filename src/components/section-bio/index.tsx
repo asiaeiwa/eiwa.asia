@@ -25,6 +25,7 @@ interface Props {
   };
   addContactText?: string;
   phoneText?: string;
+  vcardSrc?: string;
 }
 
 export const SectionBio: FC<Props> = ({
@@ -37,6 +38,7 @@ export const SectionBio: FC<Props> = ({
   social,
   addContactText = 'Add Contact',
   phoneText = 'Phone',
+  vcardSrc,
 }) => {
   const componentClassName = mapModifiers('section-bio', styles);
   const className = mapClassnames(componentClassName, additionalClassName);
@@ -59,11 +61,13 @@ export const SectionBio: FC<Props> = ({
           </div>
           <h2>{name}</h2>
           <h5>{position}</h5>
-          <div className={styles['section-bio__connect']}>
-            <Button tag="a">
-              <Icon modifiers="add-contact" /> {addContactText}
-            </Button>
-          </div>
+          {vcardSrc && (
+            <div className={styles['section-bio__connect']}>
+              <Button tag="a" download href={vcardSrc}>
+                <Icon modifiers="add-contact" /> {addContactText}
+              </Button>
+            </div>
+          )}
         </div>
 
         <div className={styles['section-bio__info-box']}>
