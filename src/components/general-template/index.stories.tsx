@@ -2,9 +2,9 @@ import { ComponentMeta, ComponentStory } from '@storybook/react';
 import { GeneralTemplate } from '.';
 
 export default {
-  title: 'Components/GeneralTemplate',
+  title: 'Components/Templates/GeneralTemplate',
   component: GeneralTemplate,
-  parameters: { paddings: { default: 'None' } },
+  parameters: { paddings: { default: 'None' }, backgrounds: { default: 'white' } },
 } as ComponentMeta<typeof GeneralTemplate>;
 
 const Template: ComponentStory<typeof GeneralTemplate> = args => <GeneralTemplate {...args} />;
