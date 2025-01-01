@@ -19,6 +19,7 @@ export interface IconProps {
     | 'salary'
     | 'social'
     | 'twitter'
+    | 'add-contact'
   >;
   className?: string;
   href?: string;

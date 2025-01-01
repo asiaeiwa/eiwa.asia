@@ -82,4 +82,10 @@
     height: 6px;
     -webkit-mask-image: url('~images/icons/arrow-down.svg');
   }
+
+  &--add-contact:before {
+    width: 1em;
+    height: 1em;
+    -webkit-mask-image: url('~images/icons/add-contact.png');
+  }
 }
