@@ -14,4 +14,15 @@ Normal.args = {
   imgSrc: 'https://via.placeholder.com/140x100',
   name: 'Ngo Thi Huynh Anh',
   position: 'Founder',
+  phone: '+84909 123 123',
+  email: 'example@gmail.com',
+  social: {
+    facebook: 'https://fb.com/dummy',
+    linkedin: 'https://linkedin.com/dummy',
+    youtube: 'https://youtube.com/dummy',
+    zalo: 'https://zalo.com/dummy',
+    instagram: 'https://instagram.com/dummy',
+    twitter: 'https://twitter.com/dummy',
+    tiktok: 'https://tiktok.com/dummy',
+  },
 };

@@ -5,14 +5,32 @@ import { FC } from 'react';
 import styles from '../detail.module.scss';
 import { NameCardTemplate } from 'components/namecard-template';
 import { SectionBio } from 'components/section-bio';
+import { useTranslation } from 'next-i18next';
 
 const NameCardDetail: FC = () => {
-  // const { t } = useTranslation('namecard');
+  const { t } = useTranslation('namecard');
 
   return (
     <Page id="namecared-detail" className={styles['namecard-detail']} title="Ms.Anh">
       <NameCardTemplate>
-        <SectionBio imgSrc="/images/blog/image-2.jpeg" name="Ngo Thi Huynh Anh" position="Founder" />
+        <SectionBio
+          imgSrc="/images/blog/image-2.jpeg"
+          name="Ngo Thi Huynh Anh"
+          position="Founder"
+          phone="+84909 123 123"
+          email="example@gmail.com"
+          social={{
+            facebook: 'https://fb.com/dummy',
+            linkedin: 'https://linkedin.com/dummy',
+            youtube: 'https://youtube.com/dummy',
+            zalo: 'https://zalo.com/dummy',
+            instagram: 'https://instagram.com/dummy',
+            twitter: 'https://twitter.com/dummy',
+            tiktok: 'https://tiktok.com/dummy',
+          }}
+          addContactText={t('add-contact-text')}
+          phoneText={t('phone-text')}
+        />
       </NameCardTemplate>
     </Page>
   );

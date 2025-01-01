@@ -44,7 +44,19 @@
   }
 
   &--twitter:before {
-    -webkit-mask-image: url('~images/icons/twitter.svg');
+    -webkit-mask-image: url('~images/icons/twitter.png');
+  }
+
+  &--tiktok:before {
+    -webkit-mask-image: url('~images/icons/tiktok.png');
+  }
+
+  &--zalo:before {
+    -webkit-mask-image: url('~images/icons/zalo.png');
+  }
+
+  &--youtube:before {
+    -webkit-mask-image: url('~images/icons/youtube.png');
   }
 
   &--calendar:before {
@@ -87,5 +99,11 @@
     width: 1em;
     height: 1em;
     -webkit-mask-image: url('~images/icons/add-contact.png');
+  }
+
+  &--verify:before {
+    width: 1em;
+    height: 1em;
+    -webkit-mask-image: url('~images/icons/verify.png');
   }
 }

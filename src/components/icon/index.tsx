@@ -20,6 +20,10 @@ export interface IconProps {
     | 'social'
     | 'twitter'
     | 'add-contact'
+    | 'youtube'
+    | 'tiktok'
+    | 'zalo'
+    | 'verify'
   >;
   className?: string;
   href?: string;
