@@ -60,7 +60,7 @@ export const SectionBio: FC<Props> = ({
           <h2>{name}</h2>
           <h5>{position}</h5>
           <div className={styles['section-bio__connect']}>
-            <Button>
+            <Button tag="a">
               <Icon modifiers="add-contact" /> {addContactText}
             </Button>
           </div>

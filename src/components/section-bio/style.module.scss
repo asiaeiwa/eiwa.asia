@@ -7,13 +7,20 @@
     position: relative;
     z-index: 1;
     margin-top: rem(100);
-    padding: rem(60) rem(40px) rem(20);
     border-radius: rem(8px);
     background: $white;
     box-shadow: 0 4px 37px rgba(0, 0, 0, 5%);
     text-align: center;
     transition: background-color 0.3s linear;
     backdrop-filter: blur(70px);
+
+    @include pc {
+      padding: rem(60) rem(40px) rem(20);
+    }
+
+    @include sp {
+      padding: rem(60) rem(16) rem(16);
+    }
 
     h2 {
       margin-top: rem(24);
@@ -151,14 +158,22 @@
   &__connect {
     margin-top: rem(16);
 
-    button {
+    button,
+    a {
       display: inline-flex;
       gap: rem(4);
       align-items: center;
+      text-decoration: none;
 
       @include sp {
         display: flex;
         justify-content: center;
+        width: 100%;
+      }
+    }
+
+    a > span {
+      @include sp {
         width: 100%;
       }
     }
