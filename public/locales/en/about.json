@@ -37,6 +37,42 @@
         "03": "Ms. Hien's extensive experience and proven track record in M&A make her an invaluable asset to our team. \nIf you are looking for top-notch investment consulting services, look no further."
       }
     },
+    "tuan-01": {
+      "name": "TUAN HUYNH",
+      "position": "Tax Director"
+    },
+    "tuan-02": {
+      "title": "",
+      "description": {
+        "01": "He has over 30 years of experience in Accounting, Taxation, and Business Consulting. He has been directly involved in Consulting and Restructuring contracts for corporations, large companies across various industries such as construction, real estate, education, trade-services, manufacturing, garment processing, agriculture, forestry, fishery, and communication technology.",
+        "02": "He has served as Head of Internal Control, Chief Financial Officer, Chief Accountant, and Advisor for various Companies and Corporations. Additionally, he has contributed to the development of training programs, provided consulting services, and directly taught, shared experiences with employees, and consulted for clients.",
+        "03": "He is a member of several professional associations: Vietnam Tax Consultants Association (VTCA); Vietnam CFO Club; Australia-New Zealand Management Accounting Association (CMA)."
+      }
+    },
+    "minh-01": {
+      "name": "MINH LE (BRIAN)",
+      "position": "Financial Advisor"
+    },
+    "minh-02": {
+      "title": "",
+      "description": {
+        "01": "With over 20 years of experience in Finance, Mr. Lê Minh (Brian) aims to leverage all his accumulated knowledge and experience to support, accompany, and build strong businesses.",
+        "02": "Previously, Mr. Minh held positions such as: Chief Executive Officer, Deputy Director of Corporate Credit Approval at Vietinbank Headquarters, with specialized knowledge in Finance and a deep understanding of various industries and regions, particularly from Quảng Bình to Cà Mau.\nWith over 10 years of experience in the Credit Approval Division at TSC Vietinbank, Mr. Minh has participated in analyzing, evaluating, assessing, arranging capital, and advising on financial planning for numerous key projects and BIG Corporates (including hundreds of diverse companies: listed, FDI, family-owned, state-owned enterprises) in Vietnam regarding: working capital financing, investment project financing, M&A, restructuring, and attracting strategic shareholders.",
+        "03": "Mr. Minh has directly trained the customer relations staff, credit officers, and evaluators at the headquarters and branches of many major financial institutions (Vietcombank, Vietinbank, Techcombank, securities firms, investment funds, etc.)."
+      }
+    },
+    "trang-01": {
+      "name": "VU THUY TRANG",
+      "position": "Auditor Expert"
+    },
+    "trang-02": {
+      "title": "",
+      "description": {
+        "01": "She has over 10 years of experience in auditing, accounting, and tax consulting. She has directly provided auditing services for large enterprises and publicly listed companies, including banks, securities firms, and foreign-invested companies. These clients operate in diverse industries such as construction, real estate, education, trade, and manufacturing.",
+        "02": "She has directly participated in consulting, restructuring, and building internal audit systems for companies with revenues exceeding 500 billion VND.",
+        "03": "She has worked for reputable auditing firms approved to audit public interest entities in the securities sector, such as Ecovis AFA and Moore AISC.Additionally, she is a member of the Vietnam Association of Certified Public Accountants (VACPA)."
+      }
+    },
     "nga-01": {
       "quote": "\"What the mind of man can conceive and believe, the mind of man can achieve\"\n- Napoleon Hill",
       "name": "NAOMI NGA DOAN",

@@ -7,6 +7,7 @@ import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { FC } from 'react';
 import styles from './style.module.scss';
+import { templateLocale } from 'libs/component';
 
 const About: FC = () => {
   const { t } = useTranslation('about');
@@ -52,7 +53,40 @@ const About: FC = () => {
             <li>{t('section.hien-02.description.02.03')}</li>
             <li>{t('section.hien-02.description.02.04')}</li>
           </ul>
-          <Text>{t('section.hien-02.description.03')}</Text>
+          <Text>{templateLocale(t('section.hien-02.description.03'))}</Text>
+        </AboutText>
+        <AboutImage
+          imgSrc="/images/about/mr-tuan-01.jpeg"
+          name={t('section.tuan-01.name')}
+          position={t('section.tuan-01.position')}
+          modifiers="bottom"
+        />
+        <AboutText title={t('section.tuan-02.title')}>
+          <Text>{t('section.tuan-02.description.01')}</Text>
+          <Text>{t('section.tuan-02.description.02')}</Text>
+          <Text>{t('section.tuan-02.description.03')}</Text>
+        </AboutText>
+        <AboutImage
+          imgSrc="/images/about/mr-minh-01.jpeg"
+          name={t('section.minh-01.name')}
+          position={t('section.minh-01.position')}
+          modifiers="bottom"
+        />
+        <AboutText title={t('section.minh-02.title')}>
+          <Text>{t('section.minh-02.description.01')}</Text>
+          <Text>{templateLocale(t('section.minh-02.description.02'))}</Text>
+          <Text>{t('section.minh-02.description.03')}</Text>
+        </AboutText>
+        <AboutImage
+          imgSrc="/images/about/ms-trang-01.jpeg"
+          name={t('section.trang-01.name')}
+          position={t('section.trang-01.position')}
+          modifiers="bottom"
+        />
+        <AboutText title={t('section.trang-02.title')}>
+          <Text>{t('section.trang-02.description.01')}</Text>
+          <Text>{t('section.trang-02.description.02')}</Text>
+          <Text>{templateLocale(t('section.trang-02.description.03'))}</Text>
         </AboutText>
         <AboutImage
           imgSrc="/images/about/ms-nga-01.jpeg"

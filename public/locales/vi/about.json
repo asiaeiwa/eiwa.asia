@@ -37,6 +37,42 @@
         "03": "Kinh nghiệm phong phú và thành tích M&A xuất sắc của chị Hiền làm cho chị trở thành một tài sản vô giá đối với đội ngũ của chúng tôi. \nNếu bạn đang tìm kiếm dịch vụ tư vấn đầu tư hàng đầu, hãy liên hệ với chúng tôi ngay hôm nay."
       }
     },
+    "tuan-01": {
+      "name": "TUAN HUYNH",
+      "position": "Tax Director"
+    },
+    "tuan-02": {
+      "title": "",
+      "description": {
+        "01": "Ông đã có trên 30 năm kinh nghiệm trong các lĩnh vực về Kế toán, Thuế và Tư vấn cho doanh nghiệp. Ông đã tham gia trực tiếp vào các hợp đồng Tư vấn, Tái cấu trúc cho các tập đoàn, Tổng Công ty, Công ty lớn với đa dạng về ngành nghề như xây dựng, bất động sản, giáo dục, thương mại-dịch vụ, sản xuất, gia công may mặc, nông lâm ngư nghiệp, công nghệ truyền thông.",
+        "02": "Ông đã từng làm Trưởng Ban Kiểm soát nội bộ, Giám đốc tài chính, Kế toán trưởng và Cố vấn cho các Công ty, Tập đoàn... Đồng thời, Ông cũng tham gia xây dựng chương trình đào tạo, tư vấn và trực tiếp giảng dạy, trao đổi và chia sẻ kinh nghiệm với các nhân viên và Tư vấn cho các khách hàng.",
+        "03": "Ông tham gia các hiệp hội chuyên nghiệp: Hội tư vấn thuế Việt Nam (VTCA); Hội CLB Giám đốc Tài chính Việt Nam (CFO VietNam); Hội kế toán Quản trị Australia-Newzealand (CMA)"
+      }
+    },
+    "minh-01": {
+      "name": "MINH LE (BRIAN)",
+      "position": "Financial Advisor"
+    },
+    "minh-02": {
+      "title": "",
+      "description": {
+        "01": "Với trên 20 năm kinh nghiệm trong lĩnh vực Tài chính, Ông Lê Minh (Brian) mong muốn đem tất cả những kiến thức, kinh nghiệm tích lũy của mình để hỗ trợ, đồng hành và tạo nên các Doanh nghiệp vững mạnh.",
+        "02": "Trước đó, Ông Minh đã trải qua các vị trí như: Giám đốc Điều hành Doanh nghiệp, Phó GĐ Phê duyệt tín dụng Doanh nghiệp Lớn (Vietinbank Hội sở)... với kiến thức đặc biệt chuyên sâu về Tài chính, am hiểu nhiều ngành nghề, vùng miền, đặc biệt là khu vực từ Quảng Bình trở vào đến Cà Mau. \nVới kinh nghiệm trên 10 năm tại Khối Phê duyệt tín dụng TSC Vietinbank, ông Minh đã tham gia phân tích đánh giá, thẩm định, dàn xếp vốn, cố vấn hoạch định tài chính cho nhiều Dự án trọng điểm & BIG Corporate (bao gồm hàng trăm công ty đa dạng thể loại: niêm yết, FDI, gia đình, doanh nghiệp nhà nước) tại Việt Nam về: tài trợ vốn lưu động, tài trợ dự án đầu tư, M&A, tái cấu trúc, kêu gọi cổ đông chiến lược...",
+        "03": "Ông Minh đã tham gia đào tạo trực tiếp đội ngũ cán bộ Quan hệ khách hàng, cán bộ Tín dụng, Thẩm định ở Hội sở và Chi nhánh của nhiều tổ chức tài chính lớn (Vietcombank, Vietinbank, Techcombank, chứng khoán, quỹ đầu tư...)"
+      }
+    },
+    "trang-01": {
+      "name": "VU THUY TRANG",
+      "position": "Auditor Expert"
+    },
+    "trang-02": {
+      "title": "",
+      "description": {
+        "01": "Bà đã có trên 10 năm kinh nghiệm trong lĩnh vực kiểm toán, kế toán và tư vấn thuế. Bà đã trực tiếp cung cấp dịch vụ kiểm toán cho các doanh nghiệp lớn và các công ty niêm yết, đại chúng như: ngân hàng, chứng khoán, các công ty niêm yết trên sàn chứng khoán và các doanh nghiệp có vốn đầu tư nước ngoài. Các khách hàng này kinh doanh đa dạng về ngành nghề như xâydựng, bất động sản, giáo dục, thương mại, sản xuất....",
+        "02": "Bà đã từng trực tiếp tham gia Tư vấn, Tái cấu trúc, Xây dựng hệ thống Kiểm toán nội bộ của các công ty có doanh thu từ 500 tỷ đồng trở lên.",
+        "03": "Bà đã làm các công ty Kiểm toán có tên tuổi được chấp thuận kiểm toán cho đơn vị có lợi ích công chúng thuộc lĩnh vực chứng khoán nhứ: Ecovis AFA; Công ty Kiểm toán Moore AISC. Bên cạnh đó bà cũng đang là Hội viên Hội Kiểm toán viên hành nghề Việt Nam (VACPA)."
+      }
+    },
     "nga-01": {
       "quote": "\"What the mind of man can conceive and believe, the mind of man can achieve\"\n- Napoleon Hill",
       "name": "NAOMI NGA DOAN",
