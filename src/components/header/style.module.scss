@@ -427,4 +427,23 @@
       opacity: 100%;
     }
   }
+
+  #{'#about'} &:not([class*='fixed']):not([class*='--open']) {
+    & > div > div > ul > li > a {
+      color: $white;
+      text-shadow: $black 0 0 10px;
+    }
+
+    & > div > div > div > span > i {
+      color: $white;
+    }
+
+    & > div > div > button {
+      & > span,
+      &:before,
+      &:after {
+        background-color: $white;
+      }
+    }
+  }
 }
