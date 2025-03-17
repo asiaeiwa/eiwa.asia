@@ -30,11 +30,47 @@
         "01": "Chúng tôi tự hào giới thiệu chị Hiền, một chuyên gia với hơn 20 năm kinh nghiệm trong cả lĩnh vực doanh nghiệp và khởi nghiệp, hiện đang gia nhập đội ngũ của chúng tôi với vai trò Tư vấn Đầu tư.",
         "02": {
           "01": "Kinh Nghiệm Phong Phú: Chị Hiền đã đảm nhiệm nhiều vị trí cấp cao và điều hành, chuyên về quản lý vận hành, marketing, phát triển thương hiệu, chiến lược và bán hàng.",
-          "02": "Thành Công Đã Được Chứng Minh:Chị đã dẫn dắt thành công ba thương vụ M&A lớn với tổng giá trị 90 tỷ VND.",
+          "02": "Thành Công Đã Được Chứng Minh:Chị đã dẫn dắt thành công các thương vụ M&A lớn trong nước và quốc tế.",
           "03": "Hướng Đến Khách Hàng: Chị Hiền có niềm đam mê trong việc hiểu và giải quyết các vấn đề của khách hàng, mang lại những giải pháp thực tế và hiệu quả.",
           "04": "Chuyên Gia Phân Tích:Trong 15 năm qua, chị Hiền đã áp dụng các nguyên tắc của Six Sigma để vượt qua các thách thức với cách tiếp cận phân tích và hợp lý."
         },
         "03": "Kinh nghiệm phong phú và thành tích M&A xuất sắc của chị Hiền làm cho chị trở thành một tài sản vô giá đối với đội ngũ của chúng tôi. \nNếu bạn đang tìm kiếm dịch vụ tư vấn đầu tư hàng đầu, hãy liên hệ với chúng tôi ngay hôm nay."
+      }
+    },
+    "tuan-01": {
+      "name": "TUAN HUYNH",
+      "position": "Tax Director"
+    },
+    "tuan-02": {
+      "title": "",
+      "description": {
+        "01": "Ông đã có trên 30 năm kinh nghiệm trong các lĩnh vực về Kế toán, Thuế và Tư vấn cho doanh nghiệp. Ông đã tham gia trực tiếp vào các hợp đồng Tư vấn, Tái cấu trúc cho các tập đoàn, Tổng Công ty, Công ty lớn với đa dạng về ngành nghề như xây dựng, bất động sản, giáo dục, thương mại-dịch vụ, sản xuất, gia công may mặc, nông lâm ngư nghiệp, công nghệ truyền thông.",
+        "02": "Ông đã từng làm Trưởng Ban Kiểm soát nội bộ, Giám đốc tài chính, Kế toán trưởng và Cố vấn cho các Công ty, Tập đoàn... Đồng thời, Ông cũng tham gia xây dựng chương trình đào tạo, tư vấn và trực tiếp giảng dạy, trao đổi và chia sẻ kinh nghiệm với các nhân viên và Tư vấn cho các khách hàng.",
+        "03": "Ông tham gia các hiệp hội chuyên nghiệp: Hội tư vấn thuế Việt Nam (VTCA); Hội CLB Giám đốc Tài chính Việt Nam (CFO VietNam); Hội kế toán Quản trị Australia-Newzealand (CMA)"
+      }
+    },
+    "minh-01": {
+      "name": "MINH LE (BRIAN)",
+      "position": "Financial Advisor"
+    },
+    "minh-02": {
+      "title": "",
+      "description": {
+        "01": "Với trên 20 năm kinh nghiệm trong lĩnh vực Tài chính, Ông Lê Minh (Brian) mong muốn đem tất cả những kiến thức, kinh nghiệm tích lũy của mình để hỗ trợ, đồng hành và tạo nên các Doanh nghiệp vững mạnh.",
+        "02": "Trước đó, Ông Minh đã trải qua các vị trí như: Giám đốc Điều hành Doanh nghiệp, Phó GĐ Phê duyệt tín dụng Doanh nghiệp Lớn (Vietinbank Hội sở)... với kiến thức đặc biệt chuyên sâu về Tài chính, am hiểu nhiều ngành nghề, vùng miền, đặc biệt là khu vực từ Quảng Bình trở vào đến Cà Mau. \nVới kinh nghiệm trên 10 năm tại Khối Phê duyệt tín dụng TSC Vietinbank, ông Minh đã tham gia phân tích đánh giá, thẩm định, dàn xếp vốn, cố vấn hoạch định tài chính cho nhiều Dự án trọng điểm & BIG Corporate (bao gồm hàng trăm công ty đa dạng thể loại: niêm yết, FDI, gia đình, doanh nghiệp nhà nước) tại Việt Nam về: tài trợ vốn lưu động, tài trợ dự án đầu tư, M&A, tái cấu trúc, kêu gọi cổ đông chiến lược...",
+        "03": "Ông Minh đã tham gia đào tạo trực tiếp đội ngũ cán bộ Quan hệ khách hàng, cán bộ Tín dụng, Thẩm định ở Hội sở và Chi nhánh của nhiều tổ chức tài chính lớn (Vietcombank, Vietinbank, Techcombank, chứng khoán, quỹ đầu tư...)"
+      }
+    },
+    "trang-01": {
+      "name": "VU THUY TRANG",
+      "position": "Auditor Expert"
+    },
+    "trang-02": {
+      "title": "",
+      "description": {
+        "01": "Bà đã có trên 10 năm kinh nghiệm trong lĩnh vực kiểm toán, kế toán và tư vấn thuế. Bà đã trực tiếp cung cấp dịch vụ kiểm toán cho các doanh nghiệp lớn và các công ty niêm yết, đại chúng như: ngân hàng, chứng khoán, các công ty niêm yết trên sàn chứng khoán và các doanh nghiệp có vốn đầu tư nước ngoài. Các khách hàng này kinh doanh đa dạng về ngành nghề như xâydựng, bất động sản, giáo dục, thương mại, sản xuất....",
+        "02": "Bà đã từng trực tiếp tham gia Tư vấn, Tái cấu trúc, Xây dựng hệ thống Kiểm toán nội bộ của các công ty có doanh thu từ 500 tỷ đồng trở lên.",
+        "03": "Bà đã làm các công ty Kiểm toán có tên tuổi được chấp thuận kiểm toán cho đơn vị có lợi ích công chúng thuộc lĩnh vực chứng khoán nhứ: Ecovis AFA; Công ty Kiểm toán Moore AISC. Bên cạnh đó bà cũng đang là Hội viên Hội Kiểm toán viên hành nghề Việt Nam (VACPA)."
       }
     },
     "nga-01": {
@@ -62,7 +98,7 @@
     "uy-02": {
       "title": "",
       "description": {
-        "01": "Với hơn 10 năm kinh nghiệm trong lĩnh vực công nghệ, tôi tích lũy kiến thức và kinh nghiệm sâu rộng về CRM, ERP, SAP và hệ thống dữ liệu có cấu trúc. Trong kỷ nguyên số, việc lưu trữ thông tin và dữ liệu trên đám mây đang trở nên phổ biến toàn cầu.",
+        "01": "Với hơn 14 năm kinh nghiệm trong lĩnh vực công nghệ, tôi tích lũy kiến thức và kinh nghiệm sâu rộng về CRM, ERP, SAP và hệ thống dữ liệu có cấu trúc. Trong kỷ nguyên số, việc lưu trữ thông tin và dữ liệu trên đám mây đang trở nên phổ biến toàn cầu.",
         "02": "Là Đối tác Đổi mới của bạn, EIWA cung cấp dịch vụ tư vấn toàn diện, đáp ứng các thách thức kinh doanh cụ thể của bạn. Chúng tôi hoạt động với tính chính trực cao nhất, hợp tác chặt chẽ để cùng bạn đạt được chuyển đổi doanh nghiệp thành công."
       }
     },
