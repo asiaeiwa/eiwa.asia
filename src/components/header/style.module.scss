@@ -428,7 +428,7 @@
     }
   }
 
-  #{'#about'} &:not([class*='fixed']):not([class*='--open']) {
+  #{'.about'} &:not([class*='fixed']):not([data-open='true']) {
     & > div > div > ul > li > a {
       color: $white;
       text-shadow: $black 0 0 10px;
