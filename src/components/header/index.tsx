@@ -41,7 +41,7 @@ export const Header: FC<Props> = ({ className: additionalClassName = '', menuLis
   }, []);
 
   return (
-    <header className={className} ref={ref}>
+    <header className={className} ref={ref} data-open={state.isOpen}>
       <Container className={styles['header__container']}>
         <Logo width={114} height={40} href="/" className={styles['header__logo']} />
         {menuList && (
