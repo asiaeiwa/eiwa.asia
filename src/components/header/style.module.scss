@@ -39,6 +39,8 @@
   }
 
   &__logo {
+    z-index: 0;
+
     img {
       @include sp {
         width: 115px !important;
