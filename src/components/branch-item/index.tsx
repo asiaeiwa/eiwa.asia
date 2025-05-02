@@ -29,7 +29,7 @@ export const BranchItem: FC<Props> = ({
   return (
     <article className={className}>
       <div className={styles['branch-item__title-wrap']}>
-        <Image src={imgSrc} isLazy objectFit="cover" layout="fill" alt={title} />
+        <Image src={imgSrc} isLazy objectFit="cover" fill alt={title} />
         <Heading tag="h2" className={styles['branch-item__title']}>
           {title}
         </Heading>

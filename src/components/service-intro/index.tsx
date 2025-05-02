@@ -31,7 +31,7 @@ export const ServiceIntro: FC<Props> = ({
   return (
     <section className={className}>
       <div className={styles['service-intro__background']}>
-        <Image src={imgSrc} layout="fill" objectFit="cover" isLazy alt={title} />
+        <Image src={imgSrc} fill objectFit="cover" isLazy alt={title} />
       </div>
       <Container className={styles['service-intro__container']}>
         <ul>

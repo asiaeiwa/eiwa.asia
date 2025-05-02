@@ -33,7 +33,7 @@
     "prepare:husky": "git add .husky/pre-commit",
     "prettier:check": "prettier -c ./src -u",
     "prettier:update": "prettier -w ./src -l -u",
-    "start": "next dev -p 3800 -H 0.0.0.0",
+    "start": "next start",
     "storybook": "start-storybook -c .configs/.storybook -p 6006 --no-manager-cache"
   },
   "dependencies": {
@@ -46,7 +46,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "fs-extra": "^10.1.0",
-    "next": "^12.2.0",
+    "next": "^13.5.0",
     "next-i18next": "^11.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

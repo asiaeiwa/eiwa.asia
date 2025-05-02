@@ -36,7 +36,7 @@ export const SectionPack: FC<SectionPackProps> = ({
         </Heading>
         <Row gutter="24" className={styles['section-pack__wrapper']}>
           <Column col="6" className={styles['section-pack__column-image']}>
-            <Image src={imgSrc} width="570" height="320" layout="responsive" isLazy alt={title} />
+            <Image src={imgSrc} width="570" height="320" isLazy alt={title} />
           </Column>
           <Column col="6" className={styles['section-pack__column-info']}>
             <div className={styles['section-pack__desc']}>{children}</div>
