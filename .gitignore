@@ -44,6 +44,7 @@ yarn-error.log*
 *.mov
 *.wmv
 .next
+.docs
 
 # vercel
 .vercel
