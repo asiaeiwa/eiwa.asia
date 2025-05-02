@@ -29,9 +29,11 @@ const concatHash = (value, length = 0) => {
 
 let configs = {
   compress: true,
-  excludeFile: str => /\*.{spec,test,stories}.{ts,tsx}/.test(str),
   generateEtags: true,
-  i18n,
+  i18n: {
+    locales: i18n.locales,
+    defaultLocale: i18n.defaultLocale,
+  },
   images: { domains: ['via.placeholder.com'], loader: isProduction ? 'custom' : 'default' },
   reactStrictMode: true,
   typescript: { ignoreBuildErrors: isTSCheck },
