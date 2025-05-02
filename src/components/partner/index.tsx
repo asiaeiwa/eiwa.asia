@@ -27,9 +27,9 @@ export const Partner: FC<PartnerProps> = ({
   if (href) {
     return (
       <Link href={href} target="__blank">
-        <Image className={className} alt={alt} src={srcImg} width={width} height={height} />
+        <Image className={className} alt={alt} src={srcImg} width={Number(width)} height={Number(height)} />
       </Link>
     );
   }
-  return <Image className={className} alt={alt} src={srcImg} width={width} height={height} />;
+  return <Image className={className} alt={alt} src={srcImg} width={Number(width)} height={Number(height)} />;
 };
