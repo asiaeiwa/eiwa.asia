@@ -48,15 +48,7 @@ export const SectionBio: FC<Props> = ({
       <Container>
         <div className={styles['section-bio__main-box']}>
           <div className={styles['section-bio__avatar']}>
-            <Image
-              src={imgSrc || ''}
-              width={100}
-              height={100}
-              layout="responsive"
-              modifiers="circle"
-              isLazy
-              alt={name || ''}
-            />
+            <Image src={imgSrc || ''} width={100} height={100} modifiers="circle" isLazy alt={name || ''} />
             <Icon modifiers="verify" />
           </div>
           <h2>{name}</h2>

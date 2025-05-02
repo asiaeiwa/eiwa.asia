@@ -43,7 +43,7 @@ export const BlogItem: FC<BlogItemProps> = ({
   return (
     <article className={className}>
       <Link href={href} className={styles['blog-item__image']}>
-        <Image src={imgSrc} {...imageSize} layout="responsive" modifiers="rounded" isLazy alt={title} />
+        <Image src={imgSrc} {...imageSize} modifiers="rounded" isLazy alt={title} />
       </Link>
       <time className={styles['blog-item__time']} dateTime={`${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()}`}>
         {d.toDateString()}

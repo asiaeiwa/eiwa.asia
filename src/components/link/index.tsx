@@ -24,10 +24,8 @@ export const Link: FC<Props> = ({
   const componentClassName = mapModifiers('link', styles, modifiers);
   const className = mapClassnames(componentClassName, additionalClassName);
   return (
-    <NextLink href={href} locale={locale} target={rest.target} legacyBehavior>
-      <a className={className} href={href} {...rest}>
-        {children}
-      </a>
+    <NextLink href={href} locale={locale} target={rest.target} className={className} {...rest}>
+      {children}
     </NextLink>
   );
 };

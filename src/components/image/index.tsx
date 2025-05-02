@@ -1,6 +1,6 @@
 import { ModifierProp, mapModifiers } from 'libs/component';
 import NextImage, { ImageLoaderProps, ImageProps as NextImageProps } from 'next/image';
-import { FC, ReactNode, useCallback, useState } from 'react';
+import { CSSProperties, FC, ReactNode, useCallback, useState } from 'react';
 import styles from './style.module.scss';
 
 type ImageProps = NextImageProps & {
@@ -8,7 +8,7 @@ type ImageProps = NextImageProps & {
   className?: string;
   modifiers?: ModifierProp<'rounded' | 'circle'>;
   isLazy?: boolean;
-  objectFit?: NextImageProps['objectFit'];
+  objectFit?: CSSProperties['objectFit'];
   alt: string;
 };
 
@@ -39,8 +39,8 @@ export const Image: FC<ImageProps> = ({
       unoptimized={process.env.STORYBOOK === 'true'}
       onLoad={handlerLoaded}
       loading={isLazy ? 'lazy' : undefined}
-      objectFit={objectFit || 'cover'}
       {...rest}
+      style={{ ...rest.style, objectFit: objectFit || 'cover' }}
     />
   );
 };

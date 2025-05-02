@@ -36,7 +36,6 @@ export const SectionProPack: FC<Props> = ({ className: additionalClassName = '',
                   width={364}
                   height={408}
                   alt={item.name}
-                  layout="responsive"
                   modifiers="rounded"
                   className={styles['section-pro-pack__item-image']}
                   isLazy
