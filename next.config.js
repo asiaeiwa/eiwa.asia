@@ -33,6 +33,7 @@ let configs = {
   i18n: {
     locales: i18n.locales,
     defaultLocale: i18n.defaultLocale,
+    localeDetection: true,
   },
   images: { domains: ['via.placeholder.com'], loader: isProduction ? 'custom' : 'default' },
   reactStrictMode: true,
